@@ -1,0 +1,22 @@
+.navbar{
+    width:80%;
+    background: rgba(224, 243, 255, 0.542);
+    backdrop-filter: blur(42px);
+    -webkit-backdrop-filter: blur(42px);
+    color:#fff;
+    padding:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index:1000;
+    border-radius:50px;
+    flex-direction: row;
+  
+}
+
+.nav-links{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:#133D74;
+}
+

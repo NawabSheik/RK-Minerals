@@ -1,0 +1,52 @@
+.global-page{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #DFEAF2 10%, #92B2E8 100%);
+}
+
+.global-section{
+    width:80%;
+}
+
+.global-head{
+    font-size:10rem;
+    font-weight:800;
+    color:#fff;
+    text-align: center;
+    opacity:76%;
+}
+
+.stats-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom:2rem;
+   
+}
+
+.stats{
+    background: #445e88a1;
+    
+    padding:2rem;
+    width:30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:30px;
+}
+
+.big-number{
+    font-size:5rem;
+    font-weight:800;
+    color:#fff;
+}
+
+.stat-desc{
+    font-size:2rem;
+    color:#fff;
+}

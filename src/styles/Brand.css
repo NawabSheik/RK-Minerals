@@ -1,0 +1,30 @@
+.brand-section .topbar{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding:2rem;
+    width:100%;
+    z-index:3;
+   
+}
+
+.brand-section .brand{
+    font-size:3rem;
+    font-weight:700;
+}
+
+
+.brand-section .contact-button{
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    
+    font-size:2rem;
+    border-radius:50px;
+    border:1px solid #fff;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(42px);
+    -webkit-backdrop-filter: blur(42px);
+}
