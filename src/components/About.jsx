@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
 
-const AboutPage = () => {
+const About = () => {
     
   return (
     <div className="about-page ">
@@ -23,4 +23,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage
+export default About

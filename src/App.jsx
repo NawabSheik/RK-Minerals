@@ -1,30 +1,36 @@
 import React from 'react';
 import Brand from './components/Brand';
-import MainPage from './components/MainPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import AboutPage from './components/AboutPage';
-import Industries from "./components/Industries";
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import Industries from './components/Industries';
 import ProductsPage from './components/ProductsPage';
-import GlobalStats from "./components/GlobalStats";
-
+import GlobalStats from './components/GlobalStats';
+import About from './components/About';
+import Talc from './pages/product-pages/Talc';
 
 
 
 const App = () => {
   return (
-    <div className="app-style">
-      <MainPage className="main-section"/>
-      
-      <AboutPage/>
-      <Brand className="brand-section"/>
-      
-      <Industries/>
-      <ProductsPage/>
-      <GlobalStats/>
-      <NavBar className="nav-section"/>
 
-      
+    <Router>
+    
+    <div className="app-style">
+      <NavBar className="nav-section"/>
+      <Routes>
+      <Route path="/" element={<HomePage />}/>
+      <Route path="/about-us" element={<AboutPage/>}/>
+      <Route path="/about" element={<About />} />
+        <Route path="/industries" element={<Industries />} />
+        <Route path="/products" element={<ProductsPage />} />
+        <Route path="/stats" element={<GlobalStats />} />
+        <Route path="/products/talc" element={<Talc />} />
+      </Routes>
+
     </div>
+    </Router>
   )
 }
 

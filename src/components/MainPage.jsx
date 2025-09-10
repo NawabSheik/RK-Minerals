@@ -2,12 +2,14 @@ import React, {useEffect,useRef} from 'react';
 import Machinery from '../assets/machinery-img.png';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Brand from './Brand';
 
 
 const MainPage = ({className}) => {
 
   return (
     <div className={className} >
+      <Brand className="brand-section"/>
         <div className="main-page">
            
             <img src={Machinery} alt="bg-image"/>
