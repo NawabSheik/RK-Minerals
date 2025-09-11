@@ -8,7 +8,6 @@ const ProductsPage = () => {
   return (
     <div className="product-home">
       <div className="product-section">
-
         <div className="all-products">
         <div className="product">
             <img src={talc}/>
