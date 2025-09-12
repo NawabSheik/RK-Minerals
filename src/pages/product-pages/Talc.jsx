@@ -27,7 +27,7 @@ function TalcChip() {
             <div className="product-usp-section">
                 <div className='product-usp-left'>
                     <div className="product-usp">
-                        <h2 className="product-usps">Calcium (Cao) free and iron (Fe203) free material.</h2>
+                        <h2 className="product-usps">Calcium (CaO) free and iron (Fe2O3) free material.</h2>
                         <h2 className="product-usps">Can be easily grinded in ball mill </h2>
                         <h2 className="product-usps">Multiple mesh sizes for diverse industries</h2>
                         <h2 className="product-usps">Rajasthan being talc rich state of India</h2>

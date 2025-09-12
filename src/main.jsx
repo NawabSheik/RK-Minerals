@@ -6,6 +6,7 @@ import "./styles/Brand.css";
 import './index.css'
 import "./App.css";
 import "./styles/ProductPages.css"
+import "./styles/IndustryPages.css"
 import "./styles/Cta.css"
 import App from './App.jsx'
 

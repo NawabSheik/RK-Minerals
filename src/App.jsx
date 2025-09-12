@@ -9,6 +9,7 @@ import ProductsPage from './components/ProductsPage';
 import GlobalStats from './components/GlobalStats';
 import About from './components/About';
 import Talc from './pages/product-pages/Talc';
+import Paint from './pages/industry-pages/Paint';
 
 
 
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/stats" element={<GlobalStats />} />
         <Route path="/products/talc" element={<Talc />} />
+        <Route path="/industries/paint" element={<Paint />} />
       </Routes>
 
     </div>
