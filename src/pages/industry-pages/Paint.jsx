@@ -15,7 +15,7 @@ const Paint = () => {
         <p className="industry-para">A good mineral for Paints should have</p>
         <div className='industry-requirements'>
             <div className='requirements-top'>
-                <h2 className='requirement'>High Purity</h2>
+                <h2 className='requirement'>High<br/> Purity</h2>
                 <h2 className='requirement'>Controlled Particle Size</h2>
             </div>
             <div className='requirements-bottom'>

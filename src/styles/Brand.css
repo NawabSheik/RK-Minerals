@@ -28,3 +28,25 @@
     backdrop-filter: blur(42px);
     -webkit-backdrop-filter: blur(42px);
 }
+
+@media(max-width:768px){
+    .brand-section .topbar{
+        flex-direction: row;
+        align-items: center;
+        padding:1rem;
+    }
+
+    .brand-section .brand{
+        font-size:1.5rem;
+    }
+
+
+    .brand-section .contact-button{
+        font-size:1rem;
+        padding-left:1rem;
+        padding-right:1rem;
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+    }
+}
+

@@ -30,3 +30,22 @@
     width:50%;
     border-radius: 50px;
 }
+
+@media(max-width:768px){
+    .cta{
+        width:98%;
+        padding:1rem;
+        margin-bottom:10vh;
+    }
+
+    .cta-head{
+        font-size:1.5rem;
+    }
+
+    .cta-button{
+        font-size:2rem;
+        width:90%;
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+    }
+}
