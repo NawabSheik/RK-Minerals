@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     background: linear-gradient(to right, #DFEAF2 10%, #92B2E8 100%);
+    overflow:hidden;
 }
 
 .global-section{
@@ -17,6 +18,7 @@
     color:#fff;
     text-align: center;
     opacity:76%;
+    width: 100%;
 }
 
 .stats-wrapper{
@@ -49,4 +51,34 @@
 .stat-desc{
     font-size:2rem;
     color:#fff;
+}
+
+@media(max-width:768px){
+
+    .global-section{
+        width: 100%;
+    }
+    .stats-wrapper{
+        flex-direction: column;
+        margin-bottom:0rem;
+        gap:1rem;
+    }
+
+    .stats{
+        width: 95%;
+    }
+
+    .stat-desc{
+        font-size:1.5rem;
+    }
+
+    .big-number{
+        font-size:4rem;
+
+    }
+
+    .global-head{
+        font-size:4rem;
+        margin-bottom: 2rem;
+    }
 }

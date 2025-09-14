@@ -68,4 +68,61 @@
     transform:translateY(20%);
 }
 
+.about-head-mobile{
+    display: none;
+}
+
+
+@media(max-width:768px){
+    .about-section{
+        width:95%;
+        height:auto;
+     
+        padding-top:2rem;
+        padding-bottom:2rem;
+    }
+
+    .about-us-upper{
+        width:100%;
+        height:auto;
+        
+    }
+    .about-para{
+        font-size:1rem;
+        text-align: justify;
+        text-align-last: center;
+        margin-top:1rem;
+        margin-bottom: 1rem;
+    }
+    .about-btn{
+        font-size:1.25rem;
+        width:90%;
+    }
+    .about-head{
+        display: none;
+     
+    }
+
+    .about-head-mobile{
+        display: block;
+        font-size:3.8rem;
+        margin-bottom: 1rem;
+        bottom:0%;
+        opacity:39%;
+        color:#fff;
+       
+    }
+
+    .about-stroke{
+        display: block;
+        width:80%;
+        height:1px;
+        background-color:#fff;
+        opacity:100%;
+        margin-bottom: 1rem;
+    }
+
+
+}
+
 
