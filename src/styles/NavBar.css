@@ -1,5 +1,5 @@
 .navbar{
-    width:80%;
+    width:90%;
     background: rgba(224, 243, 255, 0.542);
     backdrop-filter: blur(42px);
     -webkit-backdrop-filter: blur(42px);
@@ -21,8 +21,6 @@ ul{
 .nav-links{
     font-size: 1.5rem;
     font-weight: 500;
-    
-    
 }
 
 a{
