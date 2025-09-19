@@ -118,7 +118,7 @@ const Industries = () => {
           <div className="industry-image">
                <img src={Glass}/>
            </div>
-             <h1 className="industry-name"> <Link to="/industries/paper">Glass</Link> </h1> 
+             <h1 className="industry-name"> <Link to="/industries/glass">Glass</Link> </h1> 
 
          </div>
         </SwiperSlide>
@@ -127,7 +127,7 @@ const Industries = () => {
           <div className="industry-image">
                <img src={Coating}/>
            </div>
-             <h1 className="industry-name"> <Link to="/industries/coating">Coating</Link> </h1> 
+             <h1 className="industry-name"> <Link to="/industries/paint">Coating</Link> </h1> 
 
          </div>
         </SwiperSlide>
@@ -154,7 +154,7 @@ const Industries = () => {
           <div className="industry-image">
                <img src={Soap}/>
            </div>
-             <h1 className="industry-name"> <Link to="/industries/rubber">Soaps & Detergents</Link> </h1> 
+             <h1 className="industry-name"> <Link to="/industries/soaps">Soaps & Detergents</Link> </h1> 
 
          </div>
         </SwiperSlide> 
