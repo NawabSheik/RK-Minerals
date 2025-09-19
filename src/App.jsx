@@ -18,6 +18,11 @@ import Wollastonite from './pages/product-pages/Wollastonite';
 import CalciniedClay from './pages/product-pages/CalciniedClay';
 import LevigatedClay from './pages/product-pages/LevigatedClay';
 import Paint from './pages/industry-pages/Paint';
+import Soaps from './pages/industry-pages/Soaps';
+import Rubber from './pages/industry-pages/Rubber';
+import Ceramic from './pages/industry-pages/Ceramics';
+import Glass from './pages/industry-pages/Glass';
+import Paper from './pages/industry-pages/Paper'
 
 
 
@@ -45,6 +50,11 @@ const App = () => {
       <Route path="/products/sodium-feldspar" element={<SodiumFeldspar/>} />
       <Route path="/products/potassium-feldspar" element={<PotassiumFeldspar/>} />
       <Route path="/industries/paint" element={<Paint />} />
+      <Route path="/industries/paper" element={<Paper />} />
+      <Route path="/industries/ceramics" element={<Ceramic />} />
+      <Route path="/industries/soaps" element={<Soaps />} />
+      <Route path="/industries/glass" element={<Glass />} />
+      <Route path="/industries/rubber" element={<Rubber />} />
       </Routes>
 
     </div>

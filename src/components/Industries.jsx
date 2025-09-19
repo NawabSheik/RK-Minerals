@@ -12,6 +12,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import {Link} from "react-router-dom";
 
 
 
@@ -108,7 +109,7 @@ const Industries = () => {
           <div className="industry-image">
                <img src={Paper}/>
            </div>
-             <h1 className="industry-name"> Paper </h1> 
+             <h1 className="industry-name"> <Link to="/industries/paper">Paper</Link>  </h1> 
 
          </div>
         </SwiperSlide>
@@ -117,7 +118,7 @@ const Industries = () => {
           <div className="industry-image">
                <img src={Glass}/>
            </div>
-             <h1 className="industry-name"> Paper </h1> 
+             <h1 className="industry-name"> <Link to="/industries/paper">Glass</Link> </h1> 
 
          </div>
         </SwiperSlide>
@@ -126,7 +127,7 @@ const Industries = () => {
           <div className="industry-image">
                <img src={Coating}/>
            </div>
-             <h1 className="industry-name"> Paper </h1> 
+             <h1 className="industry-name"> <Link to="/industries/coating">Coating</Link> </h1> 
 
          </div>
         </SwiperSlide>
@@ -135,39 +136,28 @@ const Industries = () => {
           <div className="industry-image">
                <img src={Ceramics}/>
            </div>
-             <h1 className="industry-name"> Paper </h1> 
+             <h1 className="industry-name"> <Link to="/industries/ceramics">Ceramics</Link> </h1> 
 
          </div>
         </SwiperSlide>
          <SwiperSlide>
           <div className="industry-slide">
           <div className="industry-image">
-               <img src={Paper}/>
+               <img src={Rubber}/>
            </div>
-             <h1 className="industry-name"> Paper </h1> 
+             <h1 className="industry-name"> <Link to="/industries/rubber">Rubber</Link> </h1> 
 
          </div>
         </SwiperSlide>
          <SwiperSlide>
           <div className="industry-slide">
           <div className="industry-image">
-               <img src={Paper}/>
+               <img src={Soap}/>
            </div>
-             <h1 className="industry-name"> Paper </h1> 
+             <h1 className="industry-name"> <Link to="/industries/rubber">Soaps & Detergents</Link> </h1> 
 
          </div>
         </SwiperSlide> 
-        <SwiperSlide>
-          <div className="industry-slide">
-          <div className="industry-image">
-               <img src={Paper}/>
-           </div>
-             <h1 className="industry-name"> Paper </h1> 
-
-         </div>
-        </SwiperSlide>
-
-        
       </Swiper>
 
       <div className='industries-heading'>

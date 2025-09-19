@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
 import Brand from '../../components/Brand';
-import TalcImage from '../../assets/products/talc-hero.png';
+import CalcinedImage from '../../assets/products/calcined-clay-hero.png';
 import TalcTopImage from "../../assets/products/talc-top-web.png";
 import Cta from '../../components/cta';
-import Swiper from 'swiper';
 // import Swiper styles
 import 'swiper/css';
 
@@ -14,67 +13,65 @@ import 'swiper/css';
 function TalcPowder() {
   return (
    <div className='product-content'>
-               <div className="product-details">
-                   <h2 className="product-details-head">High Quality Talc</h2>
-                   <h2 className="product-details-head">Tailored for Ceramic Precision</h2>
-                   <span className='product-details-stroke'></span>
-                   <p className="product-para">The properties of talc that enable its use in a wide variety of applications are
-                       its extreme softness & smoothness, good lustre & sheen, high slip &
-                       lubricating property, low moisture content, ability to absorb oil & grease,
-                       chemical inertness, high fusion point, low electrical & heat conductivity, high
-                       dielectric strength, good retention for filler purposes, whiteness, good hiding
-                       power as pigment and high specific heat.</p>
-               </div>
-   
-               <div className="product-usp-section">
-                   <div className='product-usp-left'>
-                       <div className="product-usp">
-                           <h2 className="product-usps">Calcium (CaO) free and iron (Fe2O3) free material.</h2>
-                           <h2 className="product-usps">Can be easily grinded in ball mill </h2>
-                           <h2 className="product-usps">Multiple mesh sizes for diverse industries</h2>
-                           <h2 className="product-usps">Rajasthan being talc rich state of India</h2>
-                            <h2 className="product-usps">ISO-certified quality with reliable lab-tested.</h2>
-                       </div>
-                   </div>
-                   <div className="product-usp-right">
-                     
-                           <img src={TalcTopImage}/>
-                    
-                   </div>
-               </div>
-   
-               <div className="why-industry-trust">
-                   <h2 className="product-details-head">Why Leading Industries Trust RK Minerals's Clay</h2>
-                   
-                   <span className='product-details-stroke'></span>
-                   <p className="product-para">At RK Minerals, we take pride in offering clay of unmatched purity and consistency. Sourced from the mineral-rich lands of Rajasthan and processed with rigorous quality checks, our clay delivers high whiteness, brightness, and low impurities, 
-                       making it ideal for industries like ceramics, paints, paper, plastics, and cosmetics.</p>
-               </div>
-   
-   
-               
-                   
-               <div className="product-packaging">
-                   <h2 className="product-packaging-head">Packaging & Supply</h2>
-                   <div className='product-packaging-offers-section'>
-                       <div className="product-packaging-offer-1">
-                           <h2 className="packaging-offer-description">
-                               Available in bulk, 50 kg bags, and 1 MT jumbo bags for seamless domestic 
-                               and export shipments
-                           </h2>
-                           
-                       </div>
-                       <div className="product-packaging-offer-2">
-                           <h2 className="packaging-offer-description">
-                               Dedicated logistics support 
-                               for seamless domestic 
-                               and export shipments
-                           </h2>
-                           
-                       </div>
-                   </div>
-               </div>
-               </div>
+      <div className="product-details">
+        <h2 className="product-details-head">High Quality Calcined Clay</h2>
+        <h2 className="product-details-head">Processed for Enhanced Performance</h2>
+        <span className='product-details-stroke'></span>
+        <p className="product-para">
+          Calcined clay is produced by carefully heating refined kaolin at high
+          temperatures to improve whiteness, brightness, and chemical stability.
+          This process enhances its opacity, durability, and strength, making it
+          an ideal material for industries such as paper, paints, plastics,
+          ceramics, and rubber. Our calcined clay ensures consistent quality,
+          fine particle size, and superior performance in specialized
+          applications.
+        </p>
+      </div>
+
+      <div className="product-usp-section">
+        <div className='product-usp-left'>
+          <div className="product-usp">
+            <h2 className="product-usps">Enhanced brightness and opacity</h2>
+            <h2 className="product-usps">Excellent thermal and chemical stability</h2>
+            <h2 className="product-usps">Improves durability and strength in end products</h2>
+            <h2 className="product-usps">Uniform particle size for smooth finish</h2>
+            <h2 className="product-usps">Ideal for paper, paints, plastics, ceramics & rubber</h2>
+          </div>
+        </div>
+        <div className="product-usp-right">
+          <img src={TalcTopImage}/>
+        </div>
+      </div>
+
+      <div className="why-industry-trust">
+        <h2 className="product-details-head">Why Leading Industries Trust RK Minerals's Calcined Clay</h2>
+        <span className='product-details-stroke'></span>
+        <p className="product-para">
+          RK Minerals produces calcined clay with superior whiteness, brightness,
+          and stability through advanced calcination processes. Our strict
+          quality control ensures low impurities, high opacity, and consistent
+          performance, making our calcined clay a trusted choice for premium
+          industrial applications across global markets.
+        </p>
+      </div>
+
+      <div className="product-packaging">
+        <h2 className="product-packaging-head">Packaging & Supply</h2>
+        <div className='product-packaging-offers-section'>
+          <div className="product-packaging-offer-1">
+            <h2 className="packaging-offer-description">
+              Available in 50 kg HDPE bags, jumbo bags, and customized bulk supply
+            </h2>
+          </div>
+          <div className="product-packaging-offer-2">
+            <h2 className="packaging-offer-description">
+              Efficient logistics network ensuring timely domestic & export delivery
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
   );
 }
 
@@ -86,8 +83,8 @@ const Talc = () => {
     <div className="product-page">
         <Brand className="brand-section"/>
         <div className="product-explained" >
-            <img src={TalcImage} alt="talc-image"/>
-            <h1 className="product-page-name">TALC</h1>
+            <img src={CalcinedImage} alt="talc-image"/>
+            <h1 className="product-page-name calcinied-clay">CALCINED <br/> CLAY</h1>
          </div>
             <TalcPowder/>
   

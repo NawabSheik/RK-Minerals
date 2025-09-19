@@ -1,6 +1,13 @@
 import React from 'react'
-import talc from "../assets/products/talc-web.png";
-import feldspar from "../assets/products/feldspar-web.png"
+import Talc from "../assets/products/talc.png"
+import SodiumFeldspar from "../assets/products/sodium-feldspar.png"
+import PotassiumFeldspar from "../assets/products/potassium-feldspar.png"
+import Wollastonite from "../assets/products/wollastonite.png"
+import Quartz from "../assets/products/quartz.png"
+import ChinaClay from "../assets/products/china-clay.png"
+import BallClay from "../assets/products/ball-clay.png"
+import LevigatedClay from "../assets/products/levigated-clay.png"
+import CalcinedClay from "../assets/products/calcined-clay.png"
 import "../styles/Products.css";
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -57,63 +64,81 @@ const ProductsPage = () => {
         <SwiperSlide>
           <div className="product">
         
-               <img src={talc}/>
+               <img src={Talc}/>
      
-             <h1 className="product-name"> Paper </h1> 
+             <h1 className="product-name"> <Link to="/products/talc">Talc</Link> </h1> 
 
          </div>
         </SwiperSlide>
          <SwiperSlide>
           <div className="product">
          
-               <img src={talc}/>
+               <img src={SodiumFeldspar}/>
        
-             <h1 className="product-name"> Paper </h1> 
+             <h1 className="product-name"> <Link to="/products/sodium-feldspar">Sodium Feldspar</Link> </h1> 
 
          </div>
         </SwiperSlide>
          <SwiperSlide>
           <div className="product">
          
-               <img src={feldspar}/>
+               <img src={PotassiumFeldspar}/>
       
-             <h1 className="product-name"> Paper </h1> 
+             <h1 className="product-name"> <Link to="/products/potassium-feldspar">Potassium Feldspar</Link> </h1> 
 
          </div>
         </SwiperSlide>
          <SwiperSlide>
           <div className="product">
           
-               <img src={feldspar}/>
+               <img src={Quartz}/>
        
-             <h1 className="product-name"> Paper </h1> 
+             <h1 className="product-name"> <Link to="/products/quartz">Quartz</Link> </h1> 
 
          </div>
         </SwiperSlide>
          <SwiperSlide>
           <div className="product">
         
-               <img src={feldspar}/>
+               <img src={ChinaClay}/>
            
-             <h1 className="product-name"> Paper </h1> 
+             <h1 className="product-name"> <Link to="/products/china-clay">China Clay</Link> </h1> 
 
          </div>
         </SwiperSlide>
          <SwiperSlide>
           <div className="product">
           
-               <img src={feldspar}/>
+               <img src={CalcinedClay}/>
 
-             <h1 className="product-name"> Paper </h1> 
+             <h1 className="product-name"> <Link to="/products/calcinied-clay">Calcined Clay</Link> </h1> 
 
          </div>
         </SwiperSlide> 
         <SwiperSlide>
           <div className="product">
        
-               <img src={feldspar}/>
+               <img src={BallClay}/>
        
-             <h1 className="product-name"> Paper </h1> 
+             <h1 className="product-name"> <Link to="/products/ball-clay">Ball Clay</Link> </h1> 
+
+         </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="product">
+       
+               <img src={LevigatedClay}/>
+       
+             <h1 className="product-name"> <Link to="/products/levigated-clay">Levigated Clay</Link> </h1> 
+
+         </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="product">
+       
+               <img src={Wollastonite}/>
+       
+             <h1 className="product-name"> <Link to="/products/wollastonite">Wollastonite</Link> </h1> 
 
          </div>
         </SwiperSlide>

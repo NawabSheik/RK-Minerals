@@ -40,6 +40,56 @@
     top:20vh;
 }
 
+.potassium-feldspar{
+    font-size:12rem;
+    text-align: center;
+    line-height:10rem;
+}
+
+.sodium-feldspar{
+    font-size:14rem;
+    text-align: center;
+    line-height:12rem;
+}
+
+.ball-clay{
+    font-size: 18rem;
+    text-align: center;
+    line-height: 15rem;
+    top:10vh;
+}
+
+.levigated-clay{
+    text-align: center;
+    top:30vh;
+    line-height: 12rem;
+    font-size:13rem;
+}
+
+.calcinied-clay{
+    text-align: center;
+    top:30vh;
+    line-height: 12rem;
+    font-size:15rem;
+}
+
+.china-clay{
+    text-align: center;
+    top:12vh;
+    line-height: 18rem;
+    font-size:22rem;
+}
+
+.wollastonite{
+    font-size:9rem;
+    top:35vh;
+}
+
+.quartz{
+    font-size:16rem;
+    top:30vh;
+}
+
 @media(max-width:768px){
 
     .product-explained{
@@ -47,7 +97,7 @@
         align-items: center;
         justify-content: center;
         margin-top:10vh;
-         margin-bottom: 3vh;
+        margin-bottom: 3vh;
         width: 98%;
     }
     .product-explained>img{
@@ -58,6 +108,18 @@
     .product-page-name{
         font-size:5.75rem;
         top:15vh;
+    }
+
+    .potassium-feldspar{
+        top:20vh;
+        font-size:5rem;
+        line-height: 5rem;
+    }
+
+    .sodium-feldspar{
+        top:20vh;
+        font-size:5rem;
+        line-height: 5rem;
     }
 }
 
@@ -89,7 +151,7 @@
     background-color: #445E88;
     color:#fff;
     font-weight: 500;
-    width:20rem;
+    width:25rem;
     padding:1rem;
     letter-spacing: 1px;
 

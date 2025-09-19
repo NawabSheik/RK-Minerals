@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Brand from '../../components/Brand';
-import TalcImage from '../../assets/products/talc-hero.png';
+import ChinaClayImage from '../../assets/products/china-clay-hero.png';
 import TalcTopImage from "../../assets/products/talc-top-web.png";
 import Cta from '../../components/cta';
 import Swiper from 'swiper';
@@ -79,67 +79,63 @@ function TalcChip() {
 function TalcPowder() {
   return (
    <div className='product-content'>
-               <div className="product-details">
-                   <h2 className="product-details-head">High Quality Talc</h2>
-                   <h2 className="product-details-head">Tailored for Ceramic Precision</h2>
-                   <span className='product-details-stroke'></span>
-                   <p className="product-para">The properties of talc that enable its use in a wide variety of applications are
-                       its extreme softness & smoothness, good lustre & sheen, high slip &
-                       lubricating property, low moisture content, ability to absorb oil & grease,
-                       chemical inertness, high fusion point, low electrical & heat conductivity, high
-                       dielectric strength, good retention for filler purposes, whiteness, good hiding
-                       power as pigment and high specific heat.</p>
-               </div>
-   
-               <div className="product-usp-section">
-                   <div className='product-usp-left'>
-                       <div className="product-usp">
-                           <h2 className="product-usps">Calcium (CaO) free and iron (Fe2O3) free material.</h2>
-                           <h2 className="product-usps">Can be easily grinded in ball mill </h2>
-                           <h2 className="product-usps">Multiple mesh sizes for diverse industries</h2>
-                           <h2 className="product-usps">Rajasthan being talc rich state of India</h2>
-                            <h2 className="product-usps">ISO-certified quality with reliable lab-tested.</h2>
-                       </div>
-                   </div>
-                   <div className="product-usp-right">
-                     
-                           <img src={TalcTopImage}/>
-                    
-                   </div>
-               </div>
-   
-               <div className="why-industry-trust">
-                   <h2 className="product-details-head">Why Leading Industries Trust RK Minerals's Clay</h2>
-                   
-                   <span className='product-details-stroke'></span>
-                   <p className="product-para">At RK Minerals, we take pride in offering clay of unmatched purity and consistency. Sourced from the mineral-rich lands of Rajasthan and processed with rigorous quality checks, our clay delivers high whiteness, brightness, and low impurities, 
-                       making it ideal for industries like ceramics, paints, paper, plastics, and cosmetics.</p>
-               </div>
-   
-   
-               
-                   
-               <div className="product-packaging">
-                   <h2 className="product-packaging-head">Packaging & Supply</h2>
-                   <div className='product-packaging-offers-section'>
-                       <div className="product-packaging-offer-1">
-                           <h2 className="packaging-offer-description">
-                               Available in bulk, 50 kg bags, and 1 MT jumbo bags for seamless domestic 
-                               and export shipments
-                           </h2>
-                           
-                       </div>
-                       <div className="product-packaging-offer-2">
-                           <h2 className="packaging-offer-description">
-                               Dedicated logistics support 
-                               for seamless domestic 
-                               and export shipments
-                           </h2>
-                           
-                       </div>
-                   </div>
-               </div>
-               </div>
+      <div className="product-details">
+        <h2 className="product-details-head">Premium China Clay (Kaolin)</h2>
+        <h2 className="product-details-head">High Whiteness for Ceramics & Paper</h2>
+        <span className='product-details-stroke'></span>
+        <p className="product-para">
+          China clay, also known as kaolin, is valued for its whiteness,
+          brightness, and fine particle size. It is widely used in ceramics,
+          paper, paints, and rubber industries. Its chemical inertness, low
+          shrinkage, and high opacity make it a versatile mineral for both
+          functional and aesthetic applications.
+        </p>
+      </div>
+
+      <div className="product-usp-section">
+        <div className='product-usp-left'>
+          <div className="product-usp">
+            <h2 className="product-usps">High whiteness and brightness</h2>
+            <h2 className="product-usps">Excellent opacity and coverage</h2>
+            <h2 className="product-usps">Chemically inert and low shrinkage</h2>
+            <h2 className="product-usps">Extensively used in ceramics, paper, paints</h2>
+            <h2 className="product-usps">Processed to meet international standards</h2>
+          </div>
+        </div>
+        <div className="product-usp-right">
+          <img src={TalcTopImage}/>
+        </div>
+      </div>
+
+      <div className="why-industry-trust">
+        <h2 className="product-details-head">Why Leading Industries Trust RK Minerals's China Clay</h2>
+        <span className='product-details-stroke'></span>
+        <p className="product-para">
+          RK Minerals’s china clay offers high whiteness, fine particle size,
+          and low impurity levels. Our kaolin is processed under strict quality
+          control to serve industries such as ceramics, paper, paints, plastics,
+          and rubber, ensuring superior brightness and durability in finished
+          goods.
+        </p>
+      </div>
+
+      <div className="product-packaging">
+        <h2 className="product-packaging-head">Packaging & Supply</h2>
+        <div className='product-packaging-offers-section'>
+          <div className="product-packaging-offer-1">
+            <h2 className="packaging-offer-description">
+              Supplied in 50 kg HDPE bags, jumbo bags, and bulk loads for
+              industry needs
+            </h2>
+          </div>
+          <div className="product-packaging-offer-2">
+            <h2 className="packaging-offer-description">
+              Strong logistics network for reliable domestic and global supply
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -151,8 +147,8 @@ const Talc = () => {
     <div className="product-page">
         <Brand className="brand-section"/>
         <div className="product-explained" >
-            <img src={TalcImage} alt="talc-image"/>
-            <h1 className="product-page-name">TALC</h1>
+            <img src={ChinaClayImage} alt="talc-image"/>
+            <h1 className="product-page-name china-clay">CHINA <br/> CLAY</h1>
          </div>
             <TalcPowder/>
   
