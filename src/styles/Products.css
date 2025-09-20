@@ -86,6 +86,10 @@
 }
 
 @media(max-width:768px){
+    .product-home{
+        width:100vw;
+        height: 90vh;
+    }
     .product-section{
         width:100%;
         height: auto;

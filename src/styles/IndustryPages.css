@@ -28,12 +28,16 @@
 
 @media(max-width:768px){
 
+    .industry-page{
+       padding: 0rem;
+    }
+
     .industry-section{
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top:10vh;
-         margin-bottom: 3vh;
+         margin-bottom: 4vh;
         width: 98%;
     }
 }
@@ -390,11 +394,13 @@
 
     .industry-excellence{
         width:98%;
-        padding:1rem;
+        padding:0rem;
         margin-bottom:2vh;
+        padding-bottom:4rem;
     }
 
     .industry-head3{
+        margin-top:2rem;
         font-size:2rem;
     }
 
@@ -408,6 +414,7 @@
         width:90%;
         margin:0%;
         margin-top:1rem;
+        border-radius: 20px;
       
     }
 
@@ -419,5 +426,7 @@
     .excellence-para{
         font-size:0.9rem;
         line-height: 1.2rem;
+        text-align: justify;
+        text-align-last: center;
     }
 }

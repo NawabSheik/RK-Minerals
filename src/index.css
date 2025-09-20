@@ -9,11 +9,14 @@
 :root {
   font-family: "Inter", sans-serif  !important;
   
+  
 }
+
 
 
 body{
   overflow-x: hidden;
+  background: linear-gradient(to right, #DFEAF2 0%, #92B2E8 100%);
 }
 
 

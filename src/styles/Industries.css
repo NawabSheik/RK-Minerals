@@ -4,8 +4,9 @@
     height:100vh;
     background: linear-gradient(to right, #DFEAF2 0%, #92B2E8 100%);
     display:flex;
+    align-items: center;
     justify-content: center;
-    overflow:visible;
+    overflow:hidden;
     position:relative;
 
 
@@ -205,6 +206,10 @@
 }
 
 @media(max-width:768px){
+    .industries-page{
+        width: 100vw;
+        height: 90vh;
+    }
     .industries-heading{
         display: none;
     }
@@ -223,7 +228,7 @@
     font-size: 4rem;
     text-align: center;
     color:#fff;
-    opacity:45%;
+    opacity:60%;
     font-weight: 800;
     line-height: 4rem;
     margin-bottom:2rem;

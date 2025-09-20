@@ -54,6 +54,10 @@
 }
 
 @media(max-width:768px){
+    .global-page{
+        width:100vw;
+        height:90vh;
+    }
 
     .global-section{
         width: 100%;

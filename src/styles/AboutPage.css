@@ -74,10 +74,13 @@
 
 
 @media(max-width:768px){
+    .about-page{
+        width: 100vw;
+        height:90vh;
+    }
+
     .about-section{
-        width:95%;
-        height:auto;
-     
+        width:94%;
         padding-top:2rem;
         padding-bottom:2rem;
     }
@@ -85,8 +88,9 @@
     .about-us-upper{
         width:100%;
         height:auto;
-        
     }
+
+    
     .about-para{
         font-size:1rem;
         text-align: justify;
@@ -116,8 +120,8 @@
     .about-stroke{
         display: block;
         width:80%;
-        height:1px;
-        background-color:#fff;
+        height:2px;
+        background-color:#ffffff;
         opacity:100%;
         margin-bottom: 1rem;
     }
