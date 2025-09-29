@@ -5,6 +5,7 @@ import Industries from "../components/Industries";
 import ProductsPage from '../components/ProductsPage';
 import GlobalStats from "../components/GlobalStats";
 import ReactFullpage from "@fullpage/react-fullpage";
+import Footer from '../components/Footer';
 
 
 function HomePage() {
@@ -21,6 +22,7 @@ function HomePage() {
             <div className="section"><ProductsPage/></div>
             <div className="section"><Industries/></div>
              <div className="section"><GlobalStats/></div>
+             <div className="section"><Footer/></div>
 
          
           </ReactFullpage.Wrapper>

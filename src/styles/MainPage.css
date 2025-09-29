@@ -29,7 +29,7 @@
     display:none;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
     .main-page{
         width: 100vw;
         height:96vh;
@@ -73,7 +73,7 @@
     display: none;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
     .main-text{
         top:15%;
         display: flex;

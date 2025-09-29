@@ -85,7 +85,7 @@
     font-weight:200;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
     .product-home{
         width:100vw;
         height: 90vh;

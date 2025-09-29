@@ -1,0 +1,132 @@
+.about-page{
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(to right, #DFEAF2 0%, #92B2E8 100%);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    overflow:hidden;
+}
+
+
+.about-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:65%;
+    height:60vh;
+    background: #627ca47a;
+    backdrop-filter: blur(42px);
+    -webkit-backdrop-filter: blur(42px);
+    flex-direction: column;
+    padding:2rem;
+    border-radius:40px;
+    position:relative;
+    overflow:hidden;
+}
+
+.about-us-upper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:80%;
+    height: 80%;
+}
+
+.about-para{
+    font-size:1.25rem;
+    text-align: center;
+    
+    color:#fff;
+
+    
+    
+}
+
+.about-btn{
+    font-size:1.5rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    margin-top: 1rem;
+    width:35%;
+    border-radius:50px;
+    background: #445E88;
+    backdrop-filter: blur(42px);
+    color:#fff;
+    -webkit-backdrop-filter: blur(42px);
+    border:none;
+}
+
+.about-head{
+    font-size:8rem;
+    bottom:0%;
+    opacity:39%;
+    color:#fff;
+    position:absolute;
+    transform:translateY(20%);
+}
+
+.about-head-mobile{
+    display: none;
+}
+
+
+@media(max-width:1000px){
+    .about-page{
+        width: 100vw;
+        height:90vh;
+    }
+
+    .about-section{
+        width:94%;
+        padding-top:2rem;
+        padding-bottom:2rem;
+    }
+
+    .about-us-upper{
+        width:100%;
+        height:auto;
+    }
+
+    
+    .about-para{
+        font-size:1rem;
+        text-align: justify;
+        text-align-last: center;
+        margin-top:1rem;
+        margin-bottom: 1rem;
+    }
+    .about-btn{
+        font-size:1.25rem;
+        width:90%;
+    }
+    .about-head{
+        display: none;
+     
+    }
+
+    .about-head-mobile{
+        display: block;
+        font-size:3.8rem;
+        margin-bottom: 1rem;
+        bottom:0%;
+        opacity:39%;
+        color:#fff;
+       
+    }
+
+    .about-stroke{
+        display: block;
+        width:80%;
+        height:2px;
+        background-color:#ffffff;
+        opacity:100%;
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+

@@ -26,7 +26,7 @@
     margin-bottom: 10vh;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
 
     .industry-page{
        padding: 0rem;
@@ -83,7 +83,7 @@
     line-height: 1.75rem;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
 
     .industry-head{
         width:90%;
@@ -146,7 +146,7 @@
     font-weight: 300;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
 
     .requirements-top{
         flex-direction: row;
@@ -259,7 +259,7 @@
 }
 
 
-@media(max-width:768px){
+@media(max-width:1000px){
 
     .industry-section2{
         display: flex;
@@ -323,7 +323,7 @@
     width:80%;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
     .note-point{
         font-size:1rem;
         width:90%;
@@ -390,7 +390,7 @@
     line-height: 1.5rem;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
 
     .industry-excellence{
         width:98%;

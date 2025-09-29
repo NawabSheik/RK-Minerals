@@ -4,12 +4,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom:4rem;
     background-color: #121e31fe;
     width:80%;
     padding:2rem;
     border-radius: 30px;
-    margin-bottom:20vh;
+    margin-bottom:5vh;
 }
 
 .cta-head{
@@ -31,7 +30,7 @@
     border-radius: 50px;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
     .cta{
         width:98%;
         padding:1rem;

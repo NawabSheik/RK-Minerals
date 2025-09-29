@@ -1,15 +1,47 @@
-import React from 'react'
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react"; // Or any icon library / SVG
+import { Link } from "react-router-dom";
+const Brand = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
-
-const Brand = ({className}) => {
   return (
-    <div className={className}>
-    <div className="topbar">
-      <h1 className="brand">RK Minerals</h1>
-      <button className="contact-button">Contact Us</button>
-    </div>
-    </div>
-  )
-}
+    <div className="brand-section">
+      {/* Topbar */}
+      <div className="topbar">
+        <div className="left">
+          {/* Hamburger icon for mobile */}
+          <button className="menu-btn" onClick={() => setIsOpen(true)}>
+            <Menu  size={28} className="menu-icon" />
+            
+          </button>
+          <h1 className="brand-name">RK Minerals</h1>
+        </div>
 
-export default Brand
+        {/* Contact button */}
+        <button className="contact-btn">Contact Us</button>
+      </div>
+
+      {/* Full-screen mobile navigation */}
+      {isOpen && (
+        <div className="overlay">
+          <button className="close-btn" onClick={() => setIsOpen(false)}>
+            <X size={45} />
+          </button>
+          <nav className="overlay-nav">
+            <a href="/" onClick={() => setIsOpen(false)}>Home</a>
+            <a href="/about" onClick={() => setIsOpen(false)}>About</a>
+            <a href="/industries" onClick={() => setIsOpen(false)}>Industries</a>
+             <a href="/products" onClick={() => setIsOpen(false)}>Products</a>
+            <a href="/business-operations" onClick={() => setIsOpen(false)}>Business Operations</a>
+          </nav>
+          
+        </div>
+      )}
+
+      {/* CSS */}
+      
+    </div>
+  );
+};
+
+export default Brand;

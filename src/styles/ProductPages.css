@@ -90,7 +90,7 @@
     top:30vh;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
 
     .product-explained{
         display: flex;
@@ -168,7 +168,7 @@
     
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
     .product-choice-btns{
         display: flex;
         align-items: center;
@@ -233,7 +233,7 @@
     font-weight: 400;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
 
     .product-content{
         width: 98%;
@@ -299,7 +299,7 @@
 }
 
 
-@media(max-width:768px){
+@media(max-width:1000px){
 
     .product-usp-section{
         flex-direction: column;
@@ -391,7 +391,7 @@
     border-radius: 20px;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
 
     .product-packaging-offers-section{
         flex-direction: column;

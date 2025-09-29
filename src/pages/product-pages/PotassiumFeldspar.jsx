@@ -83,8 +83,8 @@ function TalcPowder() {
         <h2 className="product-details-head">Ideal Flux for Ceramics & Glass</h2>
         <span className='product-details-stroke'></span>
         <p className="product-para">
-          Potassium feldspar grains are widely used in ceramics, glass, and
-          porcelain industries due to their high potassium oxide (K2O) content,
+          Potassium feldspar grains are widely used in ceramics, cement, and
+          glass industries due to their high potassium oxide (K2O) content,
           excellent fluxing properties, and consistent particle size. They help
           reduce the melting temperature, enhance vitrification, and improve the
           strength, gloss, and durability of finished products, making them a
