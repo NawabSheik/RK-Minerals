@@ -44,23 +44,29 @@ const ProductsPage = () => {
         
         
         </div> */}
-        <Swiper
-        slidesPerView={3}
-        spaceBetween={50}
-        navigation={true}
-        breakpoints={{
-          320: {
-            slidesPerView: 1,},
-          640: {
-            slidesPerView: 2, },
-          1024:{
-            slidesPerView: 3,
-          }           
-          }}       
-        modules={[Pagination]}
-        className="mySwiper"
-        
-      >
+       <Swiper
+  slidesPerView={3}
+  spaceBetween={20}
+   speed={2000} 
+  navigation={true}
+  autoplay={{
+    delay: 0,
+    disableOnInteraction: false,
+  }}
+  loop={true}
+   freeMode={true} 
+   freeModeMomentum={false}
+  breakpoints={{
+    320: { slidesPerView: 1.25 },
+    640: { slidesPerView: 2 },
+    1024: { slidesPerView: 4 },
+  }}
+  modules={[Autoplay, Pagination, Navigation]} // ✅ Include Autoplay and Navigation here
+  className="mySwiper"
+  style={{
+    transitionTimingFunction: "linear", // 👈 removes easing for true marquee feel
+  }}
+>
         <SwiperSlide>
           <div className="product">
         

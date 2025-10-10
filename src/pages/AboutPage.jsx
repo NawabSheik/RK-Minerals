@@ -55,14 +55,14 @@ const AboutPage = () => {
           <h2 className="card-heading">Customer Centric & Market Driven</h2>
           <span className="card-stroke"></span>
           </div>
-          <p className="card-para">We exist to serve the needs of industries — ceramics, glass, cement, paints, cosmetics and more — adapting our products and services to the challenges faced by each partner.</p>
+          <p className="card-para">We exist to serve the needs of industries — ceramics, glass, cement, paints, soaps & detergents and more — adapting our products and services to the challenges faced by each partner.</p>
         </div>
         <div className="card">
           <div className="card-head"> 
-          <h2 className="card-heading">Innovation-led, with a responsible heart</h2>
+          <h2 className="card-heading">Innovation-led, with team</h2>
           <span className="card-stroke"></span>
           </div>
-          <p className="card-para">We continuously invest in process improvements, quality controls, new mineral solutions, and greener practices to reduce environmental footprint and ensure long-term viability.</p>
+          <p className="card-para">We continuously invest in process improvements, quality controls, new mineral solutions, and ensure long-term viability.</p>
         </div>
         <div className="card">
           <div className="card-head">

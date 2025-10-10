@@ -89,19 +89,27 @@ const Industries = () => {
       </div>
       <Swiper
         slidesPerView={3}
-        spaceBetween={50}
-        
+        spaceBetween={20}
+        speed={2000} 
         navigation={true}
+        autoplay={{
+          delay: 0,
+          disableOnInteraction: false,
+        }}
+        loop={true}
+        freeMode={true} 
+        freeModeMomentum={false}
+        
         breakpoints={{
           320: {
-            slidesPerView: 1,},
+            slidesPerView: 1.1,},
           640: {
             slidesPerView: 2, },
           1024:{
             slidesPerView: 3,
           }           
           }}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination]} // ✅ Include Autoplay and Navigation here
         className="mySwiper"
       >
         <SwiperSlide>

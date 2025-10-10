@@ -16,9 +16,9 @@ const About = () => {
         <span className='about-stroke'></span>
         <div className="about-us-upper">
         <p className="about-para">
-          R.K Minerals is a leading miner, supplier & exporter of Industrial Minerals like feldspar, kaolin, talc, quartz, etc. We have been importing & exporting high-quality minerals, which serve as vital inputs for several industries, including ceramics, cement, glass, glazes, paints & cosmetics. We have our mining infrastructure based out of Rajasthan & Gujarat (INDIA) with a strong rail, road & sea connectivity. We are located in close proximity with the 3 major ports of India; Kandla, Mundra & Dahej.
+          <b>R.K. Minerals </b>is a leading miner, supplier & exporter of Industrial Minerals like Feldspar, Kaolin, Talc, Clay, Quartz, etc. We have been importing & exporting high-quality minerals, which serve as vital inputs for several industries, including ceramics, cement, glass, glazes, paints, soaps & detergents. We have our mining infrastructure based out of Rajasthan & Gujarat (INDIA) with a strong rail, road & sea connectivity. We are located in close proximity with the 3 major ports of India; Kandla, Mundra & Dahej.
         </p>
-         <button className="about-btn"><Link to="/about-us">Know More </Link></button>
+         <button className="about-btn"><Link className="link-btn" to="/about-us">Know More </Link></button>
         </div>
         <h1 className="about-head">ABOUT US</h1>
       </div>

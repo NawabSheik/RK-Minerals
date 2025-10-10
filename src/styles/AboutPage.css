@@ -5,6 +5,7 @@
     width: 100vw;
     height:100vh;
     overflow: hidden;
+     
 }
 
 .about-hero-img{
@@ -21,8 +22,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width:60%;
-    background: rgba(255, 255, 255, 0.065);
+    width:80%;
+    background: rgba(34, 34, 34, 0.292);;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding:2rem;
@@ -60,7 +61,7 @@
     align-items: center;
     justify-content: center;
     margin-top:2rem;
-    background: rgba(255, 255, 255, 0.065);
+    background: rgba(0, 0, 0, 0.065);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     width: 90%;
@@ -145,6 +146,7 @@
   justify-content: center;
   flex-direction: column;
   margin-top:3rem;
+  
 }
 
 .cards-head{
