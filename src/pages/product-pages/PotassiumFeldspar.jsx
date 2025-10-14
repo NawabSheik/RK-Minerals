@@ -48,7 +48,7 @@ function TalcChip() {
           RK Minerals delivers potassium feldspar with high whiteness, balanced
           alkali content, and uniform particle size. Processed under strict
           quality checks, our feldspar supports industries like ceramics,
-          porcelain, glass, and sanitaryware by providing excellent fluxing
+          porcelain, glass, and cement by providing excellent fluxing
           action, high durability, and consistent performance in all industrial
           applications.
         </p>
@@ -98,7 +98,7 @@ function TalcPowder() {
             <h2 className="product-usps">High potassium (K2O) content for efficient fluxing</h2>
             <h2 className="product-usps">Uniform grain size for controlled processing</h2>
             <h2 className="product-usps">Low iron impurities ensure brightness and purity</h2>
-            <h2 className="product-usps">Extensively used in glass, ceramics, and porcelain</h2>
+            <h2 className="product-usps">Extensively used in glass & ceramics</h2>
             <h2 className="product-usps">ISO-certified and lab-tested for quality consistency</h2>
           </div>
         </div>

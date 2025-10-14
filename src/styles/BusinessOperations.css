@@ -99,9 +99,23 @@
     margin-bottom:4rem;
 }
 
+.mining-explaination{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    margin-top:2rem;
+    
+}
+
+.mining-explaination>img{
+    width:50%;
+    border-radius:10px;
+}
+
 .processing-explained{
     margin-top:2rem;
-     font-size:1.5rem;
+    font-size:1.25rem;
+    line-height:1.5rem;
     font-family: "Raleway",sans-serif;
     color:#02193f;
     width:95%;
@@ -129,28 +143,64 @@
     color:#02193f;
 }
 
+.mining-pointers{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:2rem;
+    margin-top:2rem;
+    width:50%;
+}
+
 
 .mining-pointer{
-    padding:2rem;
-    margin-top:2rem;
-    width:80%;
-    border:1px solid #02193f;
-    border-radius: 20px;
+    text-align: justify;
+    width:90%;
+    line-height:2rem;
+   
+    
+
+}
+
+.processing-explaination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width:100%;
+    gap:2rem;
+}
+
+.processing-explaination>img{
+    width:25%;
+     border-radius: 20px;
+}
+
+.processing-pointers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+   
 }
 
 .processing-pointer{
-   padding:2rem;
+   padding:1rem;
     margin-top:2rem;
     border:1px solid #02193f;
     border-radius: 20px;
-    width:50%; 
+    width:80%; 
 }
 
 .pointer-explained{
-    font-size:1.5rem;
+    font-size:1rem;
+    line-height: 1.25rem;
+    padding-bottom:1rem;
+    border-bottom: 1px solid #02193f;
     font-family: "Raleway",sans-serif;
     color:#02193f;
-    text-align: center;
+    
 }
 .processing-pointer-explained{
     font-size:1.5rem;
@@ -158,6 +208,31 @@
     color:#02193f;
     text-align: center;
     width:100%;
+}
+
+.quality-explaination{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.quality-explained{
+    font-family: "Raleway",sans-serif;
+    font-size:1.25rem;
+    line-height:1.5rem;
+    text-align: justify;
+    padding-right:1rem;
+    width: 50%;
+   
+}
+
+.quality-explaination>img{
+    width:40%;
+    border-radius:10px;
+    margin-top:2rem;
+
 }
 
 @media(max-width:768px)

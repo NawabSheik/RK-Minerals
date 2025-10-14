@@ -8,7 +8,7 @@ import BallClayImage from '../../assets/products/ball-clay.png';
 import LevigatedClayImage from '../../assets/products/levigated-clay.png'
 import SodiumFeldsparImage from '../../assets/products/sodium-feldspar.png';
 import PotassiumFeldsparImage from '../../assets/products/potassium-feldspar.png';
-
+import QuartzImage from '../../assets/products/quartz.png';
 import Cta from '../../components/cta';
 
 const Paint = () => {
@@ -20,7 +20,7 @@ const Paint = () => {
         <h2 className='industry-head'> Ceramics </h2>
         <span className='industry-stroke'></span>
         <h3 className="industry-subhead">Strength, Whiteness, and Thermal Stability</h3>
-        <p className="industry-para">RK Minerals delivers high-quality minerals that enhance strength, whiteness, and thermal stability in ceramics. Our minerals improve workability, reduce shrinkage, and provide consistency in tile, sanitary ware, and porcelain production.</p>
+        <p className="industry-para">RK Minerals delivers high-quality minerals that enhance strength, whiteness, and thermal stability in ceramics. Our minerals improve workability, reduce shrinkage, and provide consistency in tile, tableware, sanitary ware, porcelain and insulator production.</p>
         <p className="industry-para">A good mineral for Ceramics should have</p>
         <div className='industry-requirements'>
             <div className='requirements-top'>
@@ -57,7 +57,7 @@ const Paint = () => {
 
                 {/* Talc */}
                 <div className='industry-products-card'>
-                    <h2 className="product-name-ind">Talc</h2>
+                    <h2 className="product-name-ind">Talc Chips</h2>
                     <div className='product-requirements'>
                         <div className='requirements-top'>
                             <h2 className='product-requirement'>SiO₂: 60–62%</h2>
@@ -156,6 +156,20 @@ const Paint = () => {
                     </div>
                     <img src={WollastoniteImage}/>
                 </div>
+                <div className='industry-products-card'>
+                    <h2 className="product-name-ind">Quartz</h2>
+                    <div className='product-requirements'>
+                        <div className='requirements-top'>
+                            <h2 className='product-requirement'>CaSiO₃: 96–98%</h2>
+                            <h2 className='product-requirement'>CaO: 30–31%</h2>
+                        </div>
+                        <div className='requirements-bottom'>
+                            <h2 className='product-requirement'>SiO₂: 50–52%</h2>
+                            <h2 className='product-requirement'>Low Loss on Ignition (&lt;1%)</h2>
+                        </div>
+                    </div>
+                    <img src={QuartzImage}/>
+                </div>
             </div>
 
         </div>
@@ -170,8 +184,8 @@ const Paint = () => {
                 <p className='excellence-para'>Each batch undergoes rigorous quality checks to ensure purity, particle uniformity, and thermal stability for consistent ceramic performance.</p>
             </div>
             <div className='excellence-card'>
-                <h2 className='excellence-head'>Sustainability</h2>
-                <p className='excellence-para'>We follow sustainable mining practices to minimize environmental impact while supplying high-quality minerals for ceramics.</p>
+                <h2 className='excellence-head'>Trusted Partnerships</h2>
+                <p className='excellence-para'>Excellence doesn’t end with our products — it extends to our relationships. We work closely with our partners, understanding their needs and delivering on time, every time.</p>
             </div>
         </div>
         <div className='excellence-cards'>

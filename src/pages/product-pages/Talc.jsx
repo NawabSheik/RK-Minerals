@@ -59,7 +59,7 @@ function TalcChip() {
         <div className='product-packaging-offers-section'>
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
-              Available in loose form, 50 kg HDPE bags, and 1 MT jumbo bags for
+              Available in loose form and jumbo bags for
               domestic and international markets
             </h2>
           </div>
@@ -113,7 +113,7 @@ function TalcPowder() {
                     
                     <span className='product-details-stroke'></span>
                     <p className="product-para">At RK Minerals, we take pride in offering clay of unmatched purity and consistency. Sourced from the mineral-rich lands of Rajasthan and processed with rigorous quality checks, our clay delivers high whiteness, brightness, and low impurities, 
-                        making it ideal for industries like ceramics, paints, paper, plastics, and cosmetics.</p>
+                        making it ideal for industries like ceramics, paints, paper, soaps and rubber industries</p>
                 </div>
     
     
@@ -124,16 +124,14 @@ function TalcPowder() {
                     <div className='product-packaging-offers-section'>
                         <div className="product-packaging-offer-1">
                             <h2 className="packaging-offer-description">
-                                Available in bulk, 50 kg bags, and 1 MT jumbo bags for seamless domestic 
+                                Available in bulk 25kg, 50 kg HDPE bags, and Jumbo bags for seamless domestic 
                                 and export shipments
                             </h2>
                             
                         </div>
                         <div className="product-packaging-offer-2">
                             <h2 className="packaging-offer-description">
-                                Dedicated logistics support 
-                                for seamless domestic 
-                                and export shipments
+                               Available in mesh size ranging from 200 to 1200 mesh as per industry requirements
                             </h2>
                             
                         </div>

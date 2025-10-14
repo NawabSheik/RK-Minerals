@@ -13,7 +13,7 @@ const Paint = () => {
         <h2 className='industry-head'> Paper </h2>
         <span className='industry-stroke'></span>
         <h3 className="industry-subhead">Strength and Smoothness for Every Sheet</h3>
-        <p className="industry-para">RK Minerals supplies premium raw materials that enhance printability, brightness, and smoothness in the paper industry. Our minerals help achieve high opacity, controlled absorption, and improved durability in paper products, making us a reliable partner for leading paper manufacturers.</p>
+        <p className="industry-para">R.K. Minerals supplies premium raw materials that can improve the quality of paper industry. Our minerals help achieve high opacity, controlled absorption, and improved durability in paper products, making us a reliable partner for leading paper manufacturers.</p>
         <p className="industry-para">A good mineral for Paper should have</p>
         <div className='industry-requirements'>
             <div className='requirements-top'>
@@ -95,8 +95,8 @@ const Paint = () => {
                 <p className='excellence-para'>Each batch undergoes strict quality checks to ensure brightness, purity, and particle uniformity for consistent paper performance.</p>
             </div>
             <div className='excellence-card'>
-                <h2 className='excellence-head'>Sustainability</h2>
-                <p className='excellence-para'>We emphasize eco-friendly processes to support sustainable and responsible paper production.</p>
+                <h2 className='excellence-head'>Trusted Partnerships</h2>
+                <p className='excellence-para'>Excellence doesn’t end with our products — it extends to our relationships. We work closely with our partners, understanding their needs and delivering on time, every time.</p>
             </div>
             </div>
          <div className='excellence-cards'>

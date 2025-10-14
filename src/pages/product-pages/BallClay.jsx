@@ -17,8 +17,8 @@ function TalcPowder() {
         <span className='product-details-stroke'></span>
         <p className="product-para">
           Ball clay is prized for its plasticity, strength, and binding
-          properties, making it a fundamental ingredient in ceramic and
-          sanitaryware production. Its fine particle size and high strength help
+          properties, making it a fundamental ingredient in ceramic tile, tableware
+          sanitaryware and insulator. Its fine particle size and high strength help
           improve shaping, firing strength, and durability of finished products,
           while also enhancing surface smoothness and glaze adherence.
         </p>
@@ -31,7 +31,7 @@ function TalcPowder() {
             <h2 className="product-usps">Improves shaping and firing strength</h2>
             <h2 className="product-usps">Ideal for sanitaryware, tiles, and ceramics</h2>
             <h2 className="product-usps">Low impurity content for superior results</h2>
-            <h2 className="product-usps">Sourced from trusted clay reserves in India</h2>
+            <h2 className="product-usps">Extracted from rich mining belts of Rajasthan</h2>
           </div>
         </div>
         <div className="product-usp-right">
@@ -45,8 +45,7 @@ function TalcPowder() {
         <p className="product-para">
           RK Minerals ensures ball clay with high consistency, controlled
           plasticity, and excellent bonding strength. With low levels of iron
-          and titanium impurities, our ball clay supports the ceramic and
-          sanitaryware industry by providing improved strength and premium
+          and titanium impurities, our ball clay are ideal for sanitary ware, tile, tableware and insulator by providing improved strength and premium
           finishing quality.
         </p>
       </div>
@@ -56,7 +55,7 @@ function TalcPowder() {
         <div className='product-packaging-offers-section'>
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
-              Available in bulk, 50 kg bags, and 1 MT jumbo bags for domestic
+              Available in bulk, 50 kg HDPE bags, and jumbo bags for domestic
               and export customers
             </h2>
           </div>

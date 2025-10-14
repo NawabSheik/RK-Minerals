@@ -2,9 +2,9 @@ import React from 'react';
 import Brand from '../components/Brand';
 import AboutHero from "../assets/About-Hero.jpg";
 import "../styles/AboutPage.css"
-import Timeline from "../assets/timeline.svg";
+import Timeline from "../assets/timeline2.svg";
 import Cta from "../components/cta";
-
+import Counter from '../components/Counter';
 
 const AboutPage = () => {
   return (
@@ -23,20 +23,28 @@ const AboutPage = () => {
 
             <div className="about-stats">
           <div className='stat-div'>
-            <h2 className='stat-head'>15+</h2>
+            <div className='stat-head'>
+               <Counter target={15} suffix="+" />
+            </div>
             <p className='stat-text'>Years of Experience</p>
           </div>
           <div className='stat-div'>
-            <h2 className='stat-head'>7+</h2>
+            <div className='stat-head'>
+               <Counter target={7} suffix="+" />
+            </div>
             <p className='stat-text'>Product Ranges</p>
           </div>
           
           <div className='stat-div'>
-            <h2 className='stat-head'>150+</h2>
+            <div className='stat-head'>
+               <Counter target={50} suffix="+" />
+            </div>
             <p className='stat-text'>Happy Clients</p>
           </div>
           <div className='stat-div'>
-            <h2 className='stat-head'>100000+</h2>
+            <div className='stat-head'>
+               <Counter target={1000000} suffix="+" />
+            </div>
             <p className='stat-text'> MT Material Supplied</p>
           </div>
           
@@ -109,9 +117,8 @@ From our early days as a trading house to becoming a mining and processing enter
 <br/>
 
 
-Today, RK Minerals is more than a supplier — we are partners in progress for industries across ceramics, glass, paints, cement, and beyond. Our goal has always been clear: to provide dependable products, foster long-term relationships, and ensure that our growth goes hand in hand with sustainability.
-
-I am deeply proud of our team, whose dedication and expertise continue to drive our success. As we look to the future, we remain committed to creating value, respecting nature, and building trust with every stakeholder.
+Today, RK Minerals is more than a supplier — we are partners in progress for industries across ceramics, glass, paints, cement, and beyond. Our goal has always been clear: to provide dependable products & foster long-term relationships. 
+I am deeply proud of our team, whose dedication and expertise continue to drive our success. As we look to the future, we remain committed to creating value & building trust with every stakeholder.
 
 At RK Minerals, we don’t just deliver minerals — we deliver possibilities.</p>
 <div class="message-author">

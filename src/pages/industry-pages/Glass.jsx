@@ -96,8 +96,8 @@ const Paint = () => {
                 <p className='excellence-para'>Every batch is tested in advanced labs to ensure purity, consistency, and suitability for glass production.</p>
             </div>
             <div className='excellence-card'>
-                <h2 className='excellence-head'>Sustainability</h2>
-                <p className='excellence-para'>We prioritize eco-friendly mining and processing methods that minimize environmental impact.</p>
+                <h2 className='excellence-head'>Trusted Partnerships</h2>
+                <p className='excellence-para'>Excellence doesn’t end with our products — it extends to our relationships. We work closely with our partners, understanding their needs and delivering on time, every time.</p>
             </div>
             </div>
          <div className='excellence-cards'>

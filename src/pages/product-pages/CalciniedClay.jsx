@@ -21,8 +21,7 @@ function TalcPowder() {
           Calcined clay is produced by carefully heating refined kaolin at high
           temperatures to improve whiteness, brightness, and chemical stability.
           This process enhances its opacity, durability, and strength, making it
-          an ideal material for industries such as paper, paints, plastics,
-          ceramics, and rubber. Our calcined clay ensures consistent quality,
+          an ideal material for industries such as paper, paints and rubber. Our calcined clay ensures consistent quality,
           fine particle size, and superior performance in specialized
           applications.
         </p>
@@ -60,7 +59,7 @@ function TalcPowder() {
         <div className='product-packaging-offers-section'>
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
-              Available in 50 kg HDPE bags, jumbo bags, and customized bulk supply
+              Available in 50 kg bags, jumbo bags, for domestic and export shipments
             </h2>
           </div>
           <div className="product-packaging-offer-2">

@@ -120,7 +120,7 @@ const Paint = () => {
         </div>
 
         <p className='note-point'>
-          * Available in powder, lump, or chip form. Custom grades are offered to suit your specific paint formulations.
+          * Available in powder form. Custom grades are offered to suit your specific paint formulations.
         </p>
       </div>
 
@@ -132,8 +132,8 @@ const Paint = () => {
                 <p className='excellence-para'>Our quality control labs ensure each mineral batch has consistent brightness, purity, and particle size for reliable paint applications.</p>
             </div>
             <div className='excellence-card'>
-                <h2 className='excellence-head'>Sustainability</h2>
-                <p className='excellence-para'>We follow responsible mining and eco-friendly processing methods to reduce environmental footprint.</p>
+                <h2 className='excellence-head'>Trusted Partnerships</h2>
+                <p className='excellence-para'>Excellence doesn’t end with our products — it extends to our relationships. We work closely with our partners, understanding their needs and delivering on time, every time.</p>
             </div>
         </div>
         <div className='excellence-cards'>

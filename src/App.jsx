@@ -24,6 +24,7 @@ import Ceramic from './pages/industry-pages/Ceramics';
 import Glass from './pages/industry-pages/Glass';
 import Paper from './pages/industry-pages/Paper'
 import BusinessOperations from './pages/BusinessOperations';
+import Contact from './components/Contact';
 
 
 
@@ -57,6 +58,7 @@ const App = () => {
       <Route path="/industries/glass" element={<Glass />} />
       <Route path="/industries/rubber" element={<Rubber />} />
       <Route path="/business-operations" element ={<BusinessOperations/>}/>
+      <Route path="/contact" element ={<Contact/>}/>
       </Routes>
 
     </div>

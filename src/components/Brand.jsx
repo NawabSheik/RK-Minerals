@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react"; // Or any icon library / SVG
 import { Link } from "react-router-dom";
+import Logo from "../assets/rk-logo2.svg";
 const Brand = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,11 +15,11 @@ const Brand = () => {
             <Menu  size={28} className="menu-icon" />
             
           </button>
-          <h1 className="brand-name">RK Minerals</h1>
+          <img src={Logo} className="logo"/>
         </div>
 
         {/* Contact button */}
-        <button className="contact-btn">Contact Us</button>
+        <a href="/contact" className="contact-btn">Contact Us</a>
       </div>
 
       {/* Full-screen mobile navigation */}

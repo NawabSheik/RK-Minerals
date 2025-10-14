@@ -101,7 +101,7 @@ const Paint = () => {
             </div>
             </div>
         </div>
-        <p className='note-point'>* Available in powder and chip form, these minerals provide reinforcement, reduce shrinkage, and improve processing in rubber compounding.</p>
+        <p className='note-point'>* Available in powder form, these minerals provide reinforcement, reduce shrinkage, and improve processing in rubber compounding.</p>
       </div>
 
       <div className="industry-excellence">
@@ -112,8 +112,8 @@ const Paint = () => {
                 <p className='excellence-para'>Each mineral undergoes strict testing to ensure consistency, purity, and performance in rubber processing.</p>
             </div>
             <div className='excellence-card'>
-                <h2 className='excellence-head'>Sustainability</h2>
-                <p className='excellence-para'>We focus on sustainable mineral sourcing while delivering eco-friendly reinforcement solutions for the rubber industry.</p>
+                <h2 className='excellence-head'>Trusted Partnerships</h2>
+                <p className='excellence-para'>Excellence doesn’t end with our products — it extends to our relationships. We work closely with our partners, understanding their needs and delivering on time, every time.</p>
             </div>
             </div>
          <div className='excellence-cards'>

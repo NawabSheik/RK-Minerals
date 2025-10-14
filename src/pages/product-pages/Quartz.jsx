@@ -20,8 +20,8 @@ function TalcChip() {
           Quartz powder is finely ground crystalline silica, processed from
           natural high-grade quartz. It is known for its high silica content,
           chemical stability, and uniform particle size distribution. Our
-          quartz powder is widely used in glass, ceramics, paints, foundry,
-          construction, and electronics due to its purity, brightness, and
+          quartz powder is widely used in glass, rubber, ceramics, soaps & detergents
+           due to its purity, brightness, and
           reliable performance in industrial applications.
         </p>
       </div>
@@ -58,13 +58,12 @@ function TalcChip() {
         <div className='product-packaging-offers-section'>
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
-              Available in 50 kg HDPE bags, jumbo bags, and customized packing
+              Available in 25kg, 50 kg HDPE bags & jumbo bags for domestic and export shipments
             </h2>
           </div>
           <div className="product-packaging-offer-2">
             <h2 className="packaging-offer-description">
-              Strong supply chain ensuring timely delivery across domestic &
-              export markets
+              Available in mesh size ranging from 100 to 300 mesh as per industry requirements
             </h2>
           </div>
         </div>
@@ -122,7 +121,7 @@ function TalcPowder() {
         <div className='product-packaging-offers-section'>
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
-              Available in 50 kg HDPE bags, jumbo bags, and bulk shipments
+              Available in loose and jumbo bags for bulk domestic and export shipments
             </h2>
           </div>
           <div className="product-packaging-offer-2">

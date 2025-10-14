@@ -20,7 +20,7 @@ function TalcPowder() {
         <p className="product-para">
           Wollastonite is a naturally occurring calcium silicate mineral valued
           for its unique combination of brightness, low moisture, high
-          whiteness, and acicular (needle-like) structure. It enhances strength,
+          whiteness. It enhances strength,
           durability, and thermal stability in end products. Widely used in
           ceramics, plastics, paints, rubber, and friction products, our
           wollastonite ensures consistent performance and superior reinforcing
@@ -31,7 +31,7 @@ function TalcPowder() {
       <div className="product-usp-section">
         <div className='product-usp-left'>
           <div className="product-usp">
-            <h2 className="product-usps">Acicular structure for reinforcement</h2>
+            <h2 className="product-usps">Consistent performance and Superior Reinforcing </h2>
             <h2 className="product-usps">High whiteness and brightness</h2>
             <h2 className="product-usps">Excellent thermal and dimensional stability</h2>
             <h2 className="product-usps">Low moisture and consistent quality</h2>
@@ -60,7 +60,7 @@ function TalcPowder() {
         <div className='product-packaging-offers-section'>
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
-              Available in 50 kg HDPE bags, jumbo bags, and customized supply
+              Available in 50 kg HDPE bags & jumbo bags, for domestic and export shipments.
             </h2>
           </div>
           <div className="product-packaging-offer-2">

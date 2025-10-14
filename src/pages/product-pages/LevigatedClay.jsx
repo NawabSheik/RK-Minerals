@@ -21,7 +21,7 @@ function TalcPowder() {
           Levigated clay is a specially processed form of china clay, refined
           through levigation to remove impurities and enhance brightness. It is
           highly suitable for industries demanding premium whiteness and
-          smoothness, such as ceramics, paper, paints, and cosmetics, ensuring
+          smoothness, such as ceramics, paper, paints, ensuring
           consistent quality and superior performance.
         </p>
       </div>
@@ -48,7 +48,7 @@ function TalcPowder() {
           RK Minerals produces levigated clay with unmatched whiteness,
           brightness, and smoothness. By removing impurities through advanced
           processing, our clay meets the demands of industries that require
-          superior aesthetics and consistency in ceramics, paints, and paper
+          superior consistency in ceramics, paints, and paper
           applications.
         </p>
       </div>
@@ -58,7 +58,7 @@ function TalcPowder() {
         <div className='product-packaging-offers-section'>
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
-              Available in 50 kg HDPE bags, jumbo bags, and bulk loads
+              Available in loose jumbo bags, for domestic and export shipments.
             </h2>
           </div>
           <div className="product-packaging-offer-2">
