@@ -33,6 +33,7 @@ const Brand = () => {
             <a href="/about" onClick={() => setIsOpen(false)}>About</a>
             <a href="/industries" onClick={() => setIsOpen(false)}>Industries</a>
              <a href="/products" onClick={() => setIsOpen(false)}>Products</a>
+             <a href="/speciality-minerals" onClick={() => setIsOpen(false)}>Speciality Minerals</a>
             <a href="/business-operations" onClick={() => setIsOpen(false)}>Business Operations</a>
           </nav>
           

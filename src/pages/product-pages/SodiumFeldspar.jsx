@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 import Brand from '../../components/Brand';
 import SodiumFeldsparImage from '../../assets/products/sodium-feldspar-hero.png';
-import TalcTopImage from "../../assets/products/talc-top-web.png";
+import SodiumGrainsTopImage from "../../assets/products/sodium feldspar grains td.png";
+import SodiumPowderTopImage from "../../assets/products/sodium feldspar td.png";
 import Cta from '../../components/cta';
 import Swiper from 'swiper';
 // import Swiper styles
@@ -37,7 +38,7 @@ function TalcChip() {
           </div>
         </div>
         <div className="product-usp-right">
-          <img src={TalcTopImage}/>
+          <img src={SodiumPowderTopImage}/>
         </div>
       </div>
 
@@ -101,7 +102,7 @@ function TalcPowder() {
           </div>
         </div>
         <div className="product-usp-right">
-          <img src={TalcTopImage}/>
+          <img src={SodiumGrainsTopImage}/>
         </div>
       </div>
 

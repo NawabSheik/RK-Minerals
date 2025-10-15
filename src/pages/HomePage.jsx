@@ -7,37 +7,44 @@ import GlobalStats from "../components/GlobalStats";
 import ReactFullpage from "@fullpage/react-fullpage";
 import Footer from '../components/Footer';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Mousewheel, Pagination, EffectFade, } from 'swiper/modules';
+import 'swiper/css/effect-fade';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+
+
 
 function HomePage() {
   return (
-    <div className="App">
-      <ReactFullpage
-        debug
-        licenseKey="xxxxxxxxxxxxxxxxxxxxxxxxx"
-        render={() => (
-          <ReactFullpage.Wrapper>
-            <div className="section"><MainPage /></div>
- 
-            <div className="section"><About/></div>
-            <div className="section"><ProductsPage/></div>
-            <div className="section"><Industries/></div>
-             <div className="section"><GlobalStats/></div>
-             <div className="section"><Footer/></div>
-
-         
-          </ReactFullpage.Wrapper>
-        )}
-      />
-    </div>
+    <>
+      <Swiper
+        direction={'vertical'}
+        slidesPerView={1}
+        effect={'fade'}
+        spaceBetween={30}
+         fadeEffect={{ crossFade: true }}
+        mousewheel={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Mousewheel, Pagination, EffectFade]}
+        className="mySwiper"
+      >
+        <SwiperSlide><MainPage/></SwiperSlide>
+        <SwiperSlide><About/></SwiperSlide>
+        <SwiperSlide><ProductsPage/></SwiperSlide>
+        <SwiperSlide><Industries/></SwiperSlide>
+        <SwiperSlide><GlobalStats/></SwiperSlide>
+        <SwiperSlide><Footer/></SwiperSlide>
+       
+      </Swiper>
+    </>
   );
 }
-    // <div>
-    //   <MainPage className="main-section"/>
-    //   <About/>
-    //   <ProductsPage/>
-    //   <Industries/>
-    //   <GlobalStats/>
-    // </div>
-  
+   
 
 export default HomePage

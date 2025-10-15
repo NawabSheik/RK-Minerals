@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 import Brand from '../../components/Brand';
 import TalcImage from '../../assets/products/talc-hero.png';
-import TalcTopImage from "../../assets/products/talc-top-web.png";
+import TalcTopImage from "../../assets/products/talc td.png";
+import TalcChipsTopImage from "../../assets/products/talc-chips td.png";
 import Cta from '../../components/cta';
 import Swiper from 'swiper';
 // import Swiper styles
@@ -37,7 +38,7 @@ function TalcChip() {
           </div>
         </div>
         <div className="product-usp-right">
-          <img src={TalcTopImage}/>
+          <img src={TalcChipsTopImage}/>
         </div>
       </div>
 

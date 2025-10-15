@@ -110,7 +110,7 @@ const Industries = () => {
           }           
           }}
         modules={[Autoplay, Pagination]} // ✅ Include Autoplay and Navigation here
-        className="mySwiper"
+        className="mySwiper industry-swiper"
       >
         <SwiperSlide>
           <div className="industry-slide">

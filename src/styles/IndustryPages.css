@@ -83,8 +83,16 @@
     line-height: 1.75rem;
 }
 
-@media(max-width:1000px){
+.industry-swiper{
+    margin-top:1rem;
+    height:80% !important;
+}
 
+
+@media(max-width:1000px){
+    .industry-swiper{
+        height:70% !important;
+    }
     .industry-head{
         width:90%;
         text-align: center;

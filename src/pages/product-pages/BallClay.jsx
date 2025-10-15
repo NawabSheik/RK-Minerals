@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Brand from '../../components/Brand';
 import BallClayImage from '../../assets/products/ball-clay-hero.png';
-import TalcTopImage from "../../assets/products/talc-top-web.png";
+import BallTopImage from "../../assets/products/ball-clay td.png";
 import Cta from '../../components/cta';
 import Swiper from 'swiper';
 // import Swiper styles
@@ -35,7 +35,7 @@ function TalcPowder() {
           </div>
         </div>
         <div className="product-usp-right">
-          <img src={TalcTopImage}/>
+          <img src={BallTopImage}/>
         </div>
       </div>
 

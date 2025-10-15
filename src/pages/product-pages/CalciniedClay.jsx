@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Brand from '../../components/Brand';
 import CalcinedImage from '../../assets/products/calcined-clay-hero.png';
-import TalcTopImage from "../../assets/products/talc-top-web.png";
+import CalcinedTopImage from "../../assets/products/calcined-clay td.png";
 import Cta from '../../components/cta';
 // import Swiper styles
 import 'swiper/css';
@@ -38,7 +38,7 @@ function TalcPowder() {
           </div>
         </div>
         <div className="product-usp-right">
-          <img src={TalcTopImage}/>
+          <img src={CalcinedTopImage}/>
         </div>
       </div>
 

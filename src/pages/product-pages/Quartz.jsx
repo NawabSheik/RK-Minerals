@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import Brand from '../../components/Brand';
 import QuartzImage from '../../assets/products/quartz-hero.png';
-import TalcTopImage from "../../assets/products/talc-top-web.png";
+import QuartzTopImage from "../../assets/products/quartz td.png";
 import Cta from '../../components/cta';
 import Swiper from 'swiper';
+import QuartzGrains from "../../assets/products/quartz grains td.png";
 // import Swiper styles
 import 'swiper/css';
 
@@ -37,7 +38,7 @@ function TalcChip() {
           </div>
         </div>
         <div className="product-usp-right">
-          <img src={TalcTopImage}/>
+          <img src={QuartzTopImage}/>
         </div>
       </div>
 
@@ -100,7 +101,7 @@ function TalcPowder() {
           </div>
         </div>
         <div className="product-usp-right">
-          <img src={TalcTopImage}/>
+          <img src={QuartzGrains}/>
         </div>
       </div>
 

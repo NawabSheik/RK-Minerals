@@ -1,13 +1,13 @@
 import React from 'react'
-import Talc from "../assets/products/talc.png"
-import SodiumFeldspar from "../assets/products/sodium-feldspar.png"
-import PotassiumFeldspar from "../assets/products/potassium-feldspar.png"
-import Wollastonite from "../assets/products/wollastonite.png"
-import Quartz from "../assets/products/quartz.png"
-import ChinaClay from "../assets/products/china-clay.png"
-import BallClay from "../assets/products/ball-clay.png"
-import LevigatedClay from "../assets/products/levigated-clay.png"
-import CalcinedClay from "../assets/products/calcined-clay.png"
+import Talc from "../assets/products/Talc L.png"
+import SodiumFeldspar from "../assets/products/sodium-feldspar L.png"
+import PotassiumFeldspar from "../assets/products/potassium-feldspar L.png"
+import Wollastonite from "../assets/products/wollastonite L.png"
+import Quartz from "../assets/products/quartz L.png"
+import ChinaClay from "../assets/products/china clay L.png"
+import BallClay from "../assets/products/ball clay L.png"
+import LevigatedClay from "../assets/products/levigated-clay L.png"
+import CalcinedClay from "../assets/products/calcined-clay L.png"
 import "../styles/Products.css";
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
