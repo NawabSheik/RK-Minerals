@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Brand from '../../components/Brand';
-import PotassiumImage from '../../assets/products/potassium-feldspar-hero.png';
+import PotassiumImage from '../../assets/products/Potassium Feldspar Hero.png';
 import PotassiumGrainsTopImage from "../../assets/products/potassium feldspar grains td.png";
 import PotassiumPowderTopImage from "../../assets/products/potassium-feldspar td.png";
 import Cta from '../../components/cta';
