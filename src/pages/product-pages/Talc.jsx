@@ -8,14 +8,14 @@ import Swiper from 'swiper';
 // import Swiper styles
 import 'swiper/css';
 import Applications from '../../components/applications';
-import Paper from "../../assets/industries/Paper.png";
+import PaperImage from "../../assets/industries/Paper.png";
 import Glass from "../../assets/industries/Glass.png";
 import Rubber from "../../assets/industries/Rubber.png";
 import Soap from "../../assets/industries/Soap.png";
 import Ceramics from "../../assets/industries/Ceramics.png";
 
  const productSlides = [
-    { name: "Paper", img: Paper, link: "/industries/paper" },
+    { name: "Paper", img: PaperImage, link: "/industries/paper" },
     { name: "Glass", img: Glass, link: "/industries/glass" },
     { name: "Rubber", img: Rubber, link: "/industries/rubber" },
     { name: "Soap", img: Soap, link: "/industries/soaps" },
