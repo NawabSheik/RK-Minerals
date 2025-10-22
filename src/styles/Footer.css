@@ -13,17 +13,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width:80%;
-    background: #627ca47a;
-    backdrop-filter: blur(42px);
-    -webkit-backdrop-filter: blur(42px);
+    width:85%;
+    border:1px solid #021432;
     padding:2rem;
     border-radius:30px;
 }
 
 .branding{
-    font-size:4rem;
-    color:#458;
+    width:30%;
+    
 }
 
 .footer-social{
@@ -70,6 +68,7 @@
         flex-direction: column;
         gap:3rem;
         padding:1rem;
+        border:none;
     }
 
     .footer-row{
@@ -87,10 +86,14 @@
     }
 
     .footer-social{
-        gap:2rem;
+        gap:3rem;
     }
     .branding{
-        font-size:3.5rem;
-       
+        width:90%;
+        margin-bottom:2rem;
     }
+}
+
+.copyright{
+    color:#021432;
 }

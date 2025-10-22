@@ -1,7 +1,5 @@
-import React, {useEffect, useRef} from 'react';
+import React from 'react';
 import "../styles/Industries.css";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Ceramics from "../assets/industries/ceramics.png";
 import Glass from "../assets/industries/glass.png";
 import Paper from "../assets/industries/paper.png";
@@ -9,172 +7,59 @@ import Rubber from "../assets/industries/rubber.png";
 import Soap from "../assets/industries/soap.png";
 import Coating from "../assets/industries/coating.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/pagination';
-import {Link} from "react-router-dom";
-
-
-
-
+import 'swiper/css/navigation';
+import { Link } from "react-router-dom";
 
 const Industries = () => {
-    
-  // return (
-  //   <div className="industries-page">
-  //     <div className="industries-section">
-  //       <div className="industries-left-most">
-  //           <div className="industry-top">
-  //               <div className="industry-image">
-  //                   <img src={Ceramics}/>
-  //               </div>
-  //                   <h1 className="industry-name"> Ceramics </h1>
+  const slides = [
+    { name: "Paper", img: Paper, link: "/industries/paper" },
+    { name: "Glass", img: Glass, link: "/industries/glass" },
+    { name: "Coating", img: Coating, link: "/industries/paint" },
+    { name: "Ceramics", img: Ceramics, link: "/industries/ceramics" },
+    { name: "Rubber", img: Rubber, link: "/industries/rubber" },
+    { name: "Soaps & Detergents", img: Soap, link: "/industries/soaps" },
+  ];
 
-  //           </div>
-  //           <div className="industry-bottom">
-  //               <div className="industry-image">
-  //                   <img src={Paper}/>
-  //               </div>
-  //                   <h1 className="industry-name"> Paper </h1>
-
-  //           </div>
-            
-  //       </div>
-  //       <div className="industries-center-right">
-
-  //         <div className="industries-top">
-  //         <div className="industry-top-left">
-  //           <div className="industry-image">
-  //                   <img src={Glass}/>
-  //               </div>
-  //                   <h1 className="industry-name"> Glass </h1>
-  //         </div>
-  //         <div className="industry-top-right">
-  //           <div className="industry-image">
-  //                   <img src={Coating}/>
-  //               </div>
-  //                   <h1 className="industry-name"> Coatings </h1>
-  //         </div>
-  //         </div>
-
-  //         <div className="industries-bottom">
-  //         <div className="industry-bottom-left">
-  //           <div className="industry-image">
-  //                   <img src={Rubber}/>
-  //               </div>
-  //                   <h1 className="industry-name"> Rubber </h1>
-  //         </div>
-  //         <div className="industry-bottom-right">
-  //           <div className="industry-image">
-  //                   <img src={Soap}/>
-  //               </div>
-  //                   <h1 className="industry-name"> Soap </h1>
-  //         </div>
-  //         </div>
-          
-
-
-
-  //       </div>
-  //     </div>
-  //   </div>
-  // )
-
-  return(
+  return (
     <div className='industries-page'>
+      <div className='industries-mobile-heading'>INDUSTRIES WE SERVE</div>
+      <p className="industries-para">Relied on by manufacturers. Refined with expertise. Made for performance.</p>
 
-      <div  className='industries-section'>
-        <div className='industries-mobile-heading'>
-        INDUSTRIES WE SERVE
-      </div>
       <Swiper
         slidesPerView={3}
         spaceBetween={20}
-        speed={2000} 
+        speed={500}
         navigation={true}
-        autoplay={{
-          delay: 0,
-          disableOnInteraction: false,
-        }}
         loop={true}
-        freeMode={true} 
-        freeModeMomentum={false}
-        
+      
+        modules={[Autoplay, Navigation]}
+        className="industries-section"
         breakpoints={{
-          320: {
-            slidesPerView: 1.1,},
-          640: {
-            slidesPerView: 2, },
-          1024:{
-            slidesPerView: 3,
-          }           
-          }}
-        modules={[Autoplay, Pagination]} // ✅ Include Autoplay and Navigation here
-        className="mySwiper industry-swiper"
+          320: { slidesPerView: 1.1 },
+          640: { slidesPerView: 1.5 },
+          1024: { slidesPerView: 4 },
+        }}
       >
-        <SwiperSlide>
-          <div className="industry-slide">
-          <div className="industry-image">
-               <img src={Paper}/>
-           </div>
-             <h1 className="industry-name"> <Link to="/industries/paper">Paper</Link>  </h1> 
-
-         </div>
-        </SwiperSlide>
-         <SwiperSlide>
-          <div className="industry-slide">
-          <div className="industry-image">
-               <img src={Glass}/>
-           </div>
-             <h1 className="industry-name"> <Link to="/industries/glass">Glass</Link> </h1> 
-
-         </div>
-        </SwiperSlide>
-         <SwiperSlide>
-          <div className="industry-slide">
-          <div className="industry-image">
-               <img src={Coating}/>
-           </div>
-             <h1 className="industry-name"> <Link to="/industries/paint">Coating</Link> </h1> 
-
-         </div>
-        </SwiperSlide>
-         <SwiperSlide>
-          <div className="industry-slide">
-          <div className="industry-image">
-               <img src={Ceramics}/>
-           </div>
-             <h1 className="industry-name"> <Link to="/industries/ceramics">Ceramics</Link> </h1> 
-
-         </div>
-        </SwiperSlide>
-         <SwiperSlide>
-          <div className="industry-slide">
-          <div className="industry-image">
-               <img src={Rubber}/>
-           </div>
-             <h1 className="industry-name"> <Link to="/industries/rubber">Rubber</Link> </h1> 
-
-         </div>
-        </SwiperSlide>
-         <SwiperSlide>
-          <div className="industry-slide">
-          <div className="industry-image">
-               <img src={Soap}/>
-           </div>
-             <h1 className="industry-name"> <Link to="/industries/soaps">Soaps & Detergents</Link> </h1> 
-
-         </div>
-        </SwiperSlide> 
+        {slides.map((slide, index) => (
+          <SwiperSlide key={index}>
+            <div className="industry-slide">
+              <Link to={slide.link}>
+              <div className="industry-image">
+                
+                <img src={slide.img} alt={slide.name} />
+              </div>
+              <h1 className="industry-name">
+                {slide.name}
+              </h1>
+              </Link>
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
-
-      <div className='industries-heading'>
-        INDUSTRIES WE SERVE
-      </div>
-      </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Industries
+export default Industries;

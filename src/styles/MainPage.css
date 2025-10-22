@@ -32,7 +32,7 @@
 @media(max-width:1000px){
     .main-page{
         width: 100vw;
-        height:96vh;
+        height:100vh;
         overflow:hidden;
     
         
@@ -83,7 +83,48 @@
         position:absolute;
         color:#445E88;
         z-index:-2;
-        left:0%;
+        left:12%;
+       
+    }
+
+    .quote-stroke{
+        display: block;
+        width:50%;
+        height:2px;
+        background-color:#445E88;
+        opacity:100%;
+    }
+
+    .quote-top{
+        font-size:5rem;
+        line-height:5rem;;
+        font-weight: 700;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+
+    .quote-bottom{
+        font-size:3rem;
+        
+        font-weight: 300;
+        margin-top: 0rem;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+}
+
+@media(max-width:768px){
+    .main-text{
+        top:15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position:absolute;
+        color:#445E88;
+        z-index:-2;
+        left:2%;
+       
     }
 
     .quote-stroke{

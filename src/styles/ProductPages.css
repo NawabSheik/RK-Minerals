@@ -2,9 +2,9 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(to right, #DFEAF2 0%, #92B2E8 100%);
+    background:#fff;
     flex-direction: column;
-    overflow-x:hidden
+    overflow-x:hidden;
     
 }
 
@@ -15,11 +15,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width:80%;
-    background: #627ca47a;
-    backdrop-filter: blur(42px);
-    -webkit-backdrop-filter: blur(42px);
+    width:85%;
+    background: #021432;
     flex-direction: column;
+    position:relative;
     margin-bottom: 10vh;
 }
 
@@ -27,17 +26,18 @@
 
 
 .product-explained>img{
-    width:90%;
+    width:80%;
     position:relative;
+    z-index:2;
 }
 
 .product-page-name{
     position:absolute;
     font-size:25rem;
-    color:#445E88;
+    color:#fff;
     opacity:13%;
-    z-index:-2;
-    top:20vh;
+    z-index:0;
+    top:40vh;
 }
 
 .potassium-feldspar{
@@ -53,10 +53,10 @@
 }
 
 .ball-clay{
-    font-size: 18rem;
+    font-size: 14rem;
     text-align: center;
-    line-height: 15rem;
-    top:10vh;
+    line-height: 12rem;
+    top:30vh;
 }
 
 .levigated-clay{
@@ -75,9 +75,9 @@
 
 .china-clay{
     text-align: center;
-    top:12vh;
-    line-height: 18rem;
-    font-size:22rem;
+    top:30vh;
+    line-height: 12rem;
+    font-size:14rem;
 }
 
 .wollastonite{
@@ -101,8 +101,8 @@
         width: 98%;
     }
     .product-explained>img{
-        width:160%;
-        position:relative;
+        width:120%;
+      
         margin-right:3%;
     }
     .product-page-name{
@@ -121,6 +121,12 @@
         font-size:5rem;
         line-height: 5rem;
     }
+
+    .china-clay{
+        top:15vh;
+        font-size:6rem;
+        line-height:6rem;
+    }
 }
 
 
@@ -129,7 +135,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+    width:100%;
 }
 
 .product-choice-btns{
@@ -148,7 +154,7 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
-    background-color: #445E88;
+    background-color: #021432;
     color:#fff;
     font-weight: 500;
     width:25rem;
@@ -158,13 +164,14 @@
 }
 
 .active-choice{
-    background-color:#445E88;
+    background-color:#021432;
     color:#fff;
 }
 
 .inactive-choice{
     background-color: #fff;
-    color:#445E88;
+    color:#021432;
+    border:1px solid #021432;
     
 }
 
@@ -187,7 +194,7 @@
 
 .product-content{
     display: flex;
-    width: 80%;
+    width: 85%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -198,9 +205,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #627ca47a;
-    backdrop-filter: blur(42px);
-    -webkit-backdrop-filter: blur(42px);
+    background: #fff;
+    border:2px solid #021432;
+    border-bottom: 0px solid #fff;
     padding:2rem;
     border-radius: 30px 30px 0px 0px;
 
@@ -211,32 +218,36 @@
     font-family: "Raleway", sans-serif  !important;
     text-align: center;
     font-size:2.5rem;
-    color:#ffffff;
+    color:#021432;
     font-weight: 600;
 }
 
 .product-details-stroke{
     width:70%;
     height:1px;
-    background-color: #fff;
+    background-color: #021432;
     margin-top:1rem;
     margin-bottom:1rem;
 }
 
 .product-para{
     font-family: "Raleway", sans-serif  !important;
-    color:#ffffff;
+    color:#021432;
     font-size: 1.65rem;
-    width:90%;
+    width:90% !important;
     text-align: center;
     opacity:90%;
-    font-weight: 400;
+    font-weight: 400 !important;
 }
 
 @media(max-width:1000px){
 
     .product-content{
         width: 98%;
+    }
+
+    .product-details{
+        margin-top:1rem;
     }
     .product-details-head{
         font-size:1.25rem;
@@ -256,9 +267,8 @@
     justify-content: center;
     flex-direction: row;
     width: 100%;
-    background: #627ca47a;
-    backdrop-filter: blur(42px);
-    -webkit-backdrop-filter: blur(42px);
+    border:2px solid #021432;
+    border-top: 0px solid #fff;
     border-radius: 0px 0px 30px 30px;
 }
 
@@ -282,7 +292,7 @@
     text-align: center;
     color:#fff;
     font-family: "Raleway", sans-serif  !important;
-    background-color: #445E88;
+    background-color: #021432;
     padding: 1rem;
     border-radius: 30px;
 }
@@ -323,7 +333,7 @@
         text-align: center;
         color:#fff;
         font-family: "Raleway", sans-serif  !important;
-        background-color: #445E88;
+       
         padding: 0.5rem;
         border-radius: 30px;
     }
@@ -334,7 +344,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #02193fe4;
+    background-color: #fff;
+    border:2px solid #021432;
     padding:2rem;
     border-radius: 30px;
  
@@ -347,6 +358,7 @@
     padding:2rem;
     border-radius: 30px;
     margin-top:4rem;
+    width:100%;
 }
 .product-packaging-head{
     font-size: 3rem;
@@ -369,6 +381,7 @@
     align-items: center;
     justify-content: center;
     width: 45%;
+    height:20vh;
     border:1px solid #fff;
     border-radius: 20px;
 }
@@ -384,6 +397,7 @@
 
 .product-packaging-offer-2{
     display: flex;
+    height:20vh;
     align-items: center;
     justify-content: center;
     width: 45%;
@@ -414,9 +428,11 @@
     }
     .product-packaging-offer-1{
         width: 100%;
+        height:15vh;
     }
     .product-packaging-offer-2{
         width: 100%;
+        height:15vh;
     }
 }
 

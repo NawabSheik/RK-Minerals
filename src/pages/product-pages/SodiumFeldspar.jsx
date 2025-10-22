@@ -1,12 +1,25 @@
 import React, {useState} from 'react'
 import Brand from '../../components/Brand';
-import SodiumFeldsparImage from '../../assets/products/sodium-feldspar-hero.png';
+import SodiumFeldsparImage from '../../assets/products/Sodium Feldspar Hero.png';
 import SodiumGrainsTopImage from "../../assets/products/sodium feldspar grains td.png";
 import SodiumPowderTopImage from "../../assets/products/sodium feldspar td.png";
 import Cta from '../../components/cta';
-import Swiper from 'swiper';
+import Applications from '../../components/applications';
+import Paper from "../../assets/industries/Paper.png";
+import Glass from "../../assets/industries/Glass.png";
+import Rubber from "../../assets/industries/Rubber.png";
+import Soap from "../../assets/industries/Soap.png";
+import Ceramics from "../../assets/industries/Ceramics.png";
 // import Swiper styles
 import 'swiper/css';
+
+ const productSlides = [
+    { name: "Paper", img: Paper, link: "/industries/paper" },
+    { name: "Glass", img: Glass, link: "/industries/glass" },
+    { name: "Rubber", img: Rubber, link: "/industries/rubber" },
+    { name: "Soap", img: Soap, link: "/industries/soaps" },
+    { name: "Ceramics", img: Ceramics, link: "/industries/ceramics" },
+  ];
 
 
 
@@ -53,6 +66,8 @@ function TalcChip() {
           long-lasting finished products with enhanced brightness and strength.
         </p>
       </div>
+      <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+      
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
@@ -118,6 +133,8 @@ function TalcPowder() {
           materials.
         </p>
       </div>
+
+        <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>

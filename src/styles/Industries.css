@@ -1,109 +1,112 @@
-.industries-page{
-   
-    width:100vw;
-    height:100vh;
+.industries-page {
+    width: 100vw;
+    height: 100vh;
     background: #fff;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    overflow:hidden;
-    position:relative;
-
-
-
-}
-
-.industries-section{
-    margin-top:8vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width:80%;
-    height:80vh;
-    background: #fff;
-
-    border:1px solid #02193f;
-    padding-left:1rem;
-    padding-right:1rem;
-    border-radius:40px;
-    position:relative;
-    overflow:hidden;
-    z-index:0;
-    gap:1rem;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
 }
 
-.industries-heading{
- 
-    font-size:5rem;
-    font-weight: 200;
-    color:#021432;
-  
-}
-
-
- .mySwiper{
-    width:100%;
-    overflow: visible;
-    padding-left:2rem;
-  
- }
-
- .industry-slide{
-    background-color:#fff;
-    border:1px solid #021432;
-    border-radius: 30px;
- }
-
-.industry-image>img{
-
-    border-radius: 30px 30px 0px 0px;
-    width:100%;
- 
-}
-
-.industry-name{
+.industries-mobile-heading {
+    font-size: 5rem;
+    padding:1rem;
+    line-height: 5rem;
+    margin-top: 5rem;
+    letter-spacing: -1px;
+    font-family: "Raleway", sans-serif;
     text-align: center;
-    color:#fff;
-    padding-top:1rem;
-    padding-bottom: 1rem;
-    font-family: Raleway, sans-serif;
-    font-size:1.5rem;
-
-}
-
-.industries-mobile-heading{
-    display: none;
-}
-
-@media(max-width:1000px){
-    .industries-page{
-        width: 100vw;
-        height: 100vh;
-    }
-    .industries-heading{
-        display: none;
-    }
-
-    .industries-section{
-       
-        display: flex;
-        align-items: center;
-        justify-content: center;
-       
-        width: 95%;
-       
-        background-color: #ffffff00;
-        margin-bottom:15vh;
-    }
-    .industries-mobile-heading{
-    display: block;
-    font-size: 3.25rem;
-    text-align: center;
-    color:#021432;
-    opacity:100%;
+    color: #021432;
     font-weight: 800;
-    line-height: 3rem;
-    margin-bottom:2rem;
+    
 }
+
+.industries-para {
+    font-size: 1.5rem;
+    color: #021432;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.industries-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 55%;
+    margin-top: 2rem;
+    overflow: visible; /* allow scaling without clipping */
+}
+
+/* Base style for all slides */
+.swiper-slide {
+    opacity: 1;             /* fully visible */
+    transform: scale(0.9);  /* slightly smaller for side slides */
+    transition: all 0.3s ease;
+    pointer-events: none;    /* disable links for non-visible slides */
+}
+
+/* Center / visible slides */
+.swiper-slide-visible {
+    transform: scale(1);     /* scale up visible slides */
+    pointer-events: auto;    /* links clickable */
+    z-index: 10;
+}
+
+/* Slide card */
+.industry-slide {
+    border: 1px solid #021432;
+    border-radius: 30px;
+    margin-top: 1rem;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 5px 5px 0px rgb(2, 20, 50);
+}
+
+/* Image styling */
+.industry-image > img {
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+    filter: saturate(0%);
+    transition: filter 0.5s ease, transform 0.3s ease;
+    pointer-events: all;
+}
+
+.industry-image > img:hover {
+    filter: saturate(100%);
+ 
+}
+
+/* Industry name styling */
+.industry-name {
+    text-align: center;
+    margin: 1rem 0;
+    font-family: Raleway, sans-serif;
+    font-size: 1.5rem;
+    color: #021432; /* dim non-visible slides */
+}
+
+.swiper-slide-visible .industry-name a {
+    color: #021432;  /* highlight visible links */
+    pointer-events: auto;
+    transition: color 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media(max-width:768px) {
+    .industries-mobile-heading {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+    .industries-para {
+        font-size: 1rem;
+        width: 80%;
+    }
+    .industries-section {
+        width: 95%;
+        background-color: transparent;
+    }
 }

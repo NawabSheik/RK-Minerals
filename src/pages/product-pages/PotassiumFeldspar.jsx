@@ -7,7 +7,21 @@ import Cta from '../../components/cta';
 import Swiper from 'swiper';
 // import Swiper styles
 import 'swiper/css';
+import Applications from '../../components/applications';
+import Paper from "../../assets/industries/Paper.png";
+import Glass from "../../assets/industries/Glass.png";
+import Rubber from "../../assets/industries/Rubber.png";
+import Soap from "../../assets/industries/Soap.png";
+import Ceramics from "../../assets/industries/Ceramics.png";
 
+
+ const productSlides = [
+    { name: "Paper", img: Paper, link: "/industries/paper" },
+    { name: "Glass", img: Glass, link: "/industries/glass" },
+    { name: "Rubber", img: Rubber, link: "/industries/rubber" },
+    { name: "Soap", img: Soap, link: "/industries/soaps" },
+    { name: "Ceramics", img: Ceramics, link: "/industries/ceramics" },
+  ];
 
 
 function TalcChip() {
@@ -54,6 +68,8 @@ function TalcChip() {
           applications.
         </p>
       </div>
+
+        <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
@@ -120,6 +136,8 @@ function TalcPowder() {
           products.
         </p>
       </div>
+
+        <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>

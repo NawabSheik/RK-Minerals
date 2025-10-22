@@ -1,0 +1,68 @@
+.application-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    border: 2px solid #021432;
+    background-color: #fff;
+    padding:2rem;
+    margin-top:2rem;
+    border-radius:30px;
+}
+
+.application-heading{
+    font-size:3.5rem;
+    font-weight: 500;
+    font-family: "Raleway",sans-serif;
+    color:#021432;
+    text-align: center;
+}
+
+.application-desc{
+    margin-top:2rem;
+    font-size:1.5rem;
+    font-family:"Raleway",sans-serif;
+    font-weight:400;
+    text-align: center;
+    color:#021432;
+    width:60%;
+}
+
+.applications{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+
+.application-names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90% !important;
+    padding:0.5rem;
+}
+
+@media(max-width:768px){
+
+    .application-section{
+        padding:1rem;
+        padding-top:2rem;
+
+    }
+    .application-heading{
+        font-size:2rem;
+    }
+
+    .application-desc{
+        font-size:1.25rem;
+        width:90%;
+    }
+
+    .application-names{
+        width:100% !important;
+    }
+}
+

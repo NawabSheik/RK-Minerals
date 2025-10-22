@@ -16,7 +16,11 @@
 
 body{
   overflow-x: hidden;
-  background: linear-gradient(to right, #DFEAF2 0%, #92B2E8 100%);
+  background: #fff;
+}
+
+a, button, input, textarea {
+  -webkit-tap-highlight-color: transparent;
 }
 
 

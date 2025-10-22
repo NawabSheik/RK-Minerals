@@ -1,163 +1,75 @@
-import React from 'react'
-import Talc from "../assets/products/Talc L.png"
-import SodiumFeldspar from "../assets/products/sodium-feldspar L.png"
-import PotassiumFeldspar from "../assets/products/potassium-feldspar L.png"
-import Wollastonite from "../assets/products/wollastonite L.png"
-import Quartz from "../assets/products/quartz L.png"
-import ChinaClay from "../assets/products/china clay L.png"
-import BallClay from "../assets/products/ball clay L.png"
-import LevigatedClay from "../assets/products/levigated-clay L.png"
-import CalcinedClay from "../assets/products/calcined-clay L.png"
-import "../styles/Products.css";
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import '../styles/Products.css';
 
+// Import all product images
+import Talc from "../assets/products/Talc L.png";
+import SodiumFeldspar from "../assets/products/sodium-feldspar L.png";
+import PotassiumFeldspar from "../assets/products/potassium-feldspar L.png";
+import Wollastonite from "../assets/products/wollastonite L.png";
+import Quartz from "../assets/products/quartz L.png";
+import ChinaClay from "../assets/products/china clay L.png";
+import BallClay from "../assets/products/ball clay L.png";
+import LevigatedClay from "../assets/products/levigated-clay L.png";
+import CalcinedClay from "../assets/products/calcined-clay L.png";
+
+const products = [
+  { name: "Talc", image: Talc, link: "/products/talc" },
+  { name: "Sodium Feldspar", image: SodiumFeldspar, link: "/products/sodium-feldspar" },
+  { name: "Potassium Feldspar", image: PotassiumFeldspar, link: "/products/potassium-feldspar" },
+  { name: "Wollastonite", image: Wollastonite, link: "/products/wollastonite" },
+  { name: "Quartz", image: Quartz, link: "/products/quartz" },
+  { name: "China Clay", image: ChinaClay, link: "/products/china-clay" },
+  { name: "Ball Clay", image: BallClay, link: "/products/ball-clay" },
+  { name: "Levigated Clay", image: LevigatedClay, link: "/products/levigated-clay" },
+  { name: "Calcined Clay", image: CalcinedClay, link: "/products/calcined-clay" },
+];
 
 const ProductsPage = () => {
   return (
     <div className="product-home">
+      <h2 className='product-mobile-head'>OUR PRODUCTS</h2>
+      <p className='product-home-para'>
+        High-quality industrial minerals relied on by leading global manufacturers — ensured through in-house laboratories, continuous research and development, and consistent product excellence.
+      </p>
+
       <div className="product-section">
-        <h2 className='product-mobile-head'>
-          PRODUCTS <br/> WE OFFER
-        </h2>
-        {/* <div className="all-products">
-        <div className="product">
-            <img src={talc}/>
-            <h2 href="" className='product-name'> <Link to="/products/talc">Talc</Link></h2>
-        </div>
-        <div className="product">
-            <img src={feldspar}/>
-            <h2 className='product-name'>Feldspar</h2>
-        </div>
-        <div className="product">
-            <img src={feldspar}/>
-            <h2 className='product-name'>Feldspar</h2>
-        </div>
-        <div className="product">
-            <img src={feldspar}/>
-            <h2 className='product-name'>Feldspar</h2>
-        </div>
-        
-        
-        </div> */}
-       <Swiper
-  slidesPerView={3}
-  spaceBetween={20}
-   speed={2000} 
-  navigation={true}
-  autoplay={{
-    delay: 0,
-    disableOnInteraction: false,
-  }}
-  loop={true}
-   freeMode={true} 
-   freeModeMomentum={false}
-  breakpoints={{
-    320: { slidesPerView: 1.25 },
-    640: { slidesPerView: 2 },
-    1024: { slidesPerView: 4 },
-  }}
-  modules={[Autoplay, Pagination, Navigation]} // ✅ Include Autoplay and Navigation here
-  className="mySwiper"
-  style={{
-    transitionTimingFunction: "linear", // 👈 removes easing for true marquee feel
-  }}
->
-        <SwiperSlide>
-          <div className="product">
-        
-               <img src={Talc}/>
-     
-             <h1 className="product-name"> <Link to="/products/talc">Talc</Link> </h1> 
-
-         </div>
-        </SwiperSlide>
-         <SwiperSlide>
-          <div className="product">
-         
-               <img src={SodiumFeldspar}/>
-       
-             <h1 className="product-name"> <Link to="/products/sodium-feldspar">Sodium Feldspar</Link> </h1> 
-
-         </div>
-        </SwiperSlide>
-         <SwiperSlide>
-          <div className="product">
-         
-               <img src={PotassiumFeldspar}/>
-      
-             <h1 className="product-name"> <Link to="/products/potassium-feldspar">Potassium Feldspar</Link> </h1> 
-
-         </div>
-        </SwiperSlide>
-         <SwiperSlide>
-          <div className="product">
-          
-               <img src={Quartz}/>
-       
-             <h1 className="product-name"> <Link to="/products/quartz">Quartz</Link> </h1> 
-
-         </div>
-        </SwiperSlide>
-         <SwiperSlide>
-          <div className="product">
-        
-               <img src={ChinaClay}/>
-           
-             <h1 className="product-name"> <Link to="/products/china-clay">China Clay</Link> </h1> 
-
-         </div>
-        </SwiperSlide>
-         <SwiperSlide>
-          <div className="product">
-          
-               <img src={CalcinedClay}/>
-
-             <h1 className="product-name"> <Link to="/products/calcinied-clay">Calcined Clay</Link> </h1> 
-
-         </div>
-        </SwiperSlide> 
-        <SwiperSlide>
-          <div className="product">
-       
-               <img src={BallClay}/>
-       
-             <h1 className="product-name"> <Link to="/products/ball-clay">Ball Clay</Link> </h1> 
-
-         </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="product">
-       
-               <img src={LevigatedClay}/>
-       
-             <h1 className="product-name"> <Link to="/products/levigated-clay">Levigated Clay</Link> </h1> 
-
-         </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="product">
-       
-               <img src={Wollastonite}/>
-       
-             <h1 className="product-name"> <Link to="/products/wollastonite">Wollastonite</Link> </h1> 
-
-         </div>
-        </SwiperSlide>
-
-        
-      </Swiper>
-
-       
-        <h1 className="product-head">PRODUCTS</h1>
+        <Swiper
+          slidesPerView={3}
+          spaceBetween={20}
+          speed={500}
+          navigation={true}
+          grabCursor={true}
+          loop={true}
+          breakpoints={{
+            320: { slidesPerView: 1.25 },
+            640: { slidesPerView: 1.75 },
+            1024: { slidesPerView: 4 },
+          }}
+          modules={[Navigation]}
+          className="mySwiper"
+          style={{ transitionTimingFunction: "linear" }}
+        >
+          {products.map((product, index) => (
+            <SwiperSlide key={index}>
+               <Link to={product.link}>
+              <div className="product">
+                <img src={product.image} alt={product.name} />
+                <h1 className="product-name">
+                 {product.name}
+                </h1>
+              </div>
+              </Link>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
-   
     </div>
-  )
-}
+  );
+};
 
-export default ProductsPage
+export default ProductsPage;

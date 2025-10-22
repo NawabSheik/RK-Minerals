@@ -5,6 +5,7 @@ import "../styles/AboutPage.css"
 import Timeline from "../assets/timeline2.svg";
 import Cta from "../components/cta";
 import Counter from '../components/Counter';
+import Team from '../components/Team';
 
 const AboutPage = () => {
   return (
@@ -43,7 +44,7 @@ const AboutPage = () => {
           </div>
           <div className='stat-div'>
             <div className='stat-head'>
-               <Counter target={1000000} suffix="+" />
+               <Counter target={100000} suffix="+" />
             </div>
             <p className='stat-text'> MT Material Supplied</p>
           </div>
@@ -70,7 +71,7 @@ const AboutPage = () => {
           <h2 className="card-heading">Innovation-led, with team</h2>
           <span className="card-stroke"></span>
           </div>
-          <p className="card-para">We continuously invest in process improvements, quality controls, new mineral solutions, and ensure long-term viability.</p>
+          <p className="card-para">We continuously invest in advanced process improvements, rigorous quality controls, innovative new mineral solutions, sustainable technologies, and ensure the reliability.</p>
         </div>
         <div className="card">
           <div className="card-head">
@@ -92,7 +93,7 @@ const AboutPage = () => {
       <div className="mission-values">
         <div className="mission-section">
     
-          <p className="mission-statement">We want to be India’s preferred and reliable supplier of high-quality industrial minerals, enabling our customers’ success through product excellence, dependable delivery, and continuous innovation.</p>
+          <p className="mission-statement"><span class="bold">We want to be India’s preferred and reliable supplier of high-quality industrial minerals</span>, enabling our customers’ success through product excellence, dependable delivery, and continuous innovation.</p>
         </div>
 
 
@@ -110,28 +111,30 @@ const AboutPage = () => {
         <h2 className="message-head">MESSAGE FROM THE FOUNDER</h2>
         <span className="stroke"></span>
         <p className="message-para">Every great company begins with a belief. For me, it was the belief that minerals are not just raw materials, but the backbone of industries that shape everyday life. With this conviction, I laid the foundation of RK Minerals in 2003, determined to build a company known for quality, trust, and responsibility.
-<br/>
-<br/>
-From our early days as a trading house to becoming a mining and processing enterprise with a global outlook, our journey has been marked by resilience, innovation, and a commitment to our core values.
-<br/>
-<br/>
+            <br/>
+            <br/>
+            From our early days as a trading house to becoming a mining and processing enterprise with a global outlook, our journey has been marked by resilience, innovation, and a commitment to our core values.
+            <br/>
+            <br/>
 
 
-Today, RK Minerals is more than a supplier — we are partners in progress for industries across ceramics, glass, paints, cement, and beyond. Our goal has always been clear: to provide dependable products & foster long-term relationships. 
-I am deeply proud of our team, whose dedication and expertise continue to drive our success. As we look to the future, we remain committed to creating value & building trust with every stakeholder.
+            Today, RK Minerals is more than a supplier — we are partners in progress for industries across ceramics, glass, paints, cement, and beyond. Our goal has always been clear: to provide dependable products & foster long-term relationships. 
+            I am deeply proud of our team, whose dedication and expertise continue to drive our success. As we look to the future, we remain committed to creating value & building trust with every stakeholder.
 
-At RK Minerals, we don’t just deliver minerals — we deliver possibilities.</p>
-<div class="message-author">
-  <h2 class="author-name">Sanjay Jain</h2>
-  <h3 class="author-position">Founder</h3>
-</div>
-      </div>
+            At RK Minerals, we don’t just deliver minerals — we deliver possibilities.</p>
+            <div class="message-author">
+              <h2 class="author-name">Sanjay Jain</h2>
+              <h3 class="author-position">Founder</h3>
+            </div>
+          </div>
+
+      <Team/>
       <Cta/>
       </div>
+      
 
       
-      
-   
+    
     </div>
   )
 }
