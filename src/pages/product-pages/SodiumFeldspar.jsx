@@ -5,11 +5,11 @@ import SodiumGrainsTopImage from "../../assets/products/sodium feldspar grains t
 import SodiumPowderTopImage from "../../assets/products/sodium feldspar td.png";
 import Cta from '../../components/cta';
 import Applications from '../../components/applications';
-import Paper from "../../assets/industries/Paper.png";
-import Glass from "../../assets/industries/Glass.png";
-import Rubber from "../../assets/industries/Rubber.png";
-import Soap from "../../assets/industries/Soap.png";
-import Ceramics from "../../assets/industries/Ceramics.png";
+import Paper from "../../assets/industries/Paper2.png";
+import Glass from "../../assets/industries/Glass2.png";
+import Rubber from "../../assets/industries/Rubber2.png";
+import Soap from "../../assets/industries/Soap2.png";
+import Ceramics from "../../assets/industries/Ceramics2.png";
 // import Swiper styles
 import 'swiper/css';
 
