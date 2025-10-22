@@ -9,10 +9,10 @@ import Swiper from 'swiper';
 import 'swiper/css';
 import Applications from '../../components/applications';
 import PaperImage from "../../assets/industries/Paper2.png";
-import GlassImage from "../../assets/industries/Glass.png";
-import Rubber from "../../assets/industries/Rubber.png";
-import Soap from "../../assets/industries/Soap.png";
-import Ceramics from "../../assets/industries/Ceramics.png";
+import GlassImage from "../../assets/industries/Glass2.png";
+import Rubber from "../../assets/industries/Rubber2.png";
+import Soap from "../../assets/industries/Soap2.png";
+import Ceramics from "../../assets/industries/Ceramics2.png";
 
  const productSlides = [
     { name: "Paper", img: PaperImage, link: "/industries/paper" },
