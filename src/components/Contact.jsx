@@ -1,11 +1,53 @@
 import React from 'react';
 import "../styles/Contact.css";
 import Brand from './Brand';
+import { MdLocalPhone } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
+import { IoHome } from "react-icons/io5";
+
 const Contact = () => {
   return (
     <div className="contact-page">
     
         <Brand/>
+
+      <div className="contact-info">
+        <div className="mobile-div">
+          <div className="mobile-icon">
+            <MdLocalPhone size={50} />
+          </div>
+
+          <div className='mobile-numbers'>
+            <h2 className='mobile-number'>Akshay Jain - +91-88832 68326</h2>
+            <h2 className='mobile-number'>Sanjay Jain - +91-94141 12692</h2>
+            <h2 className='mobile-number'>Payas Jain  - +91-94260 04400</h2>
+          </div>
+
+        </div>
+        <div className="mobile-div">
+          <div className="mobile-icon">
+            <MdEmail size={50} />
+          </div>
+
+          <div className='mobile-numbers'>
+            <h2 className='mobile-number'> info@rkmineralsindia.co.in</h2>
+            <h2 className='mobile-number'>rkimpex692@gmail.com</h2>
+            <h2 className='mobile-number'>rkimpex2692@gmail.com</h2>
+          </div>
+
+        </div>
+        <div className="mobile-div">
+          <div className="mobile-icon">
+            <IoHome size={50} />
+          </div>
+
+          <div className='mobile-numbers'>
+            <h2 className='mobile-number'>A-144<br/> RK Colony, Bhilwara<br/> (311001), Rajasthan</h2>
+            
+          </div>
+
+        </div>
+      </div>
       <div className="contact-div">
         {/* Left side: Google Map */}
         <div className="contact-div-left">

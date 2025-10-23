@@ -37,13 +37,18 @@
     color:#fff;
     opacity:13%;
     z-index:0;
-    top:40vh;
+    top:15vh;
+}
+
+.talc{
+    font-size:25rem;
 }
 
 .potassium-feldspar{
     font-size:12rem;
     text-align: center;
     line-height:10rem;
+    top:30vh;
 }
 
 .sodium-feldspar{
@@ -61,14 +66,14 @@
 
 .levigated-clay{
     text-align: center;
-    top:30vh;
+    top:20vh;
     line-height: 12rem;
     font-size:13rem;
 }
 
 .calcinied-clay{
     text-align: center;
-    top:30vh;
+    top:20vh;
     line-height: 12rem;
     font-size:15rem;
 }
@@ -110,22 +115,49 @@
         top:15vh;
     }
 
+    .talc{
+        font-size:8rem;
+        top:10vh;
+    }
     .potassium-feldspar{
-        top:20vh;
-        font-size:5rem;
-        line-height: 5rem;
+        top:10vh;
+        font-size:4rem;
+        line-height: 4rem;
     }
 
     .sodium-feldspar{
-        top:20vh;
-        font-size:5rem;
-        line-height: 5rem;
+        top:10vh;
+        font-size:4rem;
+        line-height: 4rem;
     }
 
     .china-clay{
-        top:15vh;
+        top:10vh;
         font-size:6rem;
-        line-height:6rem;
+        line-height:5rem;
+    }
+
+    .wollastonite{
+        font-size:2.5rem;
+        top:20vh;
+    }
+
+    .ball-clay{
+        font-size:6rem;
+        line-height: 5rem;
+        top:10vh;
+    }
+
+    .levigated-clay{
+        font-size:4rem;
+        line-height: 4rem;
+        top:5vh;
+    }
+
+    .calcinied-clay{
+        font-size:4rem;
+        line-height: 4rem;
+        top:10vh;
     }
 }
 
@@ -241,10 +273,14 @@
 }
 
 @media(max-width:1000px){
-
     .product-content{
         width: 98%;
     }
+}
+
+@media(max-width:768px){
+
+    
 
     .product-details{
         margin-top:1rem;
@@ -254,7 +290,7 @@
     }
     .product-para{
         font-size:1.1rem;
-        width:98%;
+        width:100% !important;
         text-align: justify;
         text-align-last: center;
     }
@@ -283,6 +319,7 @@
     justify-content: center;
     flex-direction: column;
     gap:2rem;
+
 }
 
 .product-usps{
@@ -293,6 +330,7 @@
     color:#fff;
     font-family: "Raleway", sans-serif  !important;
     background-color: #021432;
+   
     padding: 1rem;
     border-radius: 30px;
 }
@@ -308,8 +346,30 @@
     width:100%;
 }
 
-
 @media(max-width:1000px){
+
+    .product-usp-left{
+        width:40%;
+    }
+    .product-usps{
+        font-size:0.9rem;
+        padding:0.5rem;
+        margin-left:1rem;
+        width:100%;
+        
+    }
+
+    .product-usp-right{
+        width:60%;
+        
+    }
+
+    .product-usp-right>img{
+        width:100%;
+    }
+}
+
+@media(max-width:768px){
 
     .product-usp-section{
         flex-direction: column;
@@ -333,8 +393,8 @@
         text-align: center;
         color:#fff;
         font-family: "Raleway", sans-serif  !important;
-       
-        padding: 0.5rem;
+        
+        padding: 1rem;
         border-radius: 30px;
     }
 }
@@ -405,7 +465,7 @@
     border-radius: 20px;
 }
 
-@media(max-width:1000px){
+@media(max-width:768px){
 
     .product-packaging-offers-section{
         flex-direction: column;

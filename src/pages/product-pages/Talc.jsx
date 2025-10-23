@@ -165,7 +165,7 @@ const Talc = () => {
         <Brand className="brand-section"/>
              <div className="product-explained" >
             <img src={TalcImage} alt="talc-image"/>
-            <h1 className="product-page-name">TALC</h1>
+            <h1 className="product-page-name talc">TALC</h1>
             </div>
                 <div className="product-choice">
                 <div className="product-choice-btns" >
