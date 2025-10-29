@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Leader1 from "../assets/leaders/leader1.png";
 import Leader2 from "../assets/leaders/leader2.png";
 import Leader3 from "../assets/leaders/leader3.png";
+import Leader4 from "../assets/leaders/leader4.png";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -66,6 +67,24 @@ const Team = () => {
               Schlumberger (Energy). Presently, he personally owns and
               manages multiple registered business entities in his homeland,
               Malaysia. 
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className='team-slide'>
+            <img src={Leader4} className='team-lead-img'/>
+            <div className='team-lead-right'>
+              <h2 className='team-lead-name'>Mrs. Payas Jain</h2>
+              <h3 className='team-lead-position'>Manager - Export Sales</h3>
+              <p className="team-lead-para">
+              A highly motivated and confident professional, focused to grow
+              the business at major centers of this industry. Payas jain is
+              Chartered Accountant and has worked with a CA firm and a
+              renowned MNC named as DHL International in the field of
+              Finance, accounting and Banking. With this passion and zeal for
+              acquiring new business, she is always aggressive in realizing
+              credible clients in new markets. 
               </p>
             </div>
           </div>

@@ -6,7 +6,7 @@ import Logo from "../assets/rk-logo2.svg";
 
 
 import "../styles/Footer.css";
-import Cta from './cta';
+import Cta from './CallToAction';
 
 
 

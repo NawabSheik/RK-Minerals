@@ -5,7 +5,7 @@ import "../styles/GlobalStats.css"
 const GlobalStats = () => {
   return (
     <div className='global-page'>
-      <h2 className='global-head'>Engineered for Global Standards</h2>
+      <h2 className='global-head'>Perfect Solution For Minerals</h2>
       <span className='global-stroke'></span>
       <p className='global-para'>Precision, expertise, and innovation come together to deliver minerals trusted by world-leading manufacturers. Every process, every product — perfected through science, backed by integrity.</p>
 
@@ -21,7 +21,7 @@ const GlobalStats = () => {
                                         recognized quality standard.</p>
         </div>
         <div className='global-box'>
-          <h2 className='global-box-head'>Provide Free Samples </h2>
+          <h2 className='global-box-head'>Free Testing Samples </h2>
           <p className='global-box-para'>Get legitimate free samples of
 our products. If you are
 interested in having one,

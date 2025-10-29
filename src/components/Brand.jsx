@@ -15,7 +15,9 @@ const Brand = () => {
             <Menu  size={28} className="menu-icon" />
             
           </button>
+          <Link to="/">
           <img src={Logo} className="logo"/>
+          </Link>
         </div>
 
         {/* Contact button */}

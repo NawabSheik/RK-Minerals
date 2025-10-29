@@ -3,9 +3,10 @@ import Brand from '../components/Brand';
 import AboutHero from "../assets/About-Hero.jpg";
 import "../styles/AboutPage.css"
 import Timeline from "../assets/timeline2.svg";
-import Cta from "../components/cta";
+import Cta from "../components/CallToAction";
 import Counter from '../components/Counter';
 import Team from '../components/Team';
+
 
 const AboutPage = () => {
   return (

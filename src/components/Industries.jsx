@@ -25,7 +25,7 @@ const Industries = () => {
   return (
     <div className='industries-page'>
       <div className='industries-mobile-heading'>INDUSTRIES WE SERVE</div>
-      <p className="industries-para">Relied on by manufacturers. Refined with expertise. Made for performance.</p>
+      <p className="industries-para">Relied on by global manufacturers. Refined with expertise. Made for performance.</p>
 
       <Swiper
         slidesPerView={3}

@@ -18,9 +18,9 @@ const Contact = () => {
           </div>
 
           <div className='mobile-numbers'>
-            <h2 className='mobile-number'>Akshay Jain - +91-88832 68326</h2>
-            <h2 className='mobile-number'>Sanjay Jain - +91-94141 12692</h2>
-            <h2 className='mobile-number'>Payas Jain  - +91-94260 04400</h2>
+            <h2 className='mobile-number'>Akshay Jain +91-8883268326</h2>
+            <h2 className='mobile-number'>Sanjay Jain +91-9414112692</h2>
+            <h2 className='mobile-number'>Payas Jain +91-9426004400</h2>
           </div>
 
         </div>
@@ -42,7 +42,7 @@ const Contact = () => {
           </div>
 
           <div className='mobile-numbers'>
-            <h2 className='mobile-number'>A-144<br/> RK Colony, Bhilwara<br/> (311001), Rajasthan</h2>
+            <h2 className='mobile-number'>A-114<br/> RK Colony, Bhilwara<br/> (311001), Rajasthan</h2>
             
           </div>
 
