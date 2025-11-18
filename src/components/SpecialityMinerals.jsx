@@ -1,5 +1,7 @@
 import React from 'react';
-import Quartz from "../assets/products/quartz.png";
+import RkTb from "../assets/products/RkTb.png";
+import RkHighCast from "../assets/products/HighCast.png";
+import RkTd from "../assets/products/RkTd.png";
 import { Link } from 'react-router-dom';
 import "../styles/SpecialityMinerals.css";
 
@@ -12,16 +14,16 @@ const SpecialityMinerals = () => {
 
       <div className='speciality-div'>
         <div className="mineral">
-        <img src={Quartz}/>
-        <h1 className="product-name"> <Link to="/products/quartz">Ball Clay RK TB</Link> </h1> 
+        <img src={RkTb}/>
+        <h1 className="product-name"> <Link to="/speciality-minerals/rk-ball-clay">Ball Clay RK TB</Link> </h1> 
         </div>
         <div className="mineral">
-        <img src={Quartz}/>
-        <h1 className="product-name"> <Link to="/products/quartz">RK BC</Link> </h1> 
+        <img src={RkHighCast}/>
+        <h1 className="product-name"> <Link to="/speciality-minerals/rk-bc">RK BC</Link> </h1> 
         </div>
         <div className="mineral">
-        <img src={Quartz}/>
-        <h1 className="product-name"> <Link to="/products/quartz">RK High Cast</Link> </h1> 
+        <img src={RkTd}/>
+        <h1 className="product-name"> <Link to="/speciality-minerals/rk-high-cast">RK High Cast</Link> </h1> 
         </div>
       </div>
     </div>

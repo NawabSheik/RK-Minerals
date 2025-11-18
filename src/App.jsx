@@ -27,8 +27,13 @@ import SpecialityMinerals from './components/SpecialityMinerals';
 import BusinessOperations from './pages/BusinessOperations';
 import SplashScreen from './components/SplashScreen';
 import Contact from './components/Contact';
+import RKBC from "./pages/speciality-minerals/RKBC";
+import RKHighCast from "./pages/speciality-minerals/RKHighCast";
+import BallClayRk from "./pages/speciality-minerals/BallClayRk";
+import SwiperContext from "./SwiperContext";
 
 const App = () => {
+  const [swiper, setSwiper] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -42,7 +47,9 @@ const App = () => {
   }
 
   return (
+    
     <Router>
+       <SwiperContext.Provider value={{ swiper, setSwiper }}>
       <div className="app-style">
         <NavBar className="nav-section"/>
         <Routes>
@@ -61,6 +68,9 @@ const App = () => {
           <Route path="/products/calcined-clay" element={<CalciniedClay />} />
           <Route path="/products/sodium-feldspar" element={<SodiumFeldspar />} />
           <Route path="/products/potassium-feldspar" element={<PotassiumFeldspar />} />
+          <Route path="/speciality-minerals/rk-bc" element={<RKBC />} />
+          <Route path="/speciality-minerals/rk-high-cast" element={<RKHighCast />} />
+          <Route path="/speciality-minerals/rk-ball-clay" element={<BallClayRk />} />
           <Route path="/industries/paint" element={<Paint />} />
           <Route path="/industries/paper" element={<Paper />} />
           <Route path="/industries/ceramics" element={<Ceramic />} />
@@ -72,7 +82,9 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+       </SwiperContext.Provider>
     </Router>
+   
   );
 };
 

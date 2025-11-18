@@ -1,11 +1,12 @@
 import React from 'react';
 import Brand from '../../components/Brand';
-import ClayImage from '../../assets/products/china-clay.png';
-import QuartzImage from '../../assets/products/quartz.png';
-import TalcImage from '../../assets/products/talc.png';
-import WollastoniteImage from '../../assets/products/wollastonite.png';
-import CalcinedClayImage from '../../assets/products/calcined-clay.png';
+import ClayImage from '../../assets/products/china clay L.png';
+import QuartzImage from '../../assets/products/quartz L.png';
+import TalcImage from '../../assets/products/Talc L.png';
+import WollastoniteImage from '../../assets/products/wollastonite L.png';
+import CalcinedClayImage from '../../assets/products/calcined-clay L.png';
 import Cta from '../../components/cta';
+import { Link } from 'react-router-dom';
 
 const Paint = () => {
   return (
@@ -38,84 +39,84 @@ const Paint = () => {
         <div className="industry-products-section">
 
             <div className="industry-products">
-              <div className='industry-products-card'>
-                  <h2 className="product-name-ind">Clay</h2>
+              <Link to="/products/china-clay" className='industry-products-card'>
+                  <h2 className="product-name-ind">China Clay</h2>
                   <div className='product-requirements'>
                       <div className='requirements-top'>
-                          <h2 className='product-requirement'>Al2O3 – 36%</h2>
-                          <h2 className='product-requirement'>SiO2 – 46%</h2>
+                          <h2 className='product-requirement'>Al₂O₃ – 36%</h2>
+                          <h2 className='product-requirement'>SiO₂ – 46%</h2>
                       </div>
                       <div className='requirements-bottom'>
-                          <h2 className='product-requirement'>Fe2O3 – 0.5%</h2>
-                          <h2 className='product-requirement'>Brightness – High</h2>
+                          <h2 className='product-requirement'>Fe₂O₃ – 0.5%</h2>
+                          <h2 className='product-requirement'>TiO₂ – 0.3%</h2>
                       </div>
                   </div>
                   <img src={ClayImage}/>
-              </div>
+              </Link>
 
-              <div className='industry-products-card'>
+              <Link to="/products/quartz" className='industry-products-card'>
                   <h2 className="product-name-ind">Quartz</h2>
                   <div className='product-requirements'>
                       <div className='requirements-top'>
-                          <h2 className='product-requirement'>SiO2 – 99%</h2>
-                          <h2 className='product-requirement'>Fe2O3 – 0.04%</h2>
+                          <h2 className='product-requirement'>SiO₂ – 99%</h2>
+                          <h2 className='product-requirement'>Fe₂O₃ – 0.04%</h2>
                       </div>
                       <div className='requirements-bottom'>
-                          <h2 className='product-requirement'>Al2O3 – 0.2%</h2>
-                          <h2 className='product-requirement'>Whiteness – Excellent</h2>
+                          <h2 className='product-requirement'>Al₂O₃ – 0.2%</h2>
+                          <h2 className='product-requirement'>CaO – 0.05%</h2>
                       </div>
                   </div>
                   <img src={QuartzImage}/>
-              </div>
+              </Link>
             </div>
 
             <div className="industry-products">
-              <div className='industry-products-card'>
+              <Link to="/products/talc" className='industry-products-card'>
                   <h2 className="product-name-ind">Talc</h2>
                   <div className='product-requirements'>
                       <div className='requirements-top'>
-                          <h2 className='product-requirement'>SiO2 – 63%</h2>
+                          <h2 className='product-requirement'>SiO₂ – 63%</h2>
                           <h2 className='product-requirement'>MgO – 31%</h2>
                       </div>
                       <div className='requirements-bottom'>
                           <h2 className='product-requirement'>CaO – 0.6%</h2>
-                          <h2 className='product-requirement'>Whiteness – High</h2>
+                          <h2 className='product-requirement'>Fe₂O₃ – 0.3%</h2>
                       </div>
                   </div>
                   <img src={TalcImage}/>
-              </div>
+              </Link>
 
-              <div className='industry-products-card'>
+              <Link to="/products/calcined-clay" className='industry-products-card'>
                   <h2 className="product-name-ind">Calcined Clay</h2>
                   <div className='product-requirements'>
                       <div className='requirements-top'>
-                          <h2 className='product-requirement'>Al2O3 – 40%</h2>
-                          <h2 className='product-requirement'>SiO2 – 52%</h2>
+                          <h2 className='product-requirement'>Al₂O₃ – 40%</h2>
+                          <h2 className='product-requirement'>SiO₂ – 52%</h2>
                       </div>
                       <div className='requirements-bottom'>
-                          <h2 className='product-requirement'>Fe2O3 – 1%</h2>
-                          <h2 className='product-requirement'>Brightness – Enhanced</h2>
+                          <h2 className='product-requirement'>Fe₂O₃ – 1%</h2>
+                          <h2 className='product-requirement'>TiO₂ – 0.5%</h2>
                       </div>
                   </div>
                   <img src={CalcinedClayImage}/>
-              </div>
+              </Link>
             </div>
 
             <div className="industry-products">
-              <div className='industry-products-card'>
+              <Link to="/products/wollastonite" className='industry-products-card'>
                   <h2 className="product-name-ind">Wollastonite</h2>
                   <div className='product-requirements'>
                       <div className='requirements-top'>
                           <h2 className='product-requirement'>CaO – 48%</h2>
-                          <h2 className='product-requirement'>SiO2 – 51%</h2>
+                          <h2 className='product-requirement'>SiO₂ – 51%</h2>
                       </div>
                       <div className='requirements-bottom'>
-                          <h2 className='product-requirement'>Fe2O3 – 0.3%</h2>
-                          <h2 className='product-requirement'>Whiteness – Stable</h2>
+                          <h2 className='product-requirement'>Fe₂O₃ – 0.3%</h2>
+                          <h2 className='product-requirement'>Al₂O₃ – 0.2%</h2>
                       </div>
                   </div>
                   <img src={WollastoniteImage}/>
-              </div>
+              </Link>
             </div>
         </div>
 
@@ -129,7 +130,7 @@ const Paint = () => {
         <div className='excellence-cards'>
             <div className='excellence-card'>
                 <h2 className='excellence-head'>Quality Assurance</h2>
-                <p className='excellence-para'>Our quality control labs ensure each mineral batch has consistent brightness, purity, and particle size for reliable paint applications.</p>
+                <p className='excellence-para'>Our quality control labs ensure each mineral batch has consistent composition, purity, and particle size for reliable paint applications.</p>
             </div>
             <div className='excellence-card'>
                 <h2 className='excellence-head'>Trusted Partnerships</h2>
@@ -138,8 +139,8 @@ const Paint = () => {
         </div>
         <div className='excellence-cards'>
             <div className='excellence-card'>
-                <h2 className='excellence-head'>Customer-Centric Approach</h2>
-                <p className='excellence-para'>We work closely with paint manufacturers to provide tailored mineral solutions that improve performance and finish.</p>
+                <h2 className='excellence-head'>Technical Expertise</h2>
+                <p className='excellence-para'>Our mineral specialists continuously refine processing methods to ensure stable composition for various paint systems.</p>
             </div>
             <div className='excellence-card'>
                 <h2 className='excellence-head'>Global Reach</h2>
@@ -149,9 +150,8 @@ const Paint = () => {
       </div>
 
       <Cta/>
-</div>
-
+    </div>
   )
 }
 
-export default Paint
+export default Paint;

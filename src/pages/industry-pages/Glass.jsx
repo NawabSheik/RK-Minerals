@@ -78,7 +78,7 @@ const Paint = () => {
                     </div>
                     <div className='requirements-bottom'>
                         <h2 className='product-requirement'>Fe₂O₃: &lt;0.05%</h2>
-                        <h2 className='product-requirement'>High Thermal Stability</h2>
+                        <h2 className='product-requirement'>TiO₂ : Nil</h2>
                     </div>
                 </div>
                 <img src={QuartzImage}/>
@@ -102,8 +102,8 @@ const Paint = () => {
             </div>
          <div className='excellence-cards'>
             <div className='excellence-card'>
-                <h2 className='excellence-head'>Customer-Centric Approach</h2>
-                <p className='excellence-para'>We collaborate with manufacturers to provide tailored mineral solutions for superior glass quality.</p>
+                <h2 className='excellence-head'>Precision in Process</h2>
+                <p className='excellence-para'>From sourcing to delivery, every detail is executed with accuracy to ensure consistent and dependable outcomes.</p>
                 </div>
                 <div className='excellence-card'>
                 <h2 className='excellence-head'>Innovation Support</h2>

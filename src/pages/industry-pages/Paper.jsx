@@ -1,9 +1,10 @@
 import React from 'react';
 import Brand from '../../components/Brand';
 import TalcImage from '../../assets/products/talc.png';
-import ChinaClayImage from '../../assets/products/china-clay.png'
-import LevigatedClayImage from '../../assets/products/levigated-clay.png'
+import ChinaClayImage from '../../assets/products/china clay L.png'
+import LevigatedClayImage from '../../assets/products/levigated-clay L.png'
 import Cta from '../../components/cta';
+import { Link } from 'react-router-dom';
 
 const Paint = () => {
   return (
@@ -33,7 +34,7 @@ const Paint = () => {
             <div className="industry-products">
 
             {/* Talc */}
-            <div className='industry-products-card'>
+            <Link to="/products/talc" className='industry-products-card'>
                 <h2 className="product-name-ind">Talc</h2>
                 <div className='product-requirements'>
                     <div className='requirements-top'>
@@ -46,10 +47,10 @@ const Paint = () => {
                     </div>
                 </div>
                 <img src={TalcImage}/>
-            </div>
+            </Link>
 
             {/* China Clay */}
-            <div className='industry-products-card'>
+            <Link to="/products/china-clay" className='industry-products-card'>
                 <h2 className="product-name-ind">China Clay</h2>
                 <div className='product-requirements'>
                     <div className='requirements-top'>
@@ -62,13 +63,13 @@ const Paint = () => {
                     </div> 
                 </div>
                 <img src={ChinaClayImage}/>
-            </div>
+            </Link>
             </div>
 
             <div className="industry-products">
 
             {/* Levigated Clay */}
-            <div className='industry-products-card'>
+            <Link to="/products/levigated-clay" className='industry-products-card'>
                 <h2 className="product-name-ind">Levigated Clay</h2>
                 <div className='product-requirements'>
                     <div className='requirements-top'>
@@ -81,10 +82,11 @@ const Paint = () => {
                     </div>
                 </div>
                 <img src={LevigatedClayImage}/>
-            </div>
+            </Link>
+            
             </div>
         </div>
-        <p className='note-point'>* Available in powder or slurry form, these minerals are tailored to improve brightness, smoothness, and opacity in paper manufacturing.</p>
+        <p className='note-point'>* Available in powder or lump form, these minerals are tailored to improve brightness, smoothness, and opacity in paper manufacturing.</p>
       </div>
 
       <div className="industry-excellence">

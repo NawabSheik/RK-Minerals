@@ -1,15 +1,16 @@
 import React from 'react';
 import Brand from '../../components/Brand';
 
-import TalcImage from '../../assets/products/talc.png';
-import ChinaClayImage from '../../assets/products/china-clay.png';
-import WollastoniteImage from '../../assets/products/wollastonite.png';
-import BallClayImage from '../../assets/products/ball-clay.png';
-import LevigatedClayImage from '../../assets/products/levigated-clay.png'
-import SodiumFeldsparImage from '../../assets/products/sodium-feldspar.png';
-import PotassiumFeldsparImage from '../../assets/products/potassium-feldspar.png';
-import QuartzImage from '../../assets/products/quartz.png';
+import TalcImage from '../../assets/products/Talc L.png';
+import ChinaClayImage from '../../assets/products/china clay L.png';
+import WollastoniteImage from '../../assets/products/wollastonite L.png';
+import BallClayImage from '../../assets/products/ball clay L.png';
+import LevigatedClayImage from '../../assets/products/levigated-clay L.png'
+import SodiumFeldsparImage from '../../assets/products/sodium-feldspar L.png';
+import PotassiumFeldsparImage from '../../assets/products/potassium-feldspar L.png';
+import QuartzImage from '../../assets/products/quartz L.png';
 import Cta from '../../components/cta';
+import { Link } from 'react-router-dom';
 
 const Paint = () => {
   return (
@@ -40,7 +41,7 @@ const Paint = () => {
 
             <div className="industry-products">
                 {/* China Clay */}
-                <div className='industry-products-card'>
+                <Link to="/products/china-clay" className='industry-products-card'>
                     <h2 className="product-name-ind">China Clay</h2>
                     <div className='product-requirements'>
                         <div className='requirements-top'>
@@ -53,10 +54,10 @@ const Paint = () => {
                         </div> 
                     </div>
                     <img src={ChinaClayImage}/>
-                </div>
+                </Link>
 
                 {/* Talc */}
-                <div className='industry-products-card'>
+                <Link to="/products/talc" className='industry-products-card'>
                     <h2 className="product-name-ind">Talc Chips</h2>
                     <div className='product-requirements'>
                         <div className='requirements-top'>
@@ -65,50 +66,50 @@ const Paint = () => {
                         </div>
                         <div className='requirements-bottom'>
                             <h2 className='product-requirement'>Fe₂O₃: &lt;1%</h2>
-                            <h2 className='product-requirement'>Whiteness: 90%+</h2>
+                            <h2 className='product-requirement'>L Value &gt;  85%</h2>
                         </div>
                     </div>
                     <img src={TalcImage}/>
-                </div>
+                </Link>
             </div>
 
             <div className="industry-products">
                 {/* Potassium Feldspar */}
-                <div className='industry-products-card'>
+                <Link to="/products/potassium-feldspar" className='industry-products-card'>
                     <h2 className="product-name-ind">Potassium Feldspar</h2>
                     <div className='product-requirements'>
                         <div className='requirements-top'>
-                            <h2 className='product-requirement'>K₂O: 12–14%</h2>
+                            <h2 className='product-requirement'>K₂O: 10–12%</h2>
                             <h2 className='product-requirement'>SiO₂: 65–68%</h2>
                         </div>
                         <div className='requirements-bottom'>
                             <h2 className='product-requirement'>Al₂O₃: 18–20%</h2>
-                            <h2 className='product-requirement'>Fe₂O₃: &lt;0.5%</h2>
+                            <h2 className='product-requirement'>Fe₂O₃: &lt;0.10%</h2>
                         </div>
                     </div>
                     <img src={PotassiumFeldsparImage}/>
-                </div>
+                </Link>
 
                 {/* Sodium Feldspar */}
-                <div className='industry-products-card'>
+                <Link to="/products/sodium-feldspar" className='industry-products-card'>
                     <h2 className="product-name-ind">Sodium Feldspar</h2>
                     <div className='product-requirements'>
                         <div className='requirements-top'>
-                            <h2 className='product-requirement'>Na₂O: 10–12%</h2>
+                            <h2 className='product-requirement'>Na₂O: 9–10%</h2>
                             <h2 className='product-requirement'>SiO₂: 65–67%</h2>
                         </div>
                         <div className='requirements-bottom'>
                             <h2 className='product-requirement'>Al₂O₃: 18–20%</h2>
-                            <h2 className='product-requirement'>Fe₂O₃: &lt;0.5%</h2>
+                            <h2 className='product-requirement'>Fe₂O₃: &lt;0.10%</h2>
                         </div>
                     </div>
                     <img src={SodiumFeldsparImage}/>
-                </div>
+                </Link>
             </div>
 
             <div className="industry-products">
                 {/* Ball Clay */}
-                <div className='industry-products-card'>
+                <Link to="/products/ball-clay" className='industry-products-card'>
                     <h2 className="product-name-ind">Ball Clay</h2>
                     <div className='product-requirements'>
                         <div className='requirements-top'>
@@ -121,10 +122,10 @@ const Paint = () => {
                         </div>
                     </div>
                     <img src={BallClayImage}/>
-                </div>
+                </Link>
 
                 {/* Levigated Clay */}
-                <div className='industry-products-card'>
+                <Link to="/products/levigated-clay" className='industry-products-card'>
                     <h2 className="product-name-ind">Levigated Clay</h2>
                     <div className='product-requirements'>
                         <div className='requirements-top'>
@@ -137,26 +138,26 @@ const Paint = () => {
                         </div>
                     </div>
                     <img src={LevigatedClayImage}/>
-                </div>
+                </Link>
             </div>
 
             <div className="industry-products">
                 {/* Wollastonite */}
-                <div className='industry-products-card'>
+                <Link to="/products/wollastonite" className='industry-products-card'>
                     <h2 className="product-name-ind">Wollastonite</h2>
                     <div className='product-requirements'>
                         <div className='requirements-top'>
                             <h2 className='product-requirement'>CaSiO₃: 96–98%</h2>
-                            <h2 className='product-requirement'>CaO: 30–31%</h2>
+                            <h2 className='product-requirement'>CaO: 20–25%</h2>
                         </div>
                         <div className='requirements-bottom'>
-                            <h2 className='product-requirement'>SiO₂: 50–52%</h2>
-                            <h2 className='product-requirement'>Low Loss on Ignition (&lt;1%)</h2>
+                            <h2 className='product-requirement'>SiO₂: 60–65%</h2>
+                            <h2 className='product-requirement'>Al₂O₃: 28–34%</h2>
                         </div>
                     </div>
                     <img src={WollastoniteImage}/>
-                </div>
-                <div className='industry-products-card'>
+                </Link>
+                <Link to="/products/quartz" className='industry-products-card'>
                     <h2 className="product-name-ind">Quartz</h2>
                     <div className='product-requirements'>
                         <div className='requirements-top'>
@@ -164,12 +165,12 @@ const Paint = () => {
                             <h2 className='product-requirement'>CaO: 30–31%</h2>
                         </div>
                         <div className='requirements-bottom'>
-                            <h2 className='product-requirement'>SiO₂: 50–52%</h2>
+                            <h2 className='product-requirement'>SiO₂: 48–52%</h2>
                             <h2 className='product-requirement'>Low Loss on Ignition (&lt;1%)</h2>
                         </div>
                     </div>
                     <img src={QuartzImage}/>
-                </div>
+                </Link>
             </div>
 
         </div>

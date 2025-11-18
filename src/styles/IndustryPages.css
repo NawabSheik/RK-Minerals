@@ -182,7 +182,7 @@
     border-radius:30px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width:85%;
     /* background:linear-gradient(to bottom, #627ca4a5 0%, #02193fee 100%); */
     border:2px solid #021437;
@@ -202,6 +202,7 @@
 
 .industry-products{
     display: flex;
+  
     flex-direction: row;
 }
 
@@ -239,8 +240,10 @@
 
 .industry-products-card>img{
     width:80%;
-    height: auto;
+    margin-top:20%;
+
 }
+
 
 
 .product-name-ind{

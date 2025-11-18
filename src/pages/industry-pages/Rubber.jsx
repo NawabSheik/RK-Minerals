@@ -1,7 +1,7 @@
 import React from 'react';
 import Brand from '../../components/Brand';
 
-import TalcImage from '../../assets/products/talc.png';
+import TalcImage from '../../assets/products/talc powder.png';
 import CalcinedClayImage from '../../assets/products/calcined-clay.png';
 import WollastoniteImage from '../../assets/products/wollastonite.png';
 import ChinaClayImage from '../../assets/products/china-clay.png'
@@ -94,14 +94,14 @@ const Paint = () => {
                     </div>
                     <div className='requirements-bottom'>
                         <h2 className='product-requirement'>Fe₂O₃: &lt;1%</h2>
-                        <h2 className='product-requirement'>High Thermal Stability</h2>
+                        <h2 className='product-requirement'>TiO₂ : Nil</h2>
                     </div>
                 </div>
                 <img src={CalcinedClayImage}/>
             </div>
             </div>
         </div>
-        <p className='note-point'>* Available in powder form, these minerals provide reinforcement, reduce shrinkage, and improve processing in rubber compounding.</p>
+        <p className='note-point'>* Available in powder or lump form, these minerals provide reinforcement, reduce shrinkage, and improve processing in rubber compounding.</p>
       </div>
 
       <div className="industry-excellence">
