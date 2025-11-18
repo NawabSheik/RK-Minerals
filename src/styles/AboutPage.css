@@ -22,20 +22,23 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width:80%;
-    background: rgba(34, 34, 34, 0.292);;
-    backdrop-filter: blur(10px);
+    width:75%;
+    background: rgba(0, 0, 0, 0.315);;
+    backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(10px);
     padding:2rem;
+    margin-top:1rem;
     border-radius: 30px;
-    border:1px solid #ffffff2b
+    border:1px solid #ffffff2b;
+    gap:1.5rem;
 }
 
 .about-page-head{
     font-size:4.25rem;
     color:#fff;
     font-family: "Raleway",sans-serif;
-    font-weight: 300;
+    font-weight: 400;
+    letter-spacing: 0.25px;
 }
 
 .about-page-stroke{
@@ -53,7 +56,7 @@
     text-align: justify;
     text-align-last: center;
     font-family: "Raleway",sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .about-stats{
@@ -61,7 +64,7 @@
     align-items: center;
     justify-content: center;
     margin-top:2rem;
-    background: rgba(0, 0, 0, 0.065);
+    background: rgba(48, 48, 48, 0.311);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     width: 90%;
