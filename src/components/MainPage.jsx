@@ -1,5 +1,5 @@
 import React, {useEffect,useRef} from 'react';
-import Machinery from '../assets/machinery-img.png';
+import Machinery from '../assets/machinery-img.webp';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Brand from './Brand';

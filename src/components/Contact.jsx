@@ -31,7 +31,7 @@ const Contact = () => {
 
           <div className='mobile-numbers'>
             <h2 className='mobile-number'> info@rkmineralsindia.co.in</h2>
-            <h2 className='mobile-number'>rkimpex692@gmail.com</h2>
+            <h2 className='mobile-number'>rkminerals692@gmail.com</h2>
             <h2 className='mobile-number'>rkimpex2692@gmail.com</h2>
           </div>
 

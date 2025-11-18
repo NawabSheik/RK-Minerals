@@ -1,6 +1,6 @@
 import React from 'react';
 import Brand from '../components/Brand';
-import AboutHero from "../assets/About-Hero.jpg";
+import AboutHero from "../assets/About-Hero.webp";
 import "../styles/AboutPage.css"
 import Timeline from "../assets/timeline2.svg";
 import Cta from "../components/CallToAction";
