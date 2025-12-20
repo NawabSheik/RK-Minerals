@@ -16,10 +16,9 @@ import Ceramics from "../../assets/industries/Ceramics2.png";
 
 
  const productSlides = [
-    { name: "Paper", img: Paper, link: "/industries/paper" },
+    
     { name: "Glass", img: Glass, link: "/industries/glass" },
-    { name: "Rubber", img: Rubber, link: "/industries/rubber" },
-    { name: "Soap", img: Soap, link: "/industries/soaps" },
+    
     { name: "Ceramics", img: Ceramics, link: "/industries/ceramics" },
   ];
 
@@ -69,7 +68,7 @@ function TalcChip() {
         </p>
       </div>
 
-        <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+        <Applications desc="Our potassium feldspar is trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
@@ -137,14 +136,14 @@ function TalcPowder() {
         </p>
       </div>
 
-        <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+        <Applications desc="Our potassium feldspar grians are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
         <div className='product-packaging-offers-section'>
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
-              Available in loose form, 50 kg HDPE bags, and 1 MT jumbo bags to
+             50 kg HDPE bags, and 1 MT jumbo bags to
               meet bulk and export demands
             </h2>
           </div>

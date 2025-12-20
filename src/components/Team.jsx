@@ -53,24 +53,7 @@ const Team = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className='team-slide'>
-            <img src={Leader3} className='team-lead-img'/>
-            <div className='team-lead-right'>
-              <h2 className='team-lead-name'>Mr. R Vineeth</h2>
-              <h3 className='team-lead-position'>Business Advisor South East Asia Region</h3>
-              <p className="team-lead-para">
-              R.Vineeth, completed the CFAB ( Certificate of Finance,
-              Accounting and Business) In the past, he served in multiple
-              finance related roles within renowned multinational organisations
-              notably BDO (Public Accounting, Tax and Advisory) and
-              Schlumberger (Energy). Presently, he personally owns and
-              manages multiple registered business entities in his homeland,
-              Malaysia. 
-              </p>
-            </div>
-          </div>
-        </SwiperSlide>
+        
         <SwiperSlide>
           <div className='team-slide'>
             <img src={Leader4} className='team-lead-img'/>
@@ -85,6 +68,24 @@ const Team = () => {
               Finance, accounting and Banking. With this passion and zeal for
               acquiring new business, she is always aggressive in realizing
               credible clients in new markets. 
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className='team-slide'>
+            <img src={Leader3} className='team-lead-img'/>
+            <div className='team-lead-right'>
+              <h2 className='team-lead-name'>Mr. R Vineeth</h2>
+              <h3 className='team-lead-position'>Business Advisor South East Asia Region</h3>
+              <p className="team-lead-para">
+              R.Vineeth, completed the CFAB ( Certificate of Finance,
+              Accounting and Business) In the past, he served in multiple
+              finance related roles within renowned multinational organisations
+              notably BDO (Public Accounting, Tax and Advisory) and
+              Schlumberger (Energy). Presently, he personally owns and
+              manages multiple registered business entities in his homeland,
+              Malaysia. 
               </p>
             </div>
           </div>

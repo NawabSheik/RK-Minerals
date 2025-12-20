@@ -8,7 +8,7 @@ import '../styles/Products.css';
 
 // Import all product images
 import Talc from "../assets/products/Talc L.png";
-import SodiumFeldspar from "../assets/products/sodium-feldspar L.png";
+import SodiumFeldspar from "../assets/products/sodium-feldspar-grains.png";
 import PotassiumFeldspar from "../assets/products/potassium-feldspar L.png";
 import Wollastonite from "../assets/products/wollastonite L.png";
 import Quartz from "../assets/products/quartz L.png";

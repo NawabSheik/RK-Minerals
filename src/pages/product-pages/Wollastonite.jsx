@@ -35,9 +35,8 @@ function TalcPowder() {
           for its unique combination of brightness, low moisture, high
           whiteness. It enhances strength,
           durability, and thermal stability in end products. Widely used in
-          ceramics, plastics, paints, rubber, and friction products, our
-          wollastonite ensures consistent performance and superior reinforcing
-          properties across multiple industries.
+          ceramics, our wollastonite ensures consistent performance and superior reinforcing
+          properties.
         </p>
       </div>
 
@@ -48,7 +47,7 @@ function TalcPowder() {
             <h2 className="product-usps">High whiteness and brightness</h2>
             <h2 className="product-usps">Excellent thermal and dimensional stability</h2>
             <h2 className="product-usps">Low moisture and consistent quality</h2>
-            <h2 className="product-usps">Ideal for ceramics, plastics, paints & rubber</h2>
+            <h2 className="product-usps">Ideal for ceramics.</h2>
           </div>
         </div>
         <div className="product-usp-right">
@@ -68,7 +67,7 @@ function TalcPowder() {
         </p>
       </div>
 
-        <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+     
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>

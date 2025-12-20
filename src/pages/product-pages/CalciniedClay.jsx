@@ -4,7 +4,7 @@ import CalcinedImage from '../../assets/products/calcined-clay-hero.png';
 import CalcinedTopImage from "../../assets/products/calcined-clay td.png";
 import Applications from '../../components/applications';
 import Paper from "../../assets/industries/Paper2.png";
-import Glass from "../../assets/industries/Glass2.png";
+import Glass from "../../assets/industries/Coating2.png";
 import Rubber from "../../assets/industries/Rubber2.png";
 import Soap from "../../assets/industries/Soap2.png";
 import Ceramics from "../../assets/industries/Ceramics2.png";
@@ -15,8 +15,8 @@ import 'swiper/css';
 
  const productSlides = [
     { name: "Paper", img: Paper, link: "/industries/paper" },
-    { name: "Glass", img: Glass, link: "/industries/glass" },
-    { name: "Rubber", img: Rubber, link: "/industries/rubber" },
+    { name: "Paint", img: Glass, link: "/industries/paint" },
+    
     { name: "Soap", img: Soap, link: "/industries/soaps" },
     { name: "Ceramics", img: Ceramics, link: "/industries/ceramics" },
   ];
@@ -28,14 +28,14 @@ function TalcPowder() {
   return (
    <div className='product-content'>
       <div className="product-details">
-        <h2 className="product-details-head">High Quality Calcined Clay</h2>
+        <h2 className="product-details-head">High Quality Calcined Kaolin</h2>
         <h2 className="product-details-head">Processed for Enhanced Performance</h2>
         <span className='product-details-stroke'></span>
         <p className="product-para">
-          Calcined clay is produced by carefully heating refined kaolin at high
+          Calcined kaolin is produced by carefully heating refined kaolin at high
           temperatures to improve whiteness, brightness, and chemical stability.
           This process enhances its opacity, durability, and strength, making it
-          an ideal material for industries such as paper, paints and rubber. Our calcined clay ensures consistent quality,
+          an ideal material for industries such as paper, paints and rubber. Our calcined kaolin ensures consistent quality,
           fine particle size, and superior performance in specialized
           applications.
         </p>
@@ -57,13 +57,13 @@ function TalcPowder() {
       </div>
 
       <div className="why-industry-trust">
-        <h2 className="product-details-head">Why Leading Industries Trust RK Minerals's Calcined Clay</h2>
+        <h2 className="product-details-head">Why Leading Industries Trust RK Minerals's Calcined Kaolin</h2>
         <span className='product-details-stroke'></span>
         <p className="product-para">
-          RK Minerals produces calcined clay with superior whiteness, brightness,
+          RK Minerals produces calcined kaolin with superior whiteness, brightness,
           and stability through advanced calcination processes. Our strict
           quality control ensures low impurities, high opacity, and consistent
-          performance, making our calcined clay a trusted choice for premium
+          performance, making our calcined kaolin a trusted choice for premium
           industrial applications across global markets.
         </p>
       </div>
@@ -99,7 +99,7 @@ const Talc = () => {
         <Brand className="brand-section"/>
         <div className="product-explained" >
             <img src={CalcinedImage} alt="talc-image"/>
-            <h1 className="product-page-name calcinied-clay">CALCINED <br/> CLAY</h1>
+            <h1 className="product-page-name calcinied-clay">CALCINED <br/> KAOLIN</h1>
          </div>
             <TalcPowder/>
   

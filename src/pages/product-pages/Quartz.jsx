@@ -35,7 +35,7 @@ function TalcChip() {
           Quartz powder is finely ground crystalline silica, processed from
           natural high-grade quartz. It is known for its high silica content,
           chemical stability, and uniform particle size distribution. Our
-          quartz powder is widely used in glass, rubber, ceramics, soaps & detergents
+          quartz powder is widely used in ceramics, soap & detergent and paint
            due to its purity, brightness, and
           reliable performance in industrial applications.
         </p>
@@ -68,7 +68,7 @@ function TalcChip() {
         </p>
       </div>
 
-        <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+        <Applications desc="Our quartz powder is trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
@@ -100,9 +100,8 @@ function TalcPowder() {
           Quartz grains are naturally occurring crystalline silica processed
           into uniform grain sizes with high purity and excellent chemical
           stability. With their hardness, durability, and superior whiteness,
-          quartz grains are widely used in glass, ceramics, foundry, water
-          filtration, paints, and construction industries for reliable and
-          high-performance applications.
+          quartz grains are widely used in ceramics and glass industries for reliable 
+          and high-performance applications.
         </p>
       </div>
 
@@ -133,7 +132,7 @@ function TalcPowder() {
         </p>
       </div>
 
-        <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+        <Applications desc="Our quartz grains are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>

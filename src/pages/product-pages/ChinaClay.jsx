@@ -17,7 +17,7 @@ import Ceramics from "../../assets/industries/Ceramics2.png";
 
  const productSlides = [
     { name: "Paper", img: Paper, link: "/industries/paper" },
-    { name: "Glass", img: Glass, link: "/industries/glass" },
+    
     { name: "Rubber", img: Rubber, link: "/industries/rubber" },
     { name: "Soap", img: Soap, link: "/industries/soaps" },
     { name: "Ceramics", img: Ceramics, link: "/industries/ceramics" },
@@ -66,7 +66,7 @@ function TalcPowder() {
           goods.
         </p>
       </div>
-      <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+      <Applications desc="Our China Clay is trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
         <div className='product-packaging-offers-section'>

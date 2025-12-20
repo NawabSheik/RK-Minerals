@@ -67,14 +67,14 @@ function TalcPowder() {
         </p>
       </div>
 
-      <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+      
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
         <div className='product-packaging-offers-section'>
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
-              Available in loose jumbo bags, for domestic and export shipments.
+              Available in loose, 50kg hope bags and jumbo bags
             </h2>
           </div>
           <div className="product-packaging-offer-2">

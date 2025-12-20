@@ -85,10 +85,12 @@
 
 .product-home-para{
     font-size:1.25rem;
+    margin-top:1rem;
     width:60%;
     opacity: 100%;
     font-weight: 200;
-    line-height:1.5rem;
+    line-height:1.75rem;
+    font-family: 'Raleway',sans-serif;
     text-align: justify;
     text-align-last: center;
 }

@@ -9,14 +9,14 @@ import Swiper from 'swiper';
 import 'swiper/css';
 import Applications from '../../components/applications';
 import PaperImage from "../../assets/industries/Paper2.png";
-import GlassImage from "../../assets/industries/Glass2.png";
+import GlassImage from "../../assets/industries/Coating2.png";
 import Rubber from "../../assets/industries/Rubber2.png";
 import Soap from "../../assets/industries/Soap2.png";
 import Ceramics from "../../assets/industries/Ceramics2.png";
 
  const productSlides = [
     { name: "Paper", img: PaperImage, link: "/industries/paper" },
-    { name: "Glass", img: GlassImage, link: "/industries/glass" },
+    { name: "Paint", img: GlassImage, link: "/industries/paint" },
     { name: "Rubber", img: Rubber, link: "/industries/rubber" },
     { name: "Soap", img: Soap, link: "/industries/soaps" },
     { name: "Ceramics", img: Ceramics, link: "/industries/ceramics" },
@@ -33,17 +33,16 @@ function TalcChip() {
           Talc chips are valued for their stability, purity, and uniformity,
           making them ideal for high-temperature processes and specialized
           industrial applications. With their natural softness, high fusion
-          point, low shrinkage, and excellent resistance to heat and chemicals,
-          talc chips ensure consistent performance across ceramics, refractories,
-          paints, plastics, and allied industries.
+          point, low shrinkage, and excellent resistance to heat and chemicals.
+          Talc chips ensure consistent performance across ceramic tile industries.
         </p>
       </div>
 
       <div className="product-usp-section">
         <div className='product-usp-left'>
           <div className="product-usp">
-            <h2 className="product-usps">High whiteness and brightness with minimal impurities</h2>
-            <h2 className="product-usps">Excellent thermal and chemical resistance</h2>
+            <h2 className="product-usps">Can be easily grinded in ball mill</h2>
+            <h2 className="product-usps">Calcium free and iron free material</h2>
             <h2 className="product-usps">Uniform chip size for controlled grinding</h2>
             <h2 className="product-usps">Sourced from premium talc reserves of Rajasthan</h2>
             <h2 className="product-usps">Consistent lab-tested quality with ISO certification</h2>
@@ -59,15 +58,14 @@ function TalcChip() {
         <span className='product-details-stroke'></span>
         <p className="product-para">
           RK Minerals’s talc chips are carefully processed to meet industrial
-          standards, ensuring high purity, controlled particle size, and
-          excellent whiteness. Trusted by industries like ceramics, refractories,
-          paints, plastics, and polymers, our talc chips serve as a reliable raw
-          material for precision applications where performance and consistency
-          matter the most.
+          standards, ensuring high purity, controlled chip size, and
+          excellent whiteness. Trusted by ceramic tile industries our talc chips serve as a 
+          reliable raw material for precision 
+          applications where performance and consistency matter the most.
         </p>
       </div>
 
-        <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+        
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
@@ -110,7 +108,7 @@ function TalcPowder() {
                     <div className='product-usp-left'>
                         <div className="product-usp">
                             <h2 className="product-usps">Calcium (CaO) free and iron (Fe2O3) free material.</h2>
-                            <h2 className="product-usps">Can be easily grinded in ball mill </h2>
+                            <h2 className="product-usps">Excellent thermal and chemical resistance </h2>
                             <h2 className="product-usps">Multiple mesh sizes for diverse industries</h2>
                             <h2 className="product-usps">Rajasthan being talc rich state of India</h2>
                              <h2 className="product-usps">ISO-certified quality with reliable lab-tested.</h2>
@@ -124,14 +122,14 @@ function TalcPowder() {
                 </div>
     
                 <div className="why-industry-trust">
-                    <h2 className="product-details-head">Why Leading Industries Trust RK Minerals's Clay</h2>
+                    <h2 className="product-details-head">Why Leading Industries Trust RK Minerals's Talc Powder</h2>
                     
                     <span className='product-details-stroke'></span>
-                    <p className="product-para">At RK Minerals, we take pride in offering clay of unmatched purity and consistency. Sourced from the mineral-rich lands of Rajasthan and processed with rigorous quality checks, our clay delivers high whiteness, brightness, and low impurities, 
+                    <p className="product-para">At RK Minerals, we take pride in offering talc powder of unmatched purity and consistency. Sourced from the mineral-rich lands of Rajasthan and processed with rigorous quality checks, our talc powder delivers high whiteness, brightness, and low impurities, 
                         making it ideal for industries like ceramics, paints, paper, soaps and rubber industries</p>
                 </div>
     
-                  <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+                  <Applications desc="Our talc powder are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
                 
                     
                 <div className="product-packaging">
@@ -139,7 +137,7 @@ function TalcPowder() {
                     <div className='product-packaging-offers-section'>
                         <div className="product-packaging-offer-1">
                             <h2 className="packaging-offer-description">
-                                Available in bulk 25kg, 50 kg HDPE bags, and Jumbo bags for seamless domestic 
+                                Available in 25kg, 50 kg HDPE bags, and Jumbo bags for seamless domestic 
                                 and export shipments
                             </h2>
                             

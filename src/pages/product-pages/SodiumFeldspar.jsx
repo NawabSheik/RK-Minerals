@@ -14,10 +14,9 @@ import Ceramics from "../../assets/industries/Ceramics2.png";
 import 'swiper/css';
 
  const productSlides = [
-    { name: "Paper", img: Paper, link: "/industries/paper" },
+
     { name: "Glass", img: Glass, link: "/industries/glass" },
-    { name: "Rubber", img: Rubber, link: "/industries/rubber" },
-    { name: "Soap", img: Soap, link: "/industries/soaps" },
+    
     { name: "Ceramics", img: Ceramics, link: "/industries/ceramics" },
   ];
 
@@ -35,8 +34,7 @@ function TalcChip() {
           and other industries due to its high alkali content, consistent
           melting properties, and ability to act as a flux. It enhances the
           strength, durability, and finish of end products while improving
-          vitrification, making it indispensable in tiles, sanitaryware, glass,
-          and enamel manufacturing.
+          vitrification, making it indispensable in tiles, sanitaryware & glass.
         </p>
       </div>
 
@@ -62,11 +60,11 @@ function TalcChip() {
           RK Minerals’s sodium feldspar stands out for its purity, uniform
           particle size, and consistent chemical composition. With high alkali
           content and minimal impurities, it supports industries like ceramics,
-          glass, sanitaryware, enamel, and tiles, ensuring high-quality,
+          glass, sanitaryware, and tiles, ensuring high-quality,
           long-lasting finished products with enhanced brightness and strength.
         </p>
       </div>
-      <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+      <Applications desc="Our Sodium Feldspar is trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
       
 
       <div className="product-packaging">
@@ -74,7 +72,7 @@ function TalcChip() {
         <div className='product-packaging-offers-section'>
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
-              Available in bulk, 50 kg bags, and 1 MT jumbo bags for both
+              Available in bulk, 50 kg bags, and jumbo bags for both
               domestic and export requirements
             </h2>
           </div>
@@ -134,14 +132,14 @@ function TalcPowder() {
         </p>
       </div>
 
-        <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+        <Applications desc="Our Sodium Feldspar Grains are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
         <div className='product-packaging-offers-section'>
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
-              Available in bulk supply, 50 kg HDPE bags, and 1 MT jumbo bags for
+              50 kg HDPE bags, and 1 MT jumbo bags for
               both domestic and international markets
             </h2>
           </div>

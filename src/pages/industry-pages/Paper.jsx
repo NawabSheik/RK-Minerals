@@ -2,7 +2,7 @@ import React from 'react';
 import Brand from '../../components/Brand';
 import TalcImage from '../../assets/products/talc.png';
 import ChinaClayImage from '../../assets/products/china clay L.png'
-import LevigatedClayImage from '../../assets/products/levigated-clay L.png'
+import LevigatedClayImage from '../../assets/products/calcined-clay L.png'
 import Cta from '../../components/cta';
 import { Link } from 'react-router-dom';
 
@@ -68,17 +68,17 @@ const Paint = () => {
 
             <div className="industry-products">
 
-            {/* Levigated Clay */}
-            <Link to="/products/levigated-clay" className='industry-products-card'>
-                <h2 className="product-name-ind">Levigated Clay</h2>
+            {/* Calcined Kaolin */}
+            <Link to="/products/calcined-clay" className='industry-products-card'>
+                <h2 className="product-name-ind">Calcined Kaolin</h2>
                 <div className='product-requirements'>
                     <div className='requirements-top'>
-                        <h2 className='product-requirement'>SiO₂: 46–49%</h2>
-                        <h2 className='product-requirement'>Al₂O₃: 34–36%</h2>
+                        <h2 className='product-requirement'>Fe₂O₃ + TiO₂: &lt;0.5%</h2>
+                        <h2 className='product-requirement'>Al₂O₃: 40-45%</h2>
                     </div>
                     <div className='requirements-bottom'>
-                        <h2 className='product-requirement'>Fe₂O₃: &lt;0.7%</h2>
-                        <h2 className='product-requirement'>Brightness: 90%+</h2>
+                        <h2 className='product-requirement'>SiO₂: 50-55%</h2>
+                        <h2 className='product-requirement'>TiO₂: 0.5%</h2>
                     </div>
                 </div>
                 <img src={LevigatedClayImage}/>

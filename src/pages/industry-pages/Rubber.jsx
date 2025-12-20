@@ -86,7 +86,7 @@ const Paint = () => {
                 <img src={WollastoniteImage}/>
             </div>
             <div className='industry-products-card'>
-                <h2 className="product-name-ind">Calcined Clay</h2>
+                <h2 className="product-name-ind">Calcined Kaolin</h2>
                 <div className='product-requirements'>
                     <div className='requirements-top'>
                         <h2 className='product-requirement'>Al₂O₃: 35–38%</h2>
