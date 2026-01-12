@@ -5,7 +5,7 @@ import TalcImage from '../../assets/products/talc powder.png';
 import CalcinedClayImage from '../../assets/products/calcined-clay.png';
 import WollastoniteImage from '../../assets/products/wollastonite.png';
 import ChinaClayImage from '../../assets/products/china-clay.png'
-
+import Excellence from '../../components/Excellence';
 import Cta from '../../components/cta';
 
 const Paint = () => {
@@ -104,29 +104,7 @@ const Paint = () => {
         <p className='note-point'>* Available in powder or lump form, these minerals provide reinforcement, reduce shrinkage, and improve processing in rubber compounding.</p>
       </div>
 
-      <div className="industry-excellence">
-        <h2 className='industry-head3'> How We Deliver Excellence </h2>
-        <div className='excellence-cards'>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Quality Assurance</h2>
-                <p className='excellence-para'>Each mineral undergoes strict testing to ensure consistency, purity, and performance in rubber processing.</p>
-            </div>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Trusted Partnerships</h2>
-                <p className='excellence-para'>Excellence doesn’t end with our products — it extends to our relationships. We work closely with our partners, understanding their needs and delivering on time, every time.</p>
-            </div>
-            </div>
-         <div className='excellence-cards'>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Customer-Centric Approach</h2>
-                <p className='excellence-para'>We provide tailor-made mineral grades to match the specific reinforcement and durability needs of rubber applications.</p>
-                </div>
-                <div className='excellence-card'>
-                <h2 className='excellence-head'>Innovation Support</h2>
-                <p className='excellence-para'>Our minerals enhance mechanical strength and thermal stability, supporting innovation in tire and industrial rubber manufacturing.</p>
-                </div>
-        </div>
-        </div>
+      <Excellence/>
 
       <Cta/>
 </div>

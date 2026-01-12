@@ -67,17 +67,19 @@ const Contact = () => {
         <div className="contact-form">
             <h2 className='contact-head'>Get in Touch with Us</h2>
           <form className='form-fields'>
-            <label className='field' htmlFor="name">Name</label>
+            <label className='field' htmlFor="name">Name*</label>
             <input className='input-field' type="text" id="name" name="name" required />
 
-            <label className='field' htmlFor="email">Email</label>
+            <label className='field' htmlFor="email">Email*</label>
             <input className='input-field' type="email" id="email" name="email" required />
+           <label className='field' htmlFor="phone">Phone*</label>
+            <input className='input-field' type="tel" id="phone" name="phone" required />
 
            
             
             
 
-            <label className='field' htmlFor="message">Message</label>
+            <label className='field' htmlFor="message">Message*</label>
             <textarea className='input-field-message' id="message" name="message" required></textarea>
             
 

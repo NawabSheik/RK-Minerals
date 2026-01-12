@@ -15,10 +15,7 @@ import Soap from "../../assets/industries/Soap2.png";
 import Ceramics from "../../assets/industries/Ceramics2.png";
 
 const productSlides = [
-  { name: "Paper", img: Paper, link: "/industries/paper" },
-  { name: "Glass", img: Glass, link: "/industries/glass" },
-  { name: "Rubber", img: Rubber, link: "/industries/rubber" },
-  { name: "Soap", img: Soap, link: "/industries/soaps" },
+
   { name: "Ceramics", img: Ceramics, link: "/industries/ceramics" },
 ];
 
@@ -130,10 +127,7 @@ function RkTbDetails() {
       */}
 
       {/* APPLICATIONS */}
-      <Applications
-        desc="RK TB Ball Clay is widely used in ceramic tiles, vitrified tiles, wall tiles, and technical ceramic applications."
-        slides={productSlides}
-      />
+    
 
       {/* PACKAGING */}
       <div className="product-packaging">

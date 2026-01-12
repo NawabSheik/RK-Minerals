@@ -139,7 +139,7 @@ function TalcPowder() {
         <div className='product-packaging-offers-section'>
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
-              50 kg HDPE bags, and 1 MT jumbo bags for
+              50 kg HDPE bags, and Jumbo bags for
               both domestic and international markets
             </h2>
           </div>

@@ -5,6 +5,7 @@ import QuartzImage from '../../assets/products/quartz.png';
 import SodiumFeldsparImage from '../../assets/products/sodium-feldspar.png';
 import PotassiumFeldsparImage from '../../assets/products/potassium-feldspar.png';
 import Cta from '../../components/cta';
+import Excellence from '../../components/Excellence';
 
 const Paint = () => {
   return (
@@ -88,29 +89,7 @@ const Paint = () => {
         <p className='note-point'>* Available in powder, lump, or chip form, these minerals are optimized for the unique requirements of glass manufacturing.</p>
       </div>
 
-      <div className="industry-excellence">
-        <h2 className='industry-head3'> How We Deliver Excellence </h2>
-        <div className='excellence-cards'>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Quality Assurance</h2>
-                <p className='excellence-para'>Every batch is tested in advanced labs to ensure purity, consistency, and suitability for glass production.</p>
-            </div>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Trusted Partnerships</h2>
-                <p className='excellence-para'>Excellence doesn’t end with our products — it extends to our relationships. We work closely with our partners, understanding their needs and delivering on time, every time.</p>
-            </div>
-            </div>
-         <div className='excellence-cards'>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Precision in Process</h2>
-                <p className='excellence-para'>From sourcing to delivery, every detail is executed with accuracy to ensure consistent and dependable outcomes.</p>
-                </div>
-                <div className='excellence-card'>
-                <h2 className='excellence-head'>Innovation Support</h2>
-                <p className='excellence-para'>Our minerals empower industries to achieve innovation in glass design, clarity, and strength.</p>
-                </div>
-        </div>
-        </div>
+      <Excellence/>
 
       <Cta/>
 </div>

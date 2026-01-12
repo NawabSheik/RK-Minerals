@@ -160,7 +160,7 @@
 
 .cards{
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-around;
   flex-direction: row;
   width:80%;
@@ -170,6 +170,7 @@
 
 .card{
   width:25%;
+ 
   padding:2rem;
   border:1px solid #fff;
   background-color: #e87e24;
@@ -180,6 +181,7 @@
 
 .card-head{
   display: flex;
+  height:40%;
   align-items: center;
   justify-content: center;
  
@@ -202,6 +204,7 @@
   text-align: justify;
   font-weight:200;
   text-align-last: center;
+  height:60%;
 }
 
 .card-stroke{

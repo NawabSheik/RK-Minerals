@@ -7,6 +7,7 @@ import WollastoniteImage from '../../assets/products/wollastonite L.png';
 import CalcinedClayImage from '../../assets/products/calcined-clay L.png';
 import Cta from '../../components/cta';
 import { Link } from 'react-router-dom';
+import Excellence from '../../components/Excellence';
 
 const Paint = () => {
   return (
@@ -125,29 +126,7 @@ const Paint = () => {
         </p>
       </div>
 
-      <div className="industry-excellence">
-        <h2 className='industry-head3'> How We Deliver Excellence </h2>
-        <div className='excellence-cards'>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Quality Assurance</h2>
-                <p className='excellence-para'>Our quality control labs ensure each mineral batch has consistent composition, purity, and particle size for reliable paint applications.</p>
-            </div>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Trusted Partnerships</h2>
-                <p className='excellence-para'>Excellence doesn’t end with our products — it extends to our relationships. We work closely with our partners, understanding their needs and delivering on time, every time.</p>
-            </div>
-        </div>
-        <div className='excellence-cards'>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Technical Expertise</h2>
-                <p className='excellence-para'>Our mineral specialists continuously refine processing methods to ensure stable composition for various paint systems.</p>
-            </div>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Global Reach</h2>
-                <p className='excellence-para'>With strong logistics and supply chain, RK Minerals serves paint industries across India and international markets.</p>
-            </div>
-        </div>
-      </div>
+      <Excellence/>
 
       <Cta/>
     </div>

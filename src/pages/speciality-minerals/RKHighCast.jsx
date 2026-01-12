@@ -13,10 +13,7 @@ import Soap from "../../assets/industries/Soap2.png";
 import Ceramics from "../../assets/industries/Ceramics2.png";
 
 const productSlides = [
-  { name: "Paper", img: Paper, link: "/industries/paper" },
-  { name: "Glass", img: Glass, link: "/industries/glass" },
-  { name: "Rubber", img: Rubber, link: "/industries/rubber" },
-  { name: "Soap", img: Soap, link: "/industries/soaps" },
+ 
   { name: "Ceramics", img: Ceramics, link: "/industries/ceramics" },
 ];
 
@@ -69,11 +66,7 @@ function HighCastKaolin() {
         </p>
       </div>
 
-      {/* APPLICATIONS */}
-      <Applications 
-        desc="RK High Cast kaolin is trusted across sanitaryware, tableware, ceramic slip, and technical ceramic industries."
-        slides={productSlides}
-      />
+    
 
       {/* CHEMICAL ANALYSIS 
       <div className="product-packaging">

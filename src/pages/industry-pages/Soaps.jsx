@@ -4,6 +4,7 @@ import TalcImage from '../../assets/products/talc.png';
 import ChinaClayImage from '../../assets/products/china-clay.png';
 import QuartzImage from '../../assets/products/quartz.png';
 import Cta from '../../components/cta';
+import Excellence from '../../components/Excellence';
 
 const Soaps = () => {
   return (
@@ -107,7 +108,7 @@ const Soaps = () => {
                 </div>
         </div>
         </div>
-
+        <Excellence/>
       <Cta/>
 </div>
 

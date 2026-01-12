@@ -23,7 +23,7 @@ const Applications = ({ title = "Key Applications", desc, slides = [] }) => {
         breakpoints={{
           320: { slidesPerView: 1.1 },
           640: { slidesPerView: 1.5 },
-          1024: { slidesPerView: 5 },
+          1024: { slidesPerView: 2 },
         }}
        
       >

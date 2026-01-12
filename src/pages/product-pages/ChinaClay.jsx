@@ -16,7 +16,7 @@ import Ceramics from "../../assets/industries/Ceramics2.png";
 
 
  const productSlides = [
-    { name: "Paper", img: Paper, link: "/industries/paper" },
+   
     
     { name: "Rubber", img: Rubber, link: "/industries/rubber" },
     { name: "Soap", img: Soap, link: "/industries/soaps" },

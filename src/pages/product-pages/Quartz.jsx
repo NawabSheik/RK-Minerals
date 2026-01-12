@@ -6,7 +6,7 @@ import Cta from '../../components/cta';
 import Swiper from 'swiper';
 import QuartzGrains from "../../assets/products/quartz grains td.png";
 import Applications from '../../components/applications';
-import Paper from "../../assets/industries/Paper2.png";
+import Coating from "../../assets/industries/Coating2.png";
 import Glass from "../../assets/industries/Glass2.png";
 import Rubber from "../../assets/industries/Rubber2.png";
 import Soap from "../../assets/industries/Soap2.png";
@@ -16,10 +16,10 @@ import 'swiper/css';
 
 
  const productSlides = [
-    { name: "Paper", img: Paper, link: "/industries/paper" },
+   
     { name: "Glass", img: Glass, link: "/industries/glass" },
-    { name: "Rubber", img: Rubber, link: "/industries/rubber" },
-    { name: "Soap", img: Soap, link: "/industries/soaps" },
+ 
+    { name: "Paints & Coating", img: Coating, link: "/industries/paint" },
     { name: "Ceramics", img: Ceramics, link: "/industries/ceramics" },
   ];
 

@@ -5,6 +5,7 @@ import ChinaClayImage from '../../assets/products/china clay L.png'
 import LevigatedClayImage from '../../assets/products/calcined-clay L.png'
 import Cta from '../../components/cta';
 import { Link } from 'react-router-dom';
+import Excellence from '../../components/Excellence';
 
 const Paint = () => {
   return (
@@ -18,7 +19,7 @@ const Paint = () => {
         <p className="industry-para">A good mineral for Paper should have</p>
         <div className='industry-requirements'>
             <div className='requirements-top'>
-                <h2 className='requirement'>High<br/> Brightness</h2>
+                <h2 className='requirement'>High Brightness</h2>
                 <h2 className='requirement'>Controlled Particle Size</h2>
             </div>
             <div className='requirements-bottom'>
@@ -89,29 +90,7 @@ const Paint = () => {
         <p className='note-point'>* Available in powder or lump form, these minerals are tailored to improve brightness, smoothness, and opacity in paper manufacturing.</p>
       </div>
 
-      <div className="industry-excellence">
-        <h2 className='industry-head3'> How We Deliver Excellence </h2>
-        <div className='excellence-cards'>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Quality Assurance</h2>
-                <p className='excellence-para'>Each batch undergoes strict quality checks to ensure brightness, purity, and particle uniformity for consistent paper performance.</p>
-            </div>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Trusted Partnerships</h2>
-                <p className='excellence-para'>Excellence doesn’t end with our products — it extends to our relationships. We work closely with our partners, understanding their needs and delivering on time, every time.</p>
-            </div>
-            </div>
-         <div className='excellence-cards'>
-            <div className='excellence-card'>
-                <h2 className='excellence-head'>Customer-Centric Approach</h2>
-                <p className='excellence-para'>We provide customized mineral solutions to meet the unique brightness and smoothness requirements of the paper industry.</p>
-                </div>
-                <div className='excellence-card'>
-                <h2 className='excellence-head'>Innovation Support</h2>
-                <p className='excellence-para'>Our minerals help paper manufacturers achieve better printability, opacity, and durability for premium quality paper.</p>
-                </div>
-        </div>
-        </div>
+      <Excellence/>
 
       <Cta/>
 </div>
