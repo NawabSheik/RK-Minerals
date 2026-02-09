@@ -6,7 +6,7 @@ import Cta from '../../components/cta';
 import Swiper from 'swiper';
 // import Swiper styles
 import 'swiper/css';
-import Applications from '../../components/applications';
+
 import Paper from "../../assets/industries/Paper2.png";
 import Glass from "../../assets/industries/Glass2.png";
 import Rubber from "../../assets/industries/Rubber2.png";
@@ -66,7 +66,7 @@ function TalcPowder() {
           goods.
         </p>
       </div>
-      <Applications desc="Our China Clay is trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+    
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
         <div className='product-packaging-offers-section'>

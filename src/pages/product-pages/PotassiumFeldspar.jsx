@@ -68,7 +68,8 @@ function TalcChip() {
         </p>
       </div>
 
-        <Applications desc="Our potassium feldspar is trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+   
+   
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
@@ -136,8 +137,7 @@ function TalcPowder() {
         </p>
       </div>
 
-        <Applications desc="Our potassium feldspar grians are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
-
+     
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
         <div className='product-packaging-offers-section'>

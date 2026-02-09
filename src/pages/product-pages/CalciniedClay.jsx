@@ -68,7 +68,7 @@ function TalcPowder() {
         </p>
       </div>
 
-      <Applications desc="Our kaolin grades are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+      
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>

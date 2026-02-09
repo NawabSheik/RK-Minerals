@@ -7,7 +7,7 @@ import Cta from '../../components/cta';
 import Swiper from 'swiper';
 // import Swiper styles
 import 'swiper/css';
-import Applications from '../../components/applications';
+
 import PaperImage from "../../assets/industries/Paper2.png";
 import GlassImage from "../../assets/industries/Coating2.png";
 import Rubber from "../../assets/industries/Rubber2.png";
@@ -129,7 +129,7 @@ function TalcPowder() {
                         making it ideal for industries like ceramics, paints, paper, soaps and rubber industries</p>
                 </div>
     
-                  <Applications desc="Our talc powder are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+               
                 
                     
                 <div className="product-packaging">

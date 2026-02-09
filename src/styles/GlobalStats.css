@@ -43,6 +43,7 @@
     border:1px solid #021342;
     padding:1rem;
     border-radius:10px;
+     background-color: #f9fcff;
     width: 25%;
     gap:1rem;
 }
@@ -88,6 +89,7 @@
         flex-direction: row;
         align-items: flex-start;
         padding-top:1rem;
+       
         
     }
 }

@@ -64,7 +64,7 @@ function TalcChip() {
           long-lasting finished products with enhanced brightness and strength.
         </p>
       </div>
-      <Applications desc="Our Sodium Feldspar is trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+     
       
 
       <div className="product-packaging">
@@ -132,7 +132,7 @@ function TalcPowder() {
         </p>
       </div>
 
-        <Applications desc="Our Sodium Feldspar Grains are trusted across a variety of technical and decorative ceramic industries, including:" slides={productSlides}/>
+      
 
       <div className="product-packaging">
         <h2 className="product-packaging-head">Packaging & Supply</h2>
