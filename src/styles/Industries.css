@@ -1,112 +1,158 @@
 .industries-page {
-    width: 100vw;
-    height: 100vh;
-    background: #fff;
+    width: 100%;
+    min-height: 100vh;
+    background: #ffffff;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding: 5rem 2rem 10rem;
     overflow: hidden;
     position: relative;
 }
 
+.industries-label {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #e87e24;
+    margin-bottom: 0.8rem;
+}
+
 .industries-mobile-heading {
-    font-size: 5rem;
-    padding:1rem;
-    line-height: 5rem;
-    margin-top: 5rem;
-    letter-spacing: -1px;
+    font-size: clamp(3rem, 6vw, 5rem);
+    line-height: 1;
+    letter-spacing: -2px;
     font-family: "Raleway", sans-serif;
     text-align: center;
     color: #021432;
     font-weight: 800;
-    
 }
 
 .industries-para {
-    font-size: 1.5rem;
-    color: #021432;
+    width: min(90%, 760px);
+    font-size: 1.1rem;
+    color: #445E88;
     font-family: "Raleway", sans-serif;
-    font-style: italic;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     text-align: center;
+    line-height: 1.7;
 }
 
 .industries-section {
+    width: min(92%, 1350px);
+    margin-top: 3rem;
+    overflow: visible;
+    padding: 1rem 0 3rem;
+}
+
+.industry-card-link {
+    text-decoration: none;
+    display: block;
+}
+
+.industry-slide {
+    height: 360px;
+
+    border: 1px solid rgba(2, 20, 50, 0.25);
+    border-radius: 28px;
+
+    background: #ffffff;
+    overflow: hidden;
+
+    box-shadow: 6px 6px 0px rgba(2, 20, 50, 0.95);
+    transition: all 0.25s ease;
+}
+
+.industry-slide:hover {
+    transform: translateY(-8px);
+}
+
+.industry-image {
+    height: 270px;
+    overflow: hidden;
+}
+
+.industry-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    filter: saturate(0%);
+    transition: all 0.35s ease;
+}
+
+.industry-slide:hover .industry-image > img {
+    filter: saturate(100%);
+    transform: scale(1.04);
+}
+
+.industry-name {
+    height: 90px;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    height: 55%;
-    margin-top: 2rem;
-    overflow: visible; /* allow scaling without clipping */
-}
 
-/* Base style for all slides */
-.swiper-slide {
-    opacity: 1;             /* fully visible */
-    transform: scale(0.9);  /* slightly smaller for side slides */
-    transition: all 0.3s ease;
-    pointer-events: none;    /* disable links for non-visible slides */
-}
-
-/* Center / visible slides */
-.swiper-slide-visible {
-    transform: scale(1);     /* scale up visible slides */
-    pointer-events: auto;    /* links clickable */
-    z-index: 10;
-}
-
-/* Slide card */
-.industry-slide {
-    border: 1px solid #021432;
-    border-radius: 30px;
-    margin-top: 1rem;
-    background: #fff;
-    overflow: hidden;
-    box-shadow: 5px 5px 0px rgb(2, 20, 50);
-}
-
-/* Image styling */
-.industry-image > img {
-    width: 100%;
-    border-radius: 30px 30px 0 0;
-    filter: saturate(0%);
-    transition: filter 0.5s ease, transform 0.3s ease;
-    pointer-events: all;
-}
-
-.industry-image > img:hover {
-    filter: saturate(100%);
- 
-}
-
-/* Industry name styling */
-.industry-name {
     text-align: center;
-    margin: 1rem 0;
-    font-family: Raleway, sans-serif;
-    font-size: 1.5rem;
-    color: #021432; /* dim non-visible slides */
+
+    font-family: "Raleway", sans-serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #021432;
+
+    padding: 0 1rem;
 }
 
-.swiper-slide-visible .industry-name a {
-    color: #021432;  /* highlight visible links */
-    pointer-events: auto;
-    transition: color 0.3s ease;
+.industries-section .swiper-button-prev,
+.industries-section .swiper-button-next {
+    background: #021432;
+    color: #ffffff !important;
+
+    width: 52px;
+    height: 52px;
+
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(2, 20, 50, 0.2);
 }
 
-/* Responsive adjustments */
-@media(max-width:768px) {
+.industries-section .swiper-button-prev::after,
+.industries-section .swiper-button-next::after {
+    font-size: 18px !important;
+    font-weight: 800;
+}
+
+@media (max-width: 768px) {
+    .industries-page {
+        padding: 4rem 1rem 8rem;
+    }
+
     .industries-mobile-heading {
-        font-size: 3.5rem;
-        line-height: 3.5rem;
+        font-size: 3rem;
     }
+
     .industries-para {
-        font-size: 1rem;
-        width: 80%;
-    }
-    .industries-section {
         width: 95%;
-        background-color: transparent;
+        font-size: 0.95rem;
+    }
+
+    .industry-slide {
+        height: 320px;
+    }
+
+    .industry-image {
+        height: 230px;
+    }
+
+    .industry-name {
+        height: 90px;
+        font-size: 1.15rem;
+    }
+
+    .industries-section .swiper-button-prev,
+    .industries-section .swiper-button-next {
+        display: none;
     }
 }

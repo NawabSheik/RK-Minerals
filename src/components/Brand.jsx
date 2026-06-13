@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react"; // Or any icon library / SVG
-import { Link } from "react-router-dom";
+import { Link, useLocation } from 'react-router-dom';
 import Logo from "../assets/rk-logo2.svg";
 const Brand = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <div className="brand-section">
@@ -21,7 +22,11 @@ const Brand = () => {
         </div>
 
         {/* Contact button */}
-        <a href="/contact" className="contact-btn">Contact Us</a>
+       {location.pathname !== "/contact" && (
+  <a href="/contact" className="contact-btn">
+    Contact Us
+  </a>
+)}
       </div>
 
       {/* Full-screen mobile navigation */}

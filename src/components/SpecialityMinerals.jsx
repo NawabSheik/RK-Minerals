@@ -1,33 +1,74 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
+
 import RkTb from "../assets/products/RkTb.png";
 import RkHighCast from "../assets/products/HighCast.png";
 import RkTd from "../assets/products/RkTd.png";
-import { Link } from 'react-router-dom';
+
 import "../styles/SpecialityMinerals.css";
+
+const minerals = [
+  {
+    title: "RK TB Ball Clay",
+    image: RkTb,
+    description:
+      "Premium ball clay engineered for ceramic bodies requiring superior plasticity, strength and consistency.",
+    link: "/speciality-minerals/rk-ball-clay",
+  },
+  {
+    title: "RK BC",
+    image: RkHighCast,
+    description:
+      "Specially formulated mineral blend designed to deliver excellent performance across industrial applications.",
+    link: "/speciality-minerals/rk-bc",
+  },
+  {
+    title: "RK High Cast",
+    image: RkTd,
+    description:
+      "High-performance casting grade mineral solution developed for reliability, durability and precision.",
+    link: "/speciality-minerals/rk-high-cast",
+  },
+];
 
 const SpecialityMinerals = () => {
   return (
-    <div className='speciality-minerals'>
-      <h2 className='speciality-head'>
-        Speciality Minerals
+    <section className="speciality-minerals">
+      
+
+      <h2 className="speciality-head">
+        Specialty Minerals
       </h2>
 
-      <div className='speciality-div'>
-        <div className="mineral">
-        <img src={RkTb}/>
-        <h1 className="product-name"> <Link to="/speciality-minerals/rk-ball-clay">Ball Clay RK TB</Link> </h1> 
-        </div>
-        <div className="mineral">
-        <img src={RkHighCast}/>
-        <h1 className="product-name"> <Link to="/speciality-minerals/rk-bc">RK BC</Link> </h1> 
-        </div>
-        <div className="mineral">
-        <img src={RkTd}/>
-        <h1 className="product-name"> <Link to="/speciality-minerals/rk-high-cast">RK High Cast</Link> </h1> 
-        </div>
-      </div>
-    </div>
-  )
-}
+      <p className="speciality-para">
+        Developed through research, testing and industry expertise,
+        our specialty mineral products are tailored for advanced
+        industrial applications requiring consistency, performance
+        and reliability.
+      </p>
 
-export default SpecialityMinerals
+      <div className="speciality-grid">
+        {minerals.map((mineral, index) => (
+          <div className="speciality-card" key={index}>
+            <div className="speciality-image">
+              <img src={mineral.image} alt={mineral.title} />
+            </div>
+
+            <h3>{mineral.title}</h3>
+
+            <p>{mineral.description}</p>
+
+            <Link
+              className="speciality-btn"
+              to={mineral.link}
+            >
+              View Details
+            </Link>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default SpecialityMinerals;

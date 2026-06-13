@@ -1,29 +1,40 @@
-import React, {useEffect, useRef} from 'react';
+import React from 'react';
 import "../styles/About.css";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link } from 'react-router-dom';
 
-
-
-
 const About = () => {
-    
   return (
-    <div className="about-page ">
+    <section className="about-page">
       <div className="about-section">
-        <h1 className="about-head-mobile">ABOUT US</h1>
-        <span className='about-stroke'></span>
-        <div className="about-us-upper">
-        <p className="about-para">
-          <b>R.K. Minerals </b>is a leading miner, supplier & exporter of Industrial Minerals like Feldspar, Kaolin, Talc, Clay, Quartz, etc. We have been importing & exporting high-quality minerals, which serve as vital inputs for several industries, including ceramics, cement, glass, glazes, paints, soaps & detergents. We have our mining infrastructure based out of Rajasthan & Gujarat (INDIA) with a strong rail, road & sea connectivity. We are located in close proximity with the 3 major ports of India; Kandla, Mundra & Dahej.
-        </p>
-         <button className="about-btn"><Link className="link-btn" to="/about-us">Know More </Link></button>
-        </div>
-        <h1 className="about-head">ABOUT US</h1>
-      </div>
-    </div>
-  )
-}
+        <div className="about-content">
+          <p className="section-label">About RK Minerals</p>
 
-export default About
+          <h2 className="about-title">
+            Reliable Industrial Minerals for Growing Industries
+          </h2>
+
+          <p className="about-para">
+            <b>R.K. Minerals</b> is a leading miner, supplier and exporter of
+            industrial minerals like Feldspar, Kaolin, Talc, Clay and Quartz.
+            Our minerals serve as essential inputs for ceramics, cement, glass,
+            glazes, paints, soaps and detergents.
+          </p>
+
+          <p className="about-para">
+            With mining infrastructure across Rajasthan and Gujarat, along with
+            strong rail, road and sea connectivity, we are strategically placed
+            near major Indian ports including Kandla, Mundra and Dahej.
+          </p>
+
+          <Link className="about-btn" to="/about">
+            Know More
+          </Link>
+        </div>
+
+        <h1 className="about-bg-text">ABOUT US</h1>
+      </div>
+    </section>
+  );
+};
+
+export default About;

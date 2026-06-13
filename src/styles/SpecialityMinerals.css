@@ -1,73 +1,150 @@
-.speciality-minerals{
+.speciality-minerals {
+    width: 100%;
+    min-height: 100vh;
+
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    width:100vw;
-    height: 100%;
-    padding:1rem;
-   
-   background: linear-gradient(to right, #02193f 0%, #1a2333 100%);
+    align-items: center;
+
+    padding: 6rem 2rem;
+
+    background: #f5f9fc;
 }
 
-@media(max-width:768px){
-    .speciality-minerals{
-        height:auto;
-    }
+.speciality-tag {
+    color: #e87e24;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
 }
 
-
-.speciality-head{
+.speciality-head {
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: #021432;
     text-align: center;
-    font-size:4rem;
-    color:#fff;
+    margin-bottom: 1rem;
 }
 
-.speciality-div{
-    width:80%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-    border-radius: 20px;
-    padding:2rem;
-    margin-top:2rem;
-    gap:2rem;
-    flex-direction: row;
+.speciality-para {
+    width: 60%;
+    text-align: center;
+
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+
+    color: #5b6677;
+    margin-bottom: 4rem;
 }
 
-@media(max-width:768px){
-    .speciality-div{
-        flex-direction: column;
-    }
+.speciality-grid {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
 
-.mineral{
+.speciality-card {
+    background: white;
+
+    border-radius: 30px;
+
+    padding: 2rem;
+
+    text-align: center;
+
+    border: 1px solid rgba(2,20,50,.08);
+
+    box-shadow:
+        0 15px 40px rgba(2,20,50,.08);
+
+    transition: all .3s ease;
+}
+
+.speciality-card:hover {
+    transform: translateY(-10px);
+
+    box-shadow:
+        0 25px 60px rgba(2,20,50,.15);
+}
+
+.speciality-image {
+    width: 100%;
+    height: 260px;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    width:30%;
-    flex-direction: column;
-    border:1px solid #02193f;
-    border-radius:20px;
-    padding-bottom: 1rem;
 }
 
-.mineral>img{
-    width:100%;
+.speciality-image img {
+    width: 85%;
+    transition: .3s ease;
 }
 
-@media(max-width:768px){
-    .speciality-div{
-        flex-direction: column;
-        height:auto;
-        width: 95%;
-        padding:0.5rem;
+.speciality-card:hover img {
+    transform: scale(1.05);
+}
+
+.speciality-card h3 {
+    color: #021432;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.speciality-card p {
+    color: #5b6677;
+    line-height: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.speciality-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem 2rem;
+
+    border-radius: 999px;
+
+    background: #021432;
+    color: white;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: .3s ease;
+}
+
+.speciality-btn:hover {
+    background: #e87e24;
+    color: white;
+}
+
+@media(max-width:1000px){
+
+    .speciality-head{
+        font-size:3rem;
+        line-height:3rem;
     }
 
-    .mineral{
-        width:98%;
+    .speciality-para{
+        width:95%;
+        font-size:1rem;
+    }
+
+    .speciality-grid{
+        width:100%;
+        grid-template-columns:1fr;
+    }
+
+    .speciality-card{
+        padding:1.5rem;
+    }
+
+    .speciality-image{
+        height:220px;
     }
 }
-
-

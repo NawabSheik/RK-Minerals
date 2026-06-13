@@ -17,9 +17,11 @@ const MainPage = ({className}) => {
             <img src={MachineryMobile} alt="bg-image" className="mobile-img" />
             
             <div className='main-text'>
-                <h2 className="quote-top">BREAKING LIMITS</h2>
-                <span className='quote-stroke'></span>
-                <h3 className="quote-bottom">BELOW THE SURFACE</h3>
+                <div className="hero-content">
+  <h1 className="quote-top">BREAKING LIMITS</h1>
+  <span className="quote-stroke"></span>
+  <h2 className="quote-bottom">BELOW THE SURFACE</h2>
+</div>
             </div>
         </div>
     </div>

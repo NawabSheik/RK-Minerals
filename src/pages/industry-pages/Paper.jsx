@@ -5,7 +5,6 @@ import ChinaClayImage from '../../assets/products/china clay L.png'
 import LevigatedClayImage from '../../assets/products/calcined-clay L.png'
 import Cta from '../../components/cta';
 import { Link } from 'react-router-dom';
-import Excellence from '../../components/Excellence';
 
 const Paint = () => {
   return (
@@ -90,7 +89,50 @@ const Paint = () => {
         <p className='note-point'>* Available in powder or lump form, these minerals are tailored to improve brightness, smoothness, and opacity in paper manufacturing.</p>
       </div>
 
-      <Excellence/>
+     <div className="industry-excellence">
+    <h2 className="industry-head3">How We Deliver Excellence</h2>
+
+    <div className="excellence-cards">
+        <div className="excellence-card">
+            <h2 className="excellence-head">Quality Assurance</h2>
+            <p className="excellence-para">
+                Every mineral batch is tested for brightness, particle size,
+                purity and consistency to ensure dependable performance in
+                paper manufacturing.
+            </p>
+        </div>
+
+        <div className="excellence-card">
+            <h2 className="excellence-head">Application Expertise</h2>
+            <p className="excellence-para">
+                Our minerals enhance opacity, smoothness, printability and
+                controlled absorption, helping manufacturers achieve superior
+                paper quality.
+            </p>
+        </div>
+    </div>
+
+    <div className="excellence-cards">
+        <div className="excellence-card">
+            <h2 className="excellence-head">Customer-Centric Solutions</h2>
+            <p className="excellence-para">
+                We provide mineral grades tailored to meet the brightness,
+                smoothness and durability requirements of modern paper
+                production.
+            </p>
+        </div>
+
+        <div className="excellence-card">
+            <h2 className="excellence-head">Consistent Supply</h2>
+            <p className="excellence-para">
+                Through reliable sourcing and advanced processing, we ensure
+                stable quality and uninterrupted supply for paper
+                manufacturers.
+            </p>
+        </div>
+    </div>
+</div>
+
 
       <Cta/>
 </div>

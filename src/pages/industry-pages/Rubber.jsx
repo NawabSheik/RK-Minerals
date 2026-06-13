@@ -5,7 +5,6 @@ import TalcImage from '../../assets/products/talc powder.png';
 import CalcinedClayImage from '../../assets/products/calcined-clay.png';
 import WollastoniteImage from '../../assets/products/wollastonite.png';
 import ChinaClayImage from '../../assets/products/china-clay.png'
-import Excellence from '../../components/Excellence';
 import Cta from '../../components/cta';
 
 const Paint = () => {
@@ -104,7 +103,47 @@ const Paint = () => {
         <p className='note-point'>* Available in powder or lump form, these minerals provide reinforcement, reduce shrinkage, and improve processing in rubber compounding.</p>
       </div>
 
-      <Excellence/>
+      <div className="industry-excellence">
+    <h2 className="industry-head3">How We Deliver Excellence</h2>
+
+    <div className="excellence-cards">
+        <div className="excellence-card">
+            <h2 className="excellence-head">Quality Assurance</h2>
+            <p className="excellence-para">
+                Every mineral batch is tested for purity, particle size,
+                reinforcement properties and consistency to ensure reliable
+                rubber manufacturing performance.
+            </p>
+        </div>
+
+        <div className="excellence-card">
+            <h2 className="excellence-head">Application Expertise</h2>
+            <p className="excellence-para">
+                Our minerals improve elasticity, strength, thermal stability
+                and processability across a wide range of rubber products.
+            </p>
+        </div>
+    </div>
+
+    <div className="excellence-cards">
+        <div className="excellence-card">
+            <h2 className="excellence-head">Customer-Centric Solutions</h2>
+            <p className="excellence-para">
+                We provide customized mineral grades tailored to the specific
+                reinforcement and durability requirements of rubber manufacturers.
+            </p>
+        </div>
+
+        <div className="excellence-card">
+            <h2 className="excellence-head">Reliable Supply Chain</h2>
+            <p className="excellence-para">
+                With advanced processing and dependable sourcing, we ensure
+                consistent quality and uninterrupted supply for industrial
+                rubber applications.
+            </p>
+        </div>
+    </div>
+</div>
 
       <Cta/>
 </div>
