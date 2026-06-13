@@ -7,7 +7,7 @@ import Rubber from "../assets/industries/rubber.png";
 import Soap from "../assets/industries/soap.png";
 import Coating from "../assets/industries/coating.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Link } from "react-router-dom";
@@ -23,42 +23,42 @@ const Industries = () => {
   ];
 
   return (
-    <div className='industries-page'>
-      <div className='industries-mobile-heading'>INDUSTRIES WE SERVE</div>
-      <p className="industries-para">Relied on by global manufacturers. Refined with expertise. Made for performance.</p>
+    <section className="industries-page">
+      <h2 className="industries-mobile-heading">Industries We Serve</h2>
+      <p className="industries-para">
+        Reliable mineral solutions for manufacturers across ceramics, glass,
+        coatings, rubber, paper and detergent industries.
+      </p>
 
       <Swiper
         slidesPerView={3}
-        spaceBetween={20}
+        spaceBetween={24}
         speed={500}
         navigation={true}
-        loop={true}
-      
-        modules={[Autoplay, Navigation]}
+        loop={false}
+        modules={[Navigation]}
         className="industries-section"
         breakpoints={{
           320: { slidesPerView: 1.1 },
-          640: { slidesPerView: 1.5 },
-          1024: { slidesPerView: 4 },
+          640: { slidesPerView: 1.6 },
+          1024: { slidesPerView: 3 },
+          1280: { slidesPerView: 4 },
         }}
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="industry-slide">
-              <Link to={slide.link}>
-              <div className="industry-image">
-                
-                <img src={slide.img} alt={slide.name} />
+            <Link className="industry-card-link" to={slide.link}>
+              <div className="industry-slide">
+                <div className="industry-image">
+                  <img src={slide.img} alt={`${slide.name} industry`} />
+                </div>
+                <h3 className="industry-name">{slide.name}</h3>
               </div>
-              <h1 className="industry-name">
-                {slide.name}
-              </h1>
-              </Link>
-            </div>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+    </section>
   );
 };
 

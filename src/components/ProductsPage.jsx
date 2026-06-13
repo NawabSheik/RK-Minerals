@@ -44,7 +44,7 @@ const ProductsPage = () => {
           speed={500}
           navigation={true}
           grabCursor={true}
-          loop={true}
+          loop={false}
           breakpoints={{
             320: { slidesPerView: 1.25 },
             640: { slidesPerView: 1.75 },

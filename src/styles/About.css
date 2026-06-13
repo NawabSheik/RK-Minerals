@@ -1,144 +1,133 @@
-.about-page{
-    width:100vw;
-    height:100vh;
+.about-page {
+    width: 100%;
+    min-height: 100vh;
     background: #ebf4fd;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    overflow:hidden;
-}
-
-
-.about-section{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width:80%;
-    height:70vh;
-    border:1px solid #021432;
-    background-color: #fff;
-    flex-direction: column;
-    padding:2rem;
-    border-radius:40px;
-    position:relative;
-    overflow:hidden;
-}
-
-.about-us-upper{
     display: flex;
     align-items: center;
-    flex-direction: column;
-    width:85%;
-    height: 80%;
+    justify-content: center;
+    padding: 6rem 2rem 9rem;
+    overflow: hidden;
 }
 
-.about-para{
-    font-size:1.5rem;
-    text-align: justify;
-    font-family: "Raleway",sans-serif;
-    color:#021432;
-    text-align-last:center;
-    width:100%;
-
+.about-section {
+    width: min(88%, 1200px);
+    min-height: 560px;
+    border: 1px solid rgba(2, 20, 50, 0.35);
+    background-color: #fff;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-.link-btn{
-    color:#021432;
+.about-content {
+    width: min(720px, 100%);
+    position: relative;
+    z-index: 2;
 }
 
-.about-btn{
-    font-size:1.5rem;
-    padding-left:2rem;
-    padding-right:2rem;
-    padding-top:1rem;
-    padding-bottom:1rem;
+.section-label {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #e87e24;
+    margin-bottom: 1rem;
+}
+
+.about-title {
+    font-size: clamp(2.3rem, 5vw, 4.5rem);
+    line-height: 1;
+    color: #021432;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin-bottom: 1.5rem;
+}
+
+.about-para {
+    font-size: clamp(1rem, 1.4vw, 1.2rem);
+    line-height: 1.8;
+    font-family: "Raleway", sans-serif;
+    color: #263b5c;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.about-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 1rem;
-    width:35%;
-    border-radius:50px;
-    background: #fff;
-    backdrop-filter: blur(42px);
-    color:#021432;
-    -webkit-backdrop-filter: blur(42px);
-    border:1px solid #021432;
+    padding: 0.95rem 2.2rem;
+    border-radius: 50px;
+    background: #021432;
+    color: #fff;
+    border: 1px solid #021432;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.25s ease;
 }
 
-.about-head{
-    font-size:8rem;
-    bottom:0%;
-    opacity:100%;
-    font-weight:1000;
-    color:#021432;
-    position:absolute;
-    transform:translateY(20%);
+.about-btn:hover {
+    background: #e87e24;
+    border-color: #e87e24;
+    transform: translateY(-2px);
 }
 
-.about-head-mobile{
-    display: none;
+.about-bg-text {
+    position: absolute;
+    right: -2%;
+    bottom: -6%;
+    font-size: clamp(5rem, 13vw, 12rem);
+    line-height: 0.8;
+    font-weight: 900;
+    color: rgba(2, 20, 50, 0.07);
+    letter-spacing: -5px;
+    z-index: 1;
+    pointer-events: none;
 }
 
-
-@media(max-width:768px){
-    .about-page{
-        width: 100vw;
-        height:100vh;
-        overflow:hidden;
-        align-items:normal;
-        
+@media (max-width: 768px) {
+    .about-page {
+        min-height: auto;
+        padding: 4rem 1rem 7rem;
     }
 
-    .about-section{
-        width:98%;
-        height:70%;
-        padding-top:2rem;
-        padding-bottom:2rem;
-        padding:0rem;
-        margin-top: 15vh;
-        
+    .about-section {
+        width: 100%;
+        min-height: auto;
+        padding: 2rem 1.3rem;
+        border-radius: 28px;
     }
 
-    .about-us-upper{
-        width:100%;
-        height:auto;
+    .about-title {
+        letter-spacing: -1px;
     }
 
-    
-    .about-para{
-        font-size:1rem;
-        text-align: justify;
-        text-align-last: center;
-        margin-top:0rem;
-        margin-bottom: 0rem;
-        width:90%;
-    }
-    .about-btn{
-        font-size:1.25rem;
-        width:90%;
-    }
-    .about-head{
-        display: none;
-     
+    .about-para {
+        text-align: left;
+        line-height: 1.7;
     }
 
-    .about-head-mobile{
-        display: block;
-        font-size:3.8rem;
-        margin-bottom: 1rem;
-        bottom:0%;
-        opacity:100%;
-        color:#021432;
-       
+    .about-btn {
+        width: 100%;
     }
 
-    .about-stroke{
-        display: block;
-        width:95%;
-        height:1px;
-        background-color:#021432;
-        opacity:100%;
-        margin-bottom: 1rem;
+    .about-bg-text {
+        font-size: 5rem;
+        right: -10%;
+        bottom: -2%;
     }
-
-
+}
+.about-page {
+    padding-bottom: 12rem;
 }
 
-
+.about-section {
+    padding-bottom: 7rem;
+}
