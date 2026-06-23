@@ -36,8 +36,8 @@ function RkTbDetails() {
           superior fired results. Its balanced composition of alumina, silica,
           and controlled mineral impurities ensures excellent plasticity, stable
           casting behaviour, and strong fired properties. The clay is refined to
-          deliver excellent consistency, making it ideal for wall tiles, floor
-          tiles, and vitrified applications where dimensional accuracy and fired
+          deliver excellent consistency, making it ideal for vitrified tile applications 
+          where dimensional accuracy and fired
           strength are essential. With high whiteness, controlled shrinkage, and
           optimized dry strength, RK TB enhances body performance across various
           ceramic formulations.
@@ -137,13 +137,13 @@ function RkTbDetails() {
           <div className="product-packaging-offer-1">
             <h2 className="packaging-offer-description">
               Available in Bulk, 50kg HDPE Bags, and Jumbo Bags for domestic
-              and international shipments.
+              & international shipments.
             </h2>
           </div>
 
           <div className="product-packaging-offer-2">
             <h2 className="packaging-offer-description">
-              Trusted supply chain delivering consistent material quality on time.
+              Reliable supply chain source ensuring timely delivery.
             </h2>
           </div>
         </div>

@@ -47,7 +47,7 @@ function TalcPowder() {
             <h2 className="product-usps">Superior brightness and fine particle size</h2>
             <h2 className="product-usps">Low impurities for premium applications</h2>
             <h2 className="product-usps">Ideal for ceramics, paints, paper, and cosmetics</h2>
-            <h2 className="product-usps">ISO-certified and lab-tested for reliability</h2>
+            <h2 className="product-usps">Reliable, lab-tested quality backed by ISO certification</h2>
           </div>
         </div>
         <div className="product-usp-right">
@@ -79,8 +79,7 @@ function TalcPowder() {
           </div>
           <div className="product-packaging-offer-2">
             <h2 className="packaging-offer-description">
-              Reliable supply chain with timely delivery for domestic & export
-              clients
+              Reliable supply chain source ensuring timely delivery
             </h2>
           </div>
         </div>

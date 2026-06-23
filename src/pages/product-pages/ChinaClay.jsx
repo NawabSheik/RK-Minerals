@@ -35,8 +35,8 @@ function TalcPowder() {
           China clay is valued for its whiteness,
           brightness, and fine particle size. It is widely used in ceramics,
           paper, paints, soaps and rubber industries. Its chemical inertness, low
-          shrinkage, and high opacity make it a versatile mineral for both
-          functional and aesthetic - industrial applications.
+          shrinkage, and high opacity make it a versatile mineral for
+          various industrial applications.
         </p>
       </div>
 
@@ -47,7 +47,7 @@ function TalcPowder() {
             <h2 className="product-usps">Excellent opacity and coverage</h2>
             <h2 className="product-usps">Chemically inert and low shrinkage</h2>
             <h2 className="product-usps">Extensively used in ceramics, paper, paints</h2>
-            <h2 className="product-usps">Sourced from premium clay reserves of Rajasthan</h2>
+            <h2 className="product-usps">Sourced from rich clay reserves of Rajasthan</h2>
           </div>
         </div>
         <div className="product-usp-right">

@@ -39,12 +39,15 @@ const BusinessOperations = () => {
                 <div className='mining-pointer'>
                     <p className='pointer-explained'>Mining processes are carried out using modern mechanised systems that enable efficient segregation of ores into different grades.</p>
                 </div>
+            {/*
                 <div className='mining-pointer'>
                     <p className='pointer-explained'>Our competent teams of geologists and mining engineers have worked relentlessly to ensure that our mines are so developed as to produce the best minerals in terms of quality and consistent supply.</p>
                 </div>
                 <div className='mining-pointer'>
                     <p className='pointer-explained'>Utmost important of all, realizing that all mineral resources are limited, continuous emphasis is given to mineral conservation thereby maximizing usable mineral recovery from mined ore.</p>
                 </div>
+                */}
+              
                 </div>
                 <img src={Mining}/>
                 </div>

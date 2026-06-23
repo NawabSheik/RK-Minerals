@@ -40,11 +40,11 @@ const Paint = () => {
                 <div className='product-requirements'>
                     <div className='requirements-top'>
                         <h2 className='product-requirement'>SiO₂: 60–62%</h2>
-                        <h2 className='product-requirement'>MgO: 28–30%</h2>
+                        <h2 className='product-requirement'>MgO : 28–30%</h2>
                     </div>
                     <div className='requirements-bottom'>
-                        <h2 className='product-requirement'>Fe₂O₃: &lt;1%</h2>
-                        <h2 className='product-requirement'>Whiteness: 90%+</h2>
+                        <h2 className='product-requirement'>Fe₂O₃ : &lt;1%</h2>
+                        <h2 className='product-requirement'>Whiteness : 90%+</h2>
                     </div>
                 </div>
                 <img src={TalcImage}/>
@@ -56,11 +56,11 @@ const Paint = () => {
                 <div className='product-requirements'>
                     <div className='requirements-top'>
                         <h2 className='product-requirement'>SiO₂: 45–48%</h2>
-                        <h2 className='product-requirement'>Al₂O₃: 35–37%</h2>
+                        <h2 className='product-requirement'>Al₂O₃ : 35–37%</h2>
                     </div>
                     <div className='requirements-bottom'>
-                        <h2 className='product-requirement'>Fe₂O₃: &lt;1%</h2>
-                        <h2 className='product-requirement'>Brightness: 85–90%</h2>
+                        <h2 className='product-requirement'>Fe₂O₃ : &lt;1%</h2>
+                        <h2 className='product-requirement'>Brightness : 85–90%</h2>
                     </div> 
                 </div>
                 <img src={ChinaClayImage}/>
@@ -74,12 +74,12 @@ const Paint = () => {
                 <h2 className="product-name-ind">Calcined Kaolin</h2>
                 <div className='product-requirements'>
                     <div className='requirements-top'>
-                        <h2 className='product-requirement'>Fe₂O₃ + TiO₂: &lt;0.5%</h2>
-                        <h2 className='product-requirement'>Al₂O₃: 40-45%</h2>
+                        <h2 className='product-requirement'>Fe₂O₃ : &lt;0.5%</h2>
+                        <h2 className='product-requirement'>Al₂O₃ : 40-45%</h2>
                     </div>
                     <div className='requirements-bottom'>
-                        <h2 className='product-requirement'>SiO₂: 50-55%</h2>
-                        <h2 className='product-requirement'>TiO₂: 0.5%</h2>
+                        <h2 className='product-requirement'>SiO₂ : 50-55%</h2>
+                        <h2 className='product-requirement'>TiO₂ : 0.5%</h2>
                     </div>
                 </div>
                 <img src={LevigatedClayImage}/>

@@ -62,31 +62,31 @@ const AboutPage = () => {
         <div className="cards">
         <div className="card">
           <div className="card-head">
-          <h2 className="card-heading">Customer Centric & Market Driven</h2>
+          <h2 className="card-heading">Customer-Focused</h2>
           <span className="card-stroke"></span>
           </div>
-          <p className="card-para">We exist to serve the needs of industries — ceramics, glass, cement, paints, soaps & detergents and more — adapting our products and services to the challenges faced by each partner.</p>
+          <p className="card-para">We understand industry needs and deliver tailored mineral solutions, ensuring dependable quality, responsive service, and long-term value for every customer we serve.</p>
         </div>
         <div className="card">
           <div className="card-head"> 
-          <h2 className="card-heading">Innovation-led, with team</h2>
+          <h2 className="card-heading">Innovation-driven</h2>
           <span className="card-stroke"></span>
           </div>
-          <p className="card-para">We continuously invest in advanced process improvements, rigorous quality controls, innovative new mineral solutions, sustainable technologies, and ensure the reliability.</p>
+          <p className="card-para">We invest in advanced processes, quality systems, and sustainable practices, continuously improving products and operations to deliver reliable performance and lasting results.</p>
         </div>
         <div className="card">
           <div className="card-head">
-          <h2 className="card-heading">Operational strength & agility</h2>
+          <h2 className="card-heading">Operational Agile</h2>
           <span className="card-stroke"></span>
           </div>
-          <p className="card-para">With strategic facilities in Rajasthan and Gujarat, and proximity to key ports (Kandla, Mundra, Dahej), we balance scale and responsiveness to serve both domestic and international clients.</p>
+          <p className="card-para">We combine strategic locations, efficient logistics, and scalable capabilities to serve domestic and international markets with speed, consistency, and flexibility.</p>
         </div>
         <div className="card">
           <div className="card-head">
-          <h2 className="card-heading">Trusted & experienced</h2>
+          <h2 className="card-heading">Experienced & Trusted</h2>
           <span className="card-stroke"></span>
           </div>
-          <p className="card-para">Though “RK Minerals” is a name known today, our team has decades of cumulative experience in minerals and industrial raw materials. We combine institutional strength with flexibility.</p>
+          <p className="card-para">We bring decades of industry knowledge, technical expertise, and dependable partnerships, helping customers source high-quality mineral solutions with confidence and assurance.</p>
         </div>
         </div>
       </div>
@@ -94,7 +94,7 @@ const AboutPage = () => {
       <div className="mission-values">
         <div className="mission-section">
     
-          <p className="mission-statement"><span class="bold">We want to be India’s preferred and reliable supplier of high-quality industrial minerals</span>, enabling our customers’ success through product excellence, dependable delivery, and continuous innovation.</p>
+          <p className="mission-statement"><span class="bold">We want to be India’s preferred and reliable supplier of high-quality industrial minerals</span>, enabling our customers’ success through product excellence, on time delivery, and continuous innovation.</p>
         </div>
 
 
@@ -119,10 +119,10 @@ const AboutPage = () => {
             <br/>
 
 
-            Today, RK Minerals is more than a supplier — we are partners in progress for industries across ceramics, glass, paints, cement, and beyond. Our goal has always been clear: to provide dependable products & foster long-term relationships. 
+            Today, RK Minerals is more than a supplier, we are partners in progress for industries across ceramics, glass, paints, cement, and beyond. Our goal has always been clear: to provide dependable products & foster long-term relationships. 
             I am deeply proud of our team, whose dedication and expertise continue to drive our success. As we look to the future, we remain committed to creating value & building trust with every stakeholder.
 
-            At RK Minerals, we don’t just deliver minerals — we deliver possibilities.</p>
+            At RK Minerals, we don’t just deliver minerals, we deliver possibilities.</p>
             <div class="message-author">
               <h2 class="author-name">Sanjay Jain</h2>
               <h3 class="author-position">Founder</h3>

@@ -13,18 +13,19 @@ const SpecialityMinerals = () => {
       </h2>
 
       <div className='speciality-div'>
-        <div className="mineral">
+        <Link to="/speciality-minerals/rk-ball-clay" className="mineral">
+          
         <img src={RkTb}/>
-        <h1 className="product-name"> <Link to="/speciality-minerals/rk-ball-clay">Ball Clay RK TB</Link> </h1> 
-        </div>
-        <div className="mineral">
+        <h1 className="product-name">Ball Clay RK TB </h1> 
+        </Link>
+        <Link to="/speciality-minerals/rk-bc" className="mineral">
         <img src={RkHighCast}/>
-        <h1 className="product-name"> <Link to="/speciality-minerals/rk-bc">RK BC</Link> </h1> 
-        </div>
-        <div className="mineral">
+        <h1 className="product-name"> RK BC</h1> 
+       </Link>
+         <Link to="/speciality-minerals/rk-high-cast" className="mineral">
         <img src={RkTd}/>
-        <h1 className="product-name"> <Link to="/speciality-minerals/rk-high-cast">RK High Cast</Link> </h1> 
-        </div>
+        <h1 className="product-name"> RK High Cast </h1> 
+         </Link>
       </div>
     </div>
   )

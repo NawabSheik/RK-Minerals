@@ -45,7 +45,7 @@ function TalcChip() {
             <h2 className="product-usps">Enhances glaze, strength, and durability</h2>
             <h2 className="product-usps">Low iron (Fe2O3) impurities for brighter products</h2>
             <h2 className="product-usps">Ideal for glass, ceramics, and enamel industries</h2>
-            <h2 className="product-usps">Sourced from high-quality deposits of Rajasthan</h2>
+            <h2 className="product-usps">Sourced from high-quality mining deposits of Rajasthan</h2>
           </div>
         </div>
         <div className="product-usp-right">
@@ -111,7 +111,7 @@ function TalcPowder() {
             <h2 className="product-usps">Uniform grain size for stable processing</h2>
             <h2 className="product-usps">Low iron content for brighter and cleaner output</h2>
             <h2 className="product-usps">Widely used in glass, ceramics, and enamel industries</h2>
-            <h2 className="product-usps">ISO-certified and lab-tested for quality assurance</h2>
+            <h2 className="product-usps">Reliable, lab-tested quality backed by ISO certification</h2>
           </div>
         </div>
         <div className="product-usp-right">
@@ -176,7 +176,7 @@ const Talc = () => {
                         active === "chip" ? "active-choice" : "inactive-choice"
                     }`}
                     >
-                    Sodium Feldspar
+                    Sodium Powder
                     </button>
                     </div>
                     <div className="choice-btn-half">

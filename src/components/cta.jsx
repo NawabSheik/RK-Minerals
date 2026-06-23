@@ -16,7 +16,7 @@ const Cta = () => {
         style={{ textDecoration: "none" }}
       >
         <MdLocalPhone size={35} />
-        <h2 className="cta-contact">Contact Our Technical Team</h2>
+        <h2 className="cta-contact">Contact Us Now</h2>
       </a>
     </div>
   )

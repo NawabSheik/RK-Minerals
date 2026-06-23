@@ -48,7 +48,7 @@ function TalcChip() {
             <h2 className="product-usps">Finely ground with consistent mesh sizes</h2>
             <h2 className="product-usps">High whiteness and brightness</h2>
             <h2 className="product-usps">Excellent chemical and thermal stability</h2>
-            <h2 className="product-usps">Suitable for glass, ceramics, paints, and electronics</h2>
+            <h2 className="product-usps">Suitable for glass, ceramics & paints</h2>
           </div>
         </div>
         <div className="product-usp-right">
@@ -80,7 +80,7 @@ function TalcChip() {
           </div>
           <div className="product-packaging-offer-2">
             <h2 className="packaging-offer-description">
-              Available in mesh size ranging from 100 to 300 mesh as per industry requirements
+              Reliable supply chain source ensuring timely delivery
             </h2>
           </div>
         </div>
@@ -144,8 +144,7 @@ function TalcPowder() {
           </div>
           <div className="product-packaging-offer-2">
             <h2 className="packaging-offer-description">
-              Reliable logistics ensuring timely delivery for domestic &
-              international clients
+              Reliable supply chain source ensuring timely delivery
             </h2>
           </div>
         </div>

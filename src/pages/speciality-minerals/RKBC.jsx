@@ -31,7 +31,7 @@ function RkBcDetails() {
         <span className="product-details-stroke"></span>
 
         <p className="product-para">
-          RK BC is a brownish, high-performance ball clay developed for ceramic
+          RK BC is a blackish, high-performance ball clay developed for ceramic
           and sanitaryware applications where excellent plasticity, controlled
           shrinkage, and superior moulding behaviour are essential. Its naturally
           fine particle size and high binding strength help improve body
@@ -77,7 +77,7 @@ function RkBcDetails() {
         <span className="product-details-stroke"></span>
 
         <p className="product-para">
-          With controlled moisture, optimal pH, and balanced mineral structure,
+          With controlled moisture, density, and balanced mineral structure,
           RK BC delivers exceptional performance in demanding ceramic
           environments. Its high MOR value improves dry strength, reducing
           breakage during handling and moulding. Low shrinkage and stable

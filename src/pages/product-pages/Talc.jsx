@@ -44,8 +44,8 @@ function TalcChip() {
             <h2 className="product-usps">Can be easily grinded in ball mill</h2>
             <h2 className="product-usps">Calcium free and iron free material</h2>
             <h2 className="product-usps">Uniform chip size for controlled grinding</h2>
-            <h2 className="product-usps">Sourced from premium talc reserves of Rajasthan</h2>
-            <h2 className="product-usps">Consistent lab-tested quality with ISO certification</h2>
+            <h2 className="product-usps">Sourced from talc rich reserves of Rajasthan</h2>
+            <h2 className="product-usps">Reliable, lab-tested quality backed by ISO certification</h2>
           </div>
         </div>
         <div className="product-usp-right">
@@ -57,7 +57,7 @@ function TalcChip() {
         <h2 className="product-details-head">Why Leading Industries Trust RK Minerals's Talc Chips</h2>
         <span className='product-details-stroke'></span>
         <p className="product-para">
-          RK Minerals’s talc chips are carefully processed to meet industrial
+          Our talc chips are carefully processed to meet industrial
           standards, ensuring high purity, controlled chip size, and
           excellent whiteness. Trusted by ceramic tile industries our talc chips serve as a 
           reliable raw material for precision 

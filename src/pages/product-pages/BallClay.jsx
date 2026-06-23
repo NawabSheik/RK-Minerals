@@ -30,7 +30,7 @@ function TalcPowder() {
         <h2 className="product-details-head">Essential for Ceramic Strength & Plasticity</h2>
         <span className='product-details-stroke'></span>
         <p className="product-para">
-          Ball clay is prized for its plasticity, strength, and binding
+          Ball clay is well known for its plasticity, strength, and binding
           properties, making it a fundamental ingredient in ceramic tile, tableware
           sanitaryware and insulator. Its fine particle size and high strength help
           improve shaping, firing strength, and durability of finished products,
@@ -57,7 +57,7 @@ function TalcPowder() {
         <h2 className="product-details-head">Why Leading Industries Trust RK Minerals's Ball Clay</h2>
         <span className='product-details-stroke'></span>
         <p className="product-para">
-          RK Minerals ensures ball clay with high consistency, controlled
+          RK Minerals supply ball clay with high consistency, controlled
           plasticity, and excellent bonding strength. With low levels of iron
           and titanium impurities, our ball clay are ideal for sanitary ware, tile, tableware and insulator by providing improved strength and premium
           finishing quality.
@@ -75,7 +75,7 @@ function TalcPowder() {
           </div>
           <div className="product-packaging-offer-2">
             <h2 className="packaging-offer-description">
-              Dedicated logistics ensures timely delivery across all regions
+              Reliable supply chain source ensuring timely delivery
             </h2>
           </div>
         </div>

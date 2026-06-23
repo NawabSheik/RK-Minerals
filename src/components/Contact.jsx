@@ -42,7 +42,7 @@ const Contact = () => {
           </div>
 
           <div className='mobile-numbers'>
-            <h2 className='mobile-number'>A-114<br/> RK Colony, Bhilwara<br/> (311001), Rajasthan</h2>
+            <h2 className='mobile-number'> Plot No. 147, Floor 2 & 3, MTM High Street, Bhilwara (311001), Rajasthan</h2>
             
           </div>
 
