@@ -2,7 +2,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    background:#fff;
+    background: #ebf4fd;
     flex-direction: column;
     overflow-x:hidden;
     
@@ -201,7 +201,7 @@
 }
 
 .inactive-choice{
-    background-color: #fff;
+    background: #ebf4fd;
     color:#021432;
     border:1px solid #021432;
     
@@ -237,7 +237,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #fff;
+   background: #ebf4fd;
     border:2px solid #021432;
     border-bottom: 0px solid #fff;
     padding:2rem;
@@ -404,7 +404,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
+    background: #ebf4fd;
     border:2px solid #021432;
     padding:2rem;
     border-radius: 30px;
