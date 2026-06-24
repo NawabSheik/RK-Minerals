@@ -22,7 +22,7 @@ const Paint = () => {
         <h2 className='industry-head'> Ceramics </h2>
         <span className='industry-stroke'></span>
         <h3 className="industry-subhead">Strength, Whiteness, and Thermal Stability</h3>
-        <p className="industry-para">RK Minerals delivers high-quality minerals that enhance strength, whiteness, and thermal stability in ceramics. Our minerals improve workability, reduce shrinkage, and provide consistency in tile, tableware, sanitary ware, porcelain and insulator production.</p>
+        <p className="industry-para">RK Minerals delivers high-quality minerals that enhance strength, whiteness, and thermal stability in ceramics. Our minerals improve strength, reduce shrinkage, and provide consistency in tile, tableware, sanitary ware, porcelain and insulator production.</p>
         <p className="industry-para">A good mineral for Ceramics should have</p>
         <div className='industry-requirements'>
             <div className='requirements-top'>
@@ -115,11 +115,11 @@ const Paint = () => {
                     <div className='product-requirements'>
                         <div className='requirements-top'>
                             <h2 className='product-requirement'>SiO₂: 55–58%</h2>
-                            <h2 className='product-requirement'>Al₂O₃: 27–29%</h2>
+                            <h2 className='product-requirement'>Al₂O₃: 28–32%</h2>
                         </div>
                         <div className='requirements-bottom'>
                             <h2 className='product-requirement'>Fe₂O₃: &lt;1%</h2>
-                            <h2 className='product-requirement'>Plasticity: High</h2>
+                            <h2 className='product-requirement'>CaO: &lt;1%</h2>
                         </div>
                     </div>
                     <img src={BallClayImage}/>
@@ -130,12 +130,12 @@ const Paint = () => {
                     <h2 className="product-name-ind">Levigated Clay</h2>
                     <div className='product-requirements'>
                         <div className='requirements-top'>
-                            <h2 className='product-requirement'>SiO₂: 46–49%</h2>
-                            <h2 className='product-requirement'>Al₂O₃: 34–36%</h2>
+                            <h2 className='product-requirement'>SiO₂: 45-50%</h2>
+                            <h2 className='product-requirement'>Al₂O₃: 32–38%</h2>
                         </div>
                         <div className='requirements-bottom'>
-                            <h2 className='product-requirement'>Fe₂O₃: &lt;0.7%</h2>
-                            <h2 className='product-requirement'>Brightness: 90%+</h2>
+                            <h2 className='product-requirement'>Fe₂O₃: &lt;1%</h2>
+                            <h2 className='product-requirement'>LOI: 12-14%</h2>
                         </div>
                     </div>
                     <img src={LevigatedClayImage}/>
@@ -148,12 +148,13 @@ const Paint = () => {
                     <h2 className="product-name-ind">Wollastonite</h2>
                     <div className='product-requirements'>
                         <div className='requirements-top'>
-                            <h2 className='product-requirement'>CaSiO₃: 96–98%</h2>
+                            <h2 className='product-requirement'>SiO₂: 60–65%</h2>
                             <h2 className='product-requirement'>CaO: 20–25%</h2>
                         </div>
                         <div className='requirements-bottom'>
-                            <h2 className='product-requirement'>SiO₂: 60–65%</h2>
-                            <h2 className='product-requirement'>Al₂O₃: 28–34%</h2>
+                            
+                            <h2 className='product-requirement'>Fe₂O₃: &lt;0.8%</h2>
+                            <h2 className='product-requirement'>LOI: 1-2%</h2>
                         </div>
                     </div>
                     <img src={WollastoniteImage}/>
@@ -162,12 +163,13 @@ const Paint = () => {
                     <h2 className="product-name-ind">Quartz</h2>
                     <div className='product-requirements'>
                         <div className='requirements-top'>
-                            <h2 className='product-requirement'>CaSiO₃: 96–98%</h2>
-                            <h2 className='product-requirement'>CaO: 30–31%</h2>
+                            <h2 className='product-requirement'>SiO₂: 99%+%</h2>
+                           
+                            <h2 className='product-requirement'>Fe₂O₃: &lt;0.10%</h2>
                         </div>
                         <div className='requirements-bottom'>
-                            <h2 className='product-requirement'>SiO₂: 48–52%</h2>
-                            <h2 className='product-requirement'>Low Loss on Ignition (&lt;1%)</h2>
+                            <h2 className='product-requirement'>Al₂O₃: &lt;0.10%</h2>
+                            <h2 className='product-requirement'>LOI : &lt;0.10%</h2>
                         </div>
                     </div>
                     <img src={QuartzImage}/>

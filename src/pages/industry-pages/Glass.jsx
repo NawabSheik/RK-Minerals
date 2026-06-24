@@ -43,7 +43,7 @@ const Paint = () => {
                         <h2 className='product-requirement'>Al₂O₃: 18–20%</h2>
                     </div>
                     <div className='requirements-bottom'>
-                        <h2 className='product-requirement'>K₂O: 10–12%</h2>
+                        <h2 className='product-requirement'>K₂O: 9-11%</h2>
                         <h2 className='product-requirement'>Fe₂O₃: &lt;0.3%</h2>
                     </div>
                 </div>
@@ -59,8 +59,8 @@ const Paint = () => {
                         <h2 className='product-requirement'>Al₂O₃: 18–20%</h2>
                     </div>
                     <div className='requirements-bottom'>
-                        <h2 className='product-requirement'>Na₂O: 6–7%</h2>
-                        <h2 className='product-requirement'>Fe₂O₃: &lt;0.2%</h2>
+                        <h2 className='product-requirement'>Na₂O: 8-10%</h2>
+                        <h2 className='product-requirement'>Fe₂O₃: &lt;0.10%</h2>
                     </div> 
                 </div>
                 <img src={SodiumFeldsparImage}/>

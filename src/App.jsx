@@ -31,6 +31,7 @@ import RKBC from "./pages/speciality-minerals/RKBC";
 import RKHighCast from "./pages/speciality-minerals/RKHighCast";
 import BallClayRk from "./pages/speciality-minerals/BallClayRk";
 import SwiperContext from "./SwiperContext";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 const App = () => {
   const [swiper, setSwiper] = useState(null);
@@ -81,6 +82,7 @@ const App = () => {
           <Route path="/business-operations" element={<BusinessOperations />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+         <WhatsAppButton />
       </div>
        </SwiperContext.Provider>
     </Router>

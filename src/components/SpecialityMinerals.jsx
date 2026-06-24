@@ -8,9 +8,14 @@ import "../styles/SpecialityMinerals.css";
 const SpecialityMinerals = () => {
   return (
     <div className='speciality-minerals'>
+      <div className='speciality-header'>
       <h2 className='speciality-head'>
-        Speciality Minerals
+        SPECIALITY MINERALS
       </h2>
+      <p className="speciality-para">
+          Premium speciality minerals engineered for industrial applications — backed by advanced in-house testing, ongoing research and development, and dependable product consistency across every batch.
+        </p>
+        </div>
 
       <div className='speciality-div'>
         <Link to="/speciality-minerals/rk-ball-clay" className="mineral">

@@ -7,21 +7,21 @@ const Excellence = () => {
         <div className='excellence-cards'>
             <div className='excellence-card'>
                 <h2 className='excellence-head'>Quality Assurance</h2>
-                <p className='excellence-para'>Each batch undergoes rigorous quality checks to ensure purity, particle uniformity, and thermal stability for consistent ceramic performance.</p>
+                <p className='excellence-para'>Each batch undergoes rigorous quality checks to ensure purity, particle uniformity, and thermal stability for consistent performance.</p>
             </div>
             <div className='excellence-card'>
                 <h2 className='excellence-head'>Trusted Partnerships</h2>
-                <p className='excellence-para'>Excellence doesn’t end with our products, it extends to our relationships. We work closely with our partners, understanding their needs and delivering on time, every time.</p>
+                <p className='excellence-para'>We work closely with our business partners, understand their specific needs and ensure on time deliveries of our material to them.</p>
             </div>
         </div>
         <div className='excellence-cards'>
             <div className='excellence-card'>
                 <h2 className='excellence-head'>Customer-Centric Approach</h2>
-                <p className='excellence-para'>We offer customized mineral solutions to meet the strength, whiteness, and thermal requirements of your ceramic formulations.</p>
+                <p className='excellence-para'>We offer customized mineral solutions to meet specific requirement of our customers product formulation</p>
             </div>
             <div className='excellence-card'>
                 <h2 className='excellence-head'>Innovation Support</h2>
-                <p className='excellence-para'>Our minerals help manufacturers create premium ceramics with superior durability, aesthetics, and performance.</p>
+                <p className='excellence-para'>Our minerals help manufacturers create premium products with superior durability, quality, and efficiency.</p>
             </div>
         </div>
       </div>

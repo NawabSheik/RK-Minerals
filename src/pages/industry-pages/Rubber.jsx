@@ -75,26 +75,26 @@ const Paint = () => {
                 <h2 className="product-name-ind">Wollastonite</h2>
                 <div className='product-requirements'>
                     <div className='requirements-top'>
-                        <h2 className='product-requirement'>CaSiO₃: 96–98%</h2>
-                        <h2 className='product-requirement'>CaO: 30–31%</h2>
+                        <h2 className='product-requirement'>Fe₂O₃: &lt;0.8%</h2>
+                        <h2 className='product-requirement'>CaO: 20-25%</h2>
                     </div>
                     <div className='requirements-bottom'>
-                        <h2 className='product-requirement'>SiO₂: 50–52%</h2>
-                        <h2 className='product-requirement'>Low Loss on Ignition (&lt;1%)</h2>
+                        <h2 className='product-requirement'>SiO₂: 60–65%</h2>
+                        <h2 className='product-requirement'>LOI (&lt;1-2%)</h2>
                     </div>
                 </div>
                 <img src={WollastoniteImage}/>
             </div>
             <div className='industry-products-card'>
-                <h2 className="product-name-ind">Calcined Kaolin</h2>
+                <h2 className="product-name-ind">Calcined Clay</h2>
                 <div className='product-requirements'>
                     <div className='requirements-top'>
-                        <h2 className='product-requirement'>Al₂O₃: 35–38%</h2>
-                        <h2 className='product-requirement'>SiO₂: 45–48%</h2>
+                        <h2 className='product-requirement'>Al₂O₃: 40–45%</h2>
+                        <h2 className='product-requirement'>SiO₂: 50–55%</h2>
                     </div>
                     <div className='requirements-bottom'>
-                        <h2 className='product-requirement'>Fe₂O₃: &lt;1%</h2>
-                        <h2 className='product-requirement'>TiO₂ : Nil</h2>
+                        <h2 className='product-requirement'>Fe₂O₃: &lt;0.50%</h2>
+                        <h2 className='product-requirement'>TiO₂ : &lt;1.00%</h2>
                     </div>
                 </div>
                 <img src={CalcinedClayImage}/>
